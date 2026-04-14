@@ -1,0 +1,37 @@
+project:
+  type: website
+  output-dir: ../
+
+website:
+  title: "বিশ্ব ডট কম"
+  google-analytics:
+    tracking-id: "G-BEELJ2ZRED"
+  repo-url: https://github.com/bishwo-web/bishwo-web.github.io
+  navbar:
+    background: dark
+    logo: assets/bishwo_clean.png
+    logo-alt: "বিশ্ব ডট কম লোগো"
+    left:
+      - href: index.qmd
+        text: Home
+        icon: "house"
+        menu:
+          - text: "Report a Bug"
+            icon: "bug"
+            href: "https://github.com/bishwo-web/bishwo-web.github.io/issues"
+          - text: "Ask a Question"
+            icon: "chat-right-text"
+            href: "https://github.com/bishwo-web/bishwo-web.github.io/issues/discussions"
+
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+    code-copy: true
+    include-in-header:
+      text: |
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+

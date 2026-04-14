@@ -1,0 +1,45 @@
+project:
+  type: website
+  output-dir: ../
+
+website:
+  title: "বিশ্ব ডট কম"
+  site-url: "https://portal.statmania.info/"
+  google-analytics:
+    tracking-id: "G-BEELJ2ZRED"
+  navbar:
+    background: light
+    logo: assets/bishwo_clean.png
+    logo-alt: "বিশ্ব ডট কম Logo."
+    left:
+      - href: index.qmd
+        text: হোম
+      - href: "index.html#category=সৌরজগৎ"
+        text: সৌরজগৎ
+      - href: "index.html#category=নক্ষত্র"
+        text: নক্ষত্র
+      - href: "index.html#category=কসমোলজি"
+        text: কসমোলজি
+      - href: "https://sky.bishwo.com/"
+        text: পুরাতন সাইট
+      - text: "Parent Menu"
+        menu:
+          - text: "Subitem 1"
+            href: "index.html#category=কসমোলজি"
+          - text: "Subitem 2 (Dropdown)"
+            menu:
+              - text: "Nested Item A"
+                href: "index.html#category=কসমোলজি"
+    right:
+      - about.qmd
+      - icon: github
+        href: https://github.com/
+      - icon: twitter
+        href: https://twitter.com
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+
+
+
