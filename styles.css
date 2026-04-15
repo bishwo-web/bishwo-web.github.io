@@ -76,10 +76,10 @@ body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
     margin: 20px;
-    background-image: url('assets/6062.jpg');
+    /*background-image: url('assets/6062.jpg');*/
     background-color: rgba(255, 255, 255, 0.6);
     background-size: cover;
-    color: white;
+    color: #00091a;
 }
 
 h1, h2, h3 {
