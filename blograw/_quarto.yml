@@ -4,6 +4,9 @@ project:
 
 website:
   title: "বিশ্ব ডট কম"
+  favicon: assets/bishwo_clean.png
+  body-footer: |
+    [বিশ্ব ডট কম](https:www.bishwo.com) | সম্পাদক: [আব্দুল্যাহ আদিল মাহমুদ](https://www.thinkermahmud.com/)
   site-url: "https://portal.statmania.info/"
   google-analytics:
     tracking-id: "G-BEELJ2ZRED"
