@@ -17,12 +17,25 @@ website:
     left:
       - href: index.qmd
         text: হোম
+        icon: house
       - href: "index.html#category=সৌরজগৎ"
         text: সৌরজগৎ
+        icon: sun
       - href: "index.html#category=নক্ষত্র"
         text: নক্ষত্র
-      - href: "index.html#category=কসমোলজি"
-        text: কসমোলজি
+        icon: stars
+      - href: "index.html#category=রাতের আকাশ"
+        text: রাতের আকাশ
+        icon: moon-stars-fill
+      - text: "অন্যান্য"
+        icon: "feather"
+        menu:
+          - text: "ভিডিও"
+            icon: "camera-video"
+            href: "https://www.youtube.com/@Bishwotube"
+          - text: "কসমোলজি"
+            icon: "tropical-storm"
+            href: "index.html#category=কসমোলজি"
       - href: "https://sky.bishwo.com/"
         text: পুরাতন সাইট
     right:
@@ -33,7 +46,7 @@ website:
         href: https://twitter.com
 format:
   html:
-    theme: cosmo
+    theme: flatly
     css: styles.css
 
 
