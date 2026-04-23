@@ -5,7 +5,7 @@ listing:
   contents: posts
   sort: "date desc"
   type: grid
-  categories: cloud
+  categories: numbered
   image-placeholder: img/site/thumb.jpg
   sort-ui: true
   filter-ui: true

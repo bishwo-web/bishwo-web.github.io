@@ -1,8 +1,14 @@
 ---
 title: "আব্দুল্যাহ আদিল মাহমুদ-এর সকল লেখা"
+sidebar: abdullah-adil-mahmud
 listing:
   contents: posts
+  categories: true
   type: grid
+  max-items: 6
+  feed: true
+  sort-ui: true
+  filter-ui: true
   sort: "date desc"
   field-display-names:
     title: "আব্দুল্যাহ আদিল মাহমুদ"
@@ -13,11 +19,10 @@ listing:
 
 
 ::: {.callout-tip title="লেখক পরিচিতি"}
+<img src="img/site/adil.jpeg" style="border-radius: 50%; width: 100px; float: left; margin-right: 20px;">
 
-<img style="float: left; border-radius: 50%;" src="img/site/adil.jpeg" width="10%">
+**আব্দুল্যাহ আদিল মাহমুদ** অনলাইন পোর্টাল **বিশ্ব ডট কম**-এর প্রতিষ্ঠাতা ও সম্পাদক। প্রকাশিত বইয়ের সংখ্যা [ছয়টি](https://www.rokomari.com/book/author/47631/abdullah-adil-mahmood)। ক্যাডেট কলেজে শিক্ষকতা পেশায় নিয়োজিত আছেন।
 
-আব্দুল্যাহ আদিল মাহমুদ অনলাইন পোর্টাল বিশ্ব ডট কমের প্রতিষ্ঠাতা ও সম্পাদক। প্রকাশিত বইয়ের সংখ্যা ছয়টি। ক্যাডেট কলেজে শিক্ষকতা পেশায় নিয়োজিত আছেন। ব্যাক্তিগত ওয়েবসাইট: [www.thinkermahmud.com](https://www.thinkermahmud.com/)
-
-
+**ব্যক্তিগত ওয়েবসাইট:** [www.thinkermahmud.com](https://www.thinkermahmud.com/)
 :::
 
