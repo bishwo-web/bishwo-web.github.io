@@ -1,12 +1,12 @@
 ---
 title: "আব্দুল্যাহ আদিল মাহমুদ-এর সকল লেখা"
-output-dir: author/
 listing:
   contents: posts
   type: grid
   sort: "date desc"
   field-display-names:
     title: "আব্দুল্যাহ আদিল মাহমুদ"
+    url: https://www.thinkermahmud.com/
   include:
     author: "{আব্দুল্যাহ আদিল মাহমুদ}*"
 ---

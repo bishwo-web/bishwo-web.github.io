@@ -5,8 +5,20 @@ project:
 website:
   title: "বিশ্ব ডট কম"
   favicon: assets/bishwo_clean.png
-  body-footer: |
-    [বিশ্ব ডট কম](https://www.bishwo.com) | সম্পাদক: [আব্দুল্যাহ আদিল মাহমুদ](https://www.thinkermahmud.com/)
+  page-footer:
+    left: |
+      Built with [Quarto](https://quarto.org/)
+    center: |
+      [আর্কাইভ](https://sky.bishwo.com/) | [বিশ্বটিউব](https://www.youtube.com/@Bishwotube)
+
+      [বিশ্ব ডট কম](https://www.bishwo.com) | সম্পাদক: [আব্দুল্যাহ আদিল মাহমুদ](https://www.thinkermahmud.com/)
+    right:
+      - icon: github
+        href: https://github.com/bishwo-web
+        aria-label: Quarto GitHub
+      - icon: rss
+        href: https://www.bishwo.com/index.xml
+        aria-label: Quarto Blog RSS
   site-url: "https://www.bishwo.com"
   google-analytics:
     tracking-id: "G-9XSTMB89MF"
@@ -40,10 +52,10 @@ website:
         text: পুরাতন সাইট
     right:
       - about.qmd
-      - icon: github
-        href: https://github.com/
-      - icon: twitter
-        href: https://twitter.com
+      - href: "https://www.youtube.com/@Bishwotube"
+        text: বিশ্বটিউব
+        icon: "camera-video"
+
 format:
   html:
     theme: flatly
