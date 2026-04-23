@@ -54,6 +54,10 @@ website:
       - href: "https://sky.bishwo.com/"
         text: পুরাতন সাইট
     right:
+      - text: সব লেখক
+        menu:
+          - text: "আব্দুল্যাহ আদিল মাহমুদ"
+            href: abdullah-adil-mahmud.qmd
       - about.qmd
       - href: "https://www.youtube.com/@Bishwotube"
         text: বিশ্বটিউব

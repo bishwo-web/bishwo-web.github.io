@@ -1,6 +1,8 @@
 ---
 title: "এক পারসেক কত বড়?"
-author: "আব্দুল্যাহ আদিল মাহমুদ  "
+author:
+  - name: "আব্দুল্যাহ আদিল মাহমুদ"
+    url: "../abdullah-adil-mahmud.html"
 date: "2015-10-10"
 image: ../img/universe/universe.jpg
 categories: [নক্ষত্র, মহাবিশ্ব, দূরত্ব, পরিভাষা]

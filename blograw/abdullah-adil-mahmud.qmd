@@ -11,4 +11,13 @@ listing:
     author: "{আব্দুল্যাহ আদিল মাহমুদ}*"
 ---
 
+
+::: {.callout-tip title="লেখক পরিচিতি"}
+
+<img style="float: left; border-radius: 50%;" src="img/site/adil.jpeg" width="10%">
+
 আব্দুল্যাহ আদিল মাহমুদ অনলাইন পোর্টাল বিশ্ব ডট কমের প্রতিষ্ঠাতা ও সম্পাদক। প্রকাশিত বইয়ের সংখ্যা ছয়টি। ক্যাডেট কলেজে শিক্ষকতা পেশায় নিয়োজিত আছেন। ব্যাক্তিগত ওয়েবসাইট: [www.thinkermahmud.com](https://www.thinkermahmud.com/)
+
+
+:::
+

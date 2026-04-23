@@ -2,7 +2,7 @@
 title: "শনি গ্রহের উপগ্রহ এখন কয়টি?"
 author:
   - name: "আব্দুল্যাহ আদিল মাহমুদ"
-    url: "abdullah-adil-mahmud.html"
+    url: "../abdullah-adil-mahmud.html"
 date: "2026-04-23"
 image: ../img/solar-system/saturn.jpg
 categories: [উপগ্রহ, গ্রহ, সৌরজগৎ]

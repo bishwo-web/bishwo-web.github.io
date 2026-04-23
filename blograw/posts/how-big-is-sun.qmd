@@ -1,6 +1,8 @@
 ---
 title: "সূর্য কত বড়?"
-author: "আব্দুল্যাহ আদিল মাহমুদ  "
+author:
+  - name: "আব্দুল্যাহ আদিল মাহমুদ"
+    url: "../abdullah-adil-mahmud.html"
 date: "2023-09-10"
 image: https://github.com/bishwo-web/bishwo/blob/main/img/earth/earth_sun_size.png?raw=true
 categories: [সূর্য, সৌরজগৎ]
