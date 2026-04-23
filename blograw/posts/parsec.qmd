@@ -2,7 +2,7 @@
 title: "এক পারসেক কত বড়?"
 author: "আব্দুল্যাহ আদিল মাহমুদ  "
 date: "2015-10-10"
-image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEizYtljb3X3TLiSDvaCz3IBSClhWKRJguDT_xqpqBxoLW-oT1I4zpbiYya5IfsGW4yaEC6fpSmcq1qifh5fgwWC6w3U7330KqfeOk5_SzKKH5kPabNjICShMYWGFZtHSP9ksJUZr0xfaU4/s640/universe.jpg
+image: ../img/universe/universe.jpg
 categories: [নক্ষত্র, মহাবিশ্ব, দূরত্ব, পরিভাষা]
 tags: [দূরত্ব, পারসেক, আলোকবর্ষ]
 description: পারসেকের মান আলোকবর্ষের প্রায় তিনগুণ। সঠিক করে বললে ৩.২৬ গুণ। মানে, এক পারসেক = ৩.২৬ আলোকবর্ষ৷ পারসেক কথাটা এসেছে প্যারালাক্স অব ওয়ান সেকেন্ড বা এক সেকেন্ডের প্যারালাক্স থেকে।
