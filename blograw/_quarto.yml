@@ -52,7 +52,7 @@ website:
             icon: "tropical-storm"
             href: "index.html#category=কসমোলজি"
       - href: "https://sky.bishwo.com/"
-        text: পুরাতন সাইট
+        text: আর্কাইভ
     right:
       - text: সব লেখক
         icon: people
@@ -66,13 +66,12 @@ website:
         icon: "camera-video"
 
   sidebar:
-    - id: abdullah-adil-mahmud
-      collapse-level: 2
-      contents:
-        - section: "পোস্ট"
-          contents:
-            - posts/artemis-did-not-leave.qmd
-            - posts/how-big-is-sun.qmd
+#    - id: abdullah-adil-mahmud
+    collapse-level: 2
+    contents: "posts/"
+    title: "পোস্টসমূহ"
+    style: "docked"
+    search: true
 
 format:
   html:

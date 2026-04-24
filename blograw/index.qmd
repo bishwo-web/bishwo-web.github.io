@@ -1,10 +1,12 @@
 ---
-# title: "Stat Mania"
-# subtitle: "Making Sense of Statistics"
+# title: "বিশ্ব ডট কম"
+# subtitle: "পৃথিবী ও মহাবিশ্বের গল্প"
+sidebar: true
 listing:
   contents: posts
   sort: "date desc"
-  type: grid
+  type: default
+#  max-items: 6
   categories: numbered
   image-placeholder: img/site/thumb.jpg
   sort-ui: true
@@ -15,7 +17,7 @@ page-layout: full
 title-block-banner: true
 ---
 
-::: {.callout-warning}
+::: {.callout-tip title="গুরুত্বপূর্ণ ঘোষণা"}
 এ সাইটটি বর্তমানে নির্মাণাধীন। জ্যোতির্বিজ্ঞান নিয়ে আমাদের মূল সাইট [sky.bishwo.com সচল থাকবে।](https://sky.bishwo.com/) । তবে ভবিষ্যতে এখানেই সব আপডেট পাওয়া যাবে।
 :::
 
