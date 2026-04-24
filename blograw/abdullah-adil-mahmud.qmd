@@ -5,7 +5,7 @@ listing:
   contents: posts
   categories: true
   type: grid
-  max-items: 6
+#  max-items: 6
   feed: true
   sort-ui: true
   filter-ui: true

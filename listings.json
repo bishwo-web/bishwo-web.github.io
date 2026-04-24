@@ -14,6 +14,12 @@
     ]
   },
   {
+    "listing": "/nasrullah-masud.html",
+    "items": [
+      "/posts/meghnad-saha.html"
+    ]
+  },
+  {
     "listing": "/index.html",
     "items": [
       "/posts/saturn-moons.html",
@@ -24,6 +30,7 @@
       "/posts/why-sun-moon-same-size.html",
       "/posts/how-big-is-sun.html",
       "/posts/star-vs-universe.html",
+      "/posts/meghnad-saha.html",
       "/posts/parsec.html"
     ]
   }

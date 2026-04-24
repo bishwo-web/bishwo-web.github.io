@@ -59,6 +59,8 @@ website:
         menu:
           - text: "আব্দুল্যাহ আদিল মাহমুদ"
             href: abdullah-adil-mahmud.qmd
+          - text: "নাসরুল্লাহ মাসুদ"
+            href: nasrullah-masud.qmd
       - href: "https://www.youtube.com/@Bishwotube"
         text: বিশ্বটিউব
         icon: "camera-video"

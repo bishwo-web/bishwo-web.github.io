@@ -1,0 +1,28 @@
+---
+title: "নাসরুল্লাহ মাসুদ-এর সকল লেখা"
+sidebar: nasrullah-masud
+listing:
+  contents: posts
+  categories: true
+  type: default
+  max-items: 6
+  feed: false
+  sort-ui: true
+  filter-ui: true
+  sort: "date desc"
+  field-display-names:
+    title: "নাসরুল্লাহ মাসুদ"
+    url: #
+  include:
+    author: "{নাসরুল্লাহ মাসুদ}*"
+---
+
+
+::: {.callout-tip title="লেখক পরিচিতি"}
+<img src="img/site/nasrullah.jpeg" style="border-radius: 50%; width: 100px; float: left; margin-right: 20px;">
+
+**নাসরুল্লাহ মাসুদ** বরেন্দ্র বিশ্ববিদ্যালয়ের শিক্ষক হিসেবে কর্মরত আছেন।
+
+**ওয়েবসাইট:** [Google Scholar](https://scholar.google.com/citations?user=NDQy8_kAAAAJ&hl=en)
+:::
+
