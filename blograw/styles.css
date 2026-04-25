@@ -9,3 +9,6 @@
   flex-basis: 80% !important;
 }
 
+.figcaption {
+  text-align: center;
+}
