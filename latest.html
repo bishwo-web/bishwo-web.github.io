@@ -83,7 +83,7 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-image','listing-title','listing-author','listing-date','listing-categories','listing-reading-time','listing-word-count',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-title-sort'] }],
+      valueNames: ['listing-title','listing-image','listing-author','listing-date',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-title-sort'] }],
       
       searchColumns: ["listing-date","listing-title","listing-author"],
     };
@@ -322,11 +322,11 @@ window.Quarto = {
 <tr>
 
 <th>
- 
+<a class="sort" data-sort="listing-title-sort" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Title</a>
 </th>
 
 <th>
-<a class="sort" data-sort="listing-title-sort" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Title</a>
+ 
 </th>
 
 <th>
@@ -337,53 +337,32 @@ window.Quarto = {
 <a class="sort" data-sort="listing-date-sort" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Date</a>
 </th>
 
-<th>
-Categories
-</th>
-
-<th>
-Reading Time
-</th>
-
-<th>
-Word Count
-</th>
-
 </tr>
 </thead>
 <tbody class="list">
 
 <tr data-index="0" data-categories="JUUwJUE2JUI4JUUwJUE3JThDJUUwJUE2JUIwJUUwJUE2JTlDJUUwJUE2JTk3JUUwJUE3JThFJTJDJUUwJUE2JUFDJUUwJUE2JUJFJUUwJUE2JUFFJUUwJUE2JUE4JTIwJUUwJUE2JTk3JUUwJUE3JThEJUUwJUE2JUIwJUUwJUE2JUI5JTJDJUUwJUE2JTk3JUUwJUE3JThEJUUwJUE2JUIwJUUwJUE2JUI5" data-listing-date-sort="1777053600000" data-listing-file-modified-sort="1777118945279" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="328" data-listing-title-sort="সেরেস: গ্রহাণু নাকি বামন গ্রহ?" data-listing-filename-sort="ceres-asteroid-or-dwarf-planet.qmd">
 <td>
-<span class="listing-image"><img loading="lazy" src="./img/solar-system/ceres.jpg" style="height: 40px;"></span>
+<a href="./posts/ceres-asteroid-or-dwarf-planet.html" class="title listing-title">সেরেস: গ্রহাণু নাকি বামন গ্রহ?</a>
 </td>
 <td>
-<a href="./posts/ceres-asteroid-or-dwarf-planet.html" class="title listing-title">সেরেস: গ্রহাণু নাকি বামন গ্রহ?</a>
+<span class="listing-image"><img loading="lazy" src="./img/solar-system/ceres.jpg" style="height: 40px;"></span>
 </td>
 <td>
 <span class="listing-author">আব্দুল্যাহ আদিল মাহমুদ</span>
 </td>
 <td>
 <span class="listing-date">Apr 25, 2026</span>
-</td>
-<td>
-<span class="listing-categories">সৌরজগৎ, বামন গ্রহ, গ্রহ</span>
-</td>
-<td>
-<span class="listing-reading-time">2 min</span>
-</td>
-<td>
-<span class="listing-word-count">328 words</span>
 </td>
 
 </tr>
 
 <tr data-index="1" data-categories="JUUwJUE2JUI4JUUwJUE3JThDJUUwJUE2JUIwJUUwJUE2JTlDJUUwJUE2JTk3JUUwJUE3JThFJTJDJUUwJUE2JTk3JUUwJUE3JThEJUUwJUE2JUIwJUUwJUE2JUI5JTJDJUUwJUE2JTg5JUUwJUE2JUFBJUUwJUE2JTk3JUUwJUE3JThEJUUwJUE2JUIwJUUwJUE2JUI5" data-listing-date-sort="1777053600000" data-listing-file-modified-sort="1777111173704" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="354" data-listing-title-sort="গ্যানিমিড: সৌরজগতের সবচেয়ে বড় উপগ্রহ" data-listing-filename-sort="ganymede.qmd">
 <td>
-<span class="listing-image"><img loading="lazy" src="./img/solar-system/ganymede-juno.jpg" style="height: 40px;"></span>
+<a href="./posts/ganymede.html" class="title listing-title">গ্যানিমিড: সৌরজগতের সবচেয়ে বড় উপগ্রহ</a>
 </td>
 <td>
-<a href="./posts/ganymede.html" class="title listing-title">গ্যানিমিড: সৌরজগতের সবচেয়ে বড় উপগ্রহ</a>
+<span class="listing-image"><img loading="lazy" src="./img/solar-system/ganymede-juno.jpg" style="height: 40px;"></span>
 </td>
 <td>
 <span class="listing-author">আব্দুল্যাহ আদিল মাহমুদ</span>
@@ -391,24 +370,15 @@ Word Count
 <td>
 <span class="listing-date">Apr 25, 2026</span>
 </td>
-<td>
-<span class="listing-categories">সৌরজগৎ, গ্রহ, উপগ্রহ</span>
-</td>
-<td>
-<span class="listing-reading-time">2 min</span>
-</td>
-<td>
-<span class="listing-word-count">354 words</span>
-</td>
 
 </tr>
 
 <tr data-index="2" data-categories="JUUwJUE2JTg5JUUwJUE2JUFBJUUwJUE2JTk3JUUwJUE3JThEJUUwJUE2JUIwJUUwJUE2JUI5JTJDJUUwJUE2JTk3JUUwJUE3JThEJUUwJUE2JUIwJUUwJUE2JUI5JTJDJUUwJUE2JUI4JUUwJUE3JThDJUUwJUE2JUIwJUUwJUE2JTlDJUUwJUE2JTk3JUUwJUE3JThF" data-listing-date-sort="1776880800000" data-listing-file-modified-sort="1776952468268" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="307" data-listing-title-sort="শনি গ্রহের উপগ্রহ এখন কয়টি?" data-listing-filename-sort="saturn-moons.qmd">
 <td>
-<span class="listing-image"><img loading="lazy" src="./img/solar-system/saturn.jpg" style="height: 40px;"></span>
+<a href="./posts/saturn-moons.html" class="title listing-title">শনি গ্রহের উপগ্রহ এখন কয়টি?</a>
 </td>
 <td>
-<a href="./posts/saturn-moons.html" class="title listing-title">শনি গ্রহের উপগ্রহ এখন কয়টি?</a>
+<span class="listing-image"><img loading="lazy" src="./img/solar-system/saturn.jpg" style="height: 40px;"></span>
 </td>
 <td>
 <span class="listing-author">আব্দুল্যাহ আদিল মাহমুদ</span>
@@ -416,24 +386,15 @@ Word Count
 <td>
 <span class="listing-date">Apr 23, 2026</span>
 </td>
-<td>
-<span class="listing-categories">উপগ্রহ, গ্রহ, সৌরজগৎ</span>
-</td>
-<td>
-<span class="listing-reading-time">2 min</span>
-</td>
-<td>
-<span class="listing-word-count">307 words</span>
-</td>
 
 </tr>
 
 <tr data-index="3" data-categories="JUUwJUE2JUI4JUUwJUE3JThDJUUwJUE2JUIwJUUwJUE2JTlDJUUwJUE2JTk3JUUwJUE3JThFJTJDJUUwJUE2JUI4JUUwJUE3JTgyJUUwJUE2JUIwJUUwJUE3JThEJUUwJUE2JUFG" data-listing-date-sort="1776794400000" data-listing-file-modified-sort="1776951918649" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="307" data-listing-title-sort="সৌরজগতের ধূমকেতুর দুই উৎস কাইপার বেল্ট ও উর্ট ক্লাউড" data-listing-filename-sort="kuiper-oort.qmd">
 <td>
-<span class="listing-image"><img loading="lazy" src="./img/solar-system/kuiper-belt-oort-cloud.jpg" style="height: 40px;"></span>
+<a href="./posts/kuiper-oort.html" class="title listing-title">সৌরজগতের ধূমকেতুর দুই উৎস কাইপার বেল্ট ও উর্ট ক্লাউড</a>
 </td>
 <td>
-<a href="./posts/kuiper-oort.html" class="title listing-title">সৌরজগতের ধূমকেতুর দুই উৎস কাইপার বেল্ট ও উর্ট ক্লাউড</a>
+<span class="listing-image"><img loading="lazy" src="./img/solar-system/kuiper-belt-oort-cloud.jpg" style="height: 40px;"></span>
 </td>
 <td>
 <span class="listing-author">আব্দুল্যাহ আদিল মাহমুদ</span>
@@ -441,24 +402,15 @@ Word Count
 <td>
 <span class="listing-date">Apr 22, 2026</span>
 </td>
-<td>
-<span class="listing-categories">সৌরজগৎ, সূর্য</span>
-</td>
-<td>
-<span class="listing-reading-time">2 min</span>
-</td>
-<td>
-<span class="listing-word-count">307 words</span>
-</td>
 
 </tr>
 
 <tr data-index="4" data-categories="JUUwJUE2JUFFJUUwJUE2JUI5JUUwJUE2JUJFJUUwJUE2JTk1JUUwJUE2JUJFJUUwJUE2JUI2JUUwJUE2JUFGJUUwJUE2JUJFJUUwJUE2JUE4JTJDJUUwJUE2JTlBJUUwJUE2JUJFJUUwJUE2JTgxJUUwJUE2JUE2JTJDJUUwJUE2JUI4JUUwJUE3JThDJUUwJUE2JUIwJUUwJUE2JTlDJUUwJUE2JTk3JUUwJUE3JThF" data-listing-date-sort="1776189600000" data-listing-file-modified-sort="1776952497820" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="390" data-listing-title-sort="আর্টিমিস ২ পৃথিবী ছেড়ে যায়নি!" data-listing-filename-sort="artemis-did-not-leave.qmd">
 <td>
-<span class="listing-image"><img loading="lazy" src="./img/mission/artemis-ii-trajectory.jpg" style="height: 40px;"></span>
+<a href="./posts/artemis-did-not-leave.html" class="title listing-title">আর্টিমিস ২ পৃথিবী ছেড়ে যায়নি!</a>
 </td>
 <td>
-<a href="./posts/artemis-did-not-leave.html" class="title listing-title">আর্টিমিস ২ পৃথিবী ছেড়ে যায়নি!</a>
+<span class="listing-image"><img loading="lazy" src="./img/mission/artemis-ii-trajectory.jpg" style="height: 40px;"></span>
 </td>
 <td>
 <span class="listing-author">আব্দুল্যাহ আদিল মাহমুদ</span>
@@ -466,24 +418,15 @@ Word Count
 <td>
 <span class="listing-date">Apr 15, 2026</span>
 </td>
-<td>
-<span class="listing-categories">মহাকাশযান, চাঁদ, সৌরজগৎ</span>
-</td>
-<td>
-<span class="listing-reading-time">2 min</span>
-</td>
-<td>
-<span class="listing-word-count">390 words</span>
-</td>
 
 </tr>
 
 <tr data-index="5" data-categories="JUUwJUE2JUE4JUUwJUE2JTk1JUUwJUE3JThEJUUwJUE2JUI3JUUwJUE2JUE0JUUwJUE3JThEJUUwJUE2JUIwJTJDJUUwJUE2JTk1JUUwJUE2JUI4JUUwJUE2JUFFJUUwJUE3JThCJUUwJUE2JUIyJUUwJUE2JTlDJUUwJUE2JUJG" data-listing-date-sort="1760032800000" data-listing-file-modified-sort="1776952545782" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="565" data-listing-title-sort="বিষম তারার গল্প" data-listing-filename-sort="variable-star.qmd">
 <td>
-<span class="listing-image"><img loading="lazy" src="./img/star/variable.webp" style="height: 40px;"></span>
+<a href="./posts/variable-star.html" class="title listing-title">বিষম তারার গল্প</a>
 </td>
 <td>
-<a href="./posts/variable-star.html" class="title listing-title">বিষম তারার গল্প</a>
+<span class="listing-image"><img loading="lazy" src="./img/star/variable.webp" style="height: 40px;"></span>
 </td>
 <td>
 <span class="listing-author">আব্দুল্যাহ আদিল মাহমুদ</span>
@@ -491,24 +434,15 @@ Word Count
 <td>
 <span class="listing-date">Oct 10, 2025</span>
 </td>
-<td>
-<span class="listing-categories">নক্ষত্র, কসমোলজি</span>
-</td>
-<td>
-<span class="listing-reading-time">3 min</span>
-</td>
-<td>
-<span class="listing-word-count">565 words</span>
-</td>
 
 </tr>
 
 <tr data-index="6" data-categories="JUUwJUE2JUE4JUUwJUE2JTk1JUUwJUE3JThEJUUwJUE2JUI3JUUwJUE2JUE0JUUwJUE3JThEJUUwJUE2JUIwJTJDJUUwJUE2JTk1JUUwJUE2JUI4JUUwJUE2JUFFJUUwJUE3JThCJUUwJUE2JUIyJUUwJUE2JTlDJUUwJUE2JUJG" data-listing-date-sort="1696874400000" data-listing-file-modified-sort="1776952525350" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="577" data-listing-title-sort="লোহিত দানব তারার গল্প" data-listing-filename-sort="red-giant.qmd">
 <td>
-<span class="listing-image"><img loading="lazy" src="https://github.com/bishwo-web/bishwo/blob/main/img/star/red_giant.jpg?raw=true" style="height: 40px;"></span>
+<a href="./posts/red-giant.html" class="title listing-title">লোহিত দানব তারার গল্প</a>
 </td>
 <td>
-<a href="./posts/red-giant.html" class="title listing-title">লোহিত দানব তারার গল্প</a>
+<span class="listing-image"><img loading="lazy" src="https://github.com/bishwo-web/bishwo/blob/main/img/star/red_giant.jpg?raw=true" style="height: 40px;"></span>
 </td>
 <td>
 <span class="listing-author">আব্দুল্যাহ আদিল মাহমুদ</span>
@@ -516,24 +450,15 @@ Word Count
 <td>
 <span class="listing-date">Oct 10, 2023</span>
 </td>
-<td>
-<span class="listing-categories">নক্ষত্র, কসমোলজি</span>
-</td>
-<td>
-<span class="listing-reading-time">3 min</span>
-</td>
-<td>
-<span class="listing-word-count">577 words</span>
-</td>
 
 </tr>
 
 <tr data-index="7" data-categories="JUUwJUE2JUI4JUUwJUE3JTgyJUUwJUE2JUIwJUUwJUE3JThEJUUwJUE2JUFGJTJDJUUwJUE2JTlBJUUwJUE2JUJFJUUwJUE2JTgxJUUwJUE2JUE2JTJDJUUwJUE2JUFBJUUwJUE3JTgzJUUwJUE2JUE1JUUwJUE2JUJGJUUwJUE2JUFDJUUwJUE3JTgwJTJDJUUwJUE2JTg2JUUwJUE2JTk1JUUwJUE2JUJFJUUwJUE2JUI2" data-listing-date-sort="1695146400000" data-listing-file-modified-sort="1776964956555" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="456" data-listing-title-sort="পৃথিবীর আকাশে চাঁদ ও সূর্য দেখতে সমান কেন?" data-listing-filename-sort="why-sun-moon-same-size.qmd">
 <td>
-<span class="listing-image"><img loading="lazy" src="https://github.com/bishwo-web/bishwo/blob/main/img/theory/sun-moon-size.png?raw=true" style="height: 40px;"></span>
+<a href="./posts/why-sun-moon-same-size.html" class="title listing-title">পৃথিবীর আকাশে চাঁদ ও সূর্য দেখতে সমান কেন?</a>
 </td>
 <td>
-<a href="./posts/why-sun-moon-same-size.html" class="title listing-title">পৃথিবীর আকাশে চাঁদ ও সূর্য দেখতে সমান কেন?</a>
+<span class="listing-image"><img loading="lazy" src="https://github.com/bishwo-web/bishwo/blob/main/img/theory/sun-moon-size.png?raw=true" style="height: 40px;"></span>
 </td>
 <td>
 <span class="listing-author">আব্দুল্যাহ আদিল মাহমুদ</span>
@@ -541,24 +466,15 @@ Word Count
 <td>
 <span class="listing-date">Sep 20, 2023</span>
 </td>
-<td>
-<span class="listing-categories">সূর্য, চাঁদ, পৃথিবী, আকাশ</span>
-</td>
-<td>
-<span class="listing-reading-time">3 min</span>
-</td>
-<td>
-<span class="listing-word-count">456 words</span>
-</td>
 
 </tr>
 
 <tr data-index="8" data-categories="JUUwJUE2JUI4JUUwJUE3JTgyJUUwJUE2JUIwJUUwJUE3JThEJUUwJUE2JUFGJTJDJUUwJUE2JUI4JUUwJUE3JThDJUUwJUE2JUIwJUUwJUE2JTlDJUUwJUE2JTk3JUUwJUE3JThF" data-listing-date-sort="1694282400000" data-listing-file-modified-sort="1776952508393" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="605" data-listing-title-sort="সূর্য কত বড়?" data-listing-filename-sort="how-big-is-sun.qmd">
 <td>
-<span class="listing-image"><img loading="lazy" src="https://github.com/bishwo-web/bishwo/blob/main/img/earth/earth_sun_size.png?raw=true" style="height: 40px;"></span>
+<a href="./posts/how-big-is-sun.html" class="title listing-title">সূর্য কত বড়?</a>
 </td>
 <td>
-<a href="./posts/how-big-is-sun.html" class="title listing-title">সূর্য কত বড়?</a>
+<span class="listing-image"><img loading="lazy" src="https://github.com/bishwo-web/bishwo/blob/main/img/earth/earth_sun_size.png?raw=true" style="height: 40px;"></span>
 </td>
 <td>
 <span class="listing-author">আব্দুল্যাহ আদিল মাহমুদ</span>
@@ -566,24 +482,15 @@ Word Count
 <td>
 <span class="listing-date">Sep 10, 2023</span>
 </td>
-<td>
-<span class="listing-categories">সূর্য, সৌরজগৎ</span>
-</td>
-<td>
-<span class="listing-reading-time">4 min</span>
-</td>
-<td>
-<span class="listing-word-count">605 words</span>
-</td>
 
 </tr>
 
 <tr data-index="9" data-categories="JUUwJUE2JUE4JUUwJUE2JTk1JUUwJUE3JThEJUUwJUE2JUI3JUUwJUE2JUE0JUUwJUE3JThEJUUwJUE2JUIwJTJDJUUwJUE2JUFFJUUwJUE2JUI5JUUwJUE2JUJFJUUwJUE2JUFDJUUwJUE2JUJGJUUwJUE2JUI2JUUwJUE3JThEJUUwJUE2JUFDJTJDJUUwJUE2JTk1JUUwJUE2JUI4JUUwJUE2JUFFJUUwJUE3JThCJUUwJUE2JUIyJUUwJUE2JTlDJUUwJUE2JUJG" data-listing-date-sort="1507572000000" data-listing-file-modified-sort="1776952538495" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5" data-listing-word-count-sort="984" data-listing-title-sort="মহাবিশ্বের জন্মের আগের নক্ষত্র!" data-listing-filename-sort="star-vs-universe.qmd">
 <td>
-<span class="listing-image"><img loading="lazy" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEizYtljb3X3TLiSDvaCz3IBSClhWKRJguDT_xqpqBxoLW-oT1I4zpbiYya5IfsGW4yaEC6fpSmcq1qifh5fgwWC6w3U7330KqfeOk5_SzKKH5kPabNjICShMYWGFZtHSP9ksJUZr0xfaU4/s640/universe.jpg" style="height: 40px;"></span>
+<a href="./posts/star-vs-universe.html" class="title listing-title">মহাবিশ্বের জন্মের আগের নক্ষত্র!</a>
 </td>
 <td>
-<a href="./posts/star-vs-universe.html" class="title listing-title">মহাবিশ্বের জন্মের আগের নক্ষত্র!</a>
+<span class="listing-image"><img loading="lazy" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEizYtljb3X3TLiSDvaCz3IBSClhWKRJguDT_xqpqBxoLW-oT1I4zpbiYya5IfsGW4yaEC6fpSmcq1qifh5fgwWC6w3U7330KqfeOk5_SzKKH5kPabNjICShMYWGFZtHSP9ksJUZr0xfaU4/s640/universe.jpg" style="height: 40px;"></span>
 </td>
 <td>
 <span class="listing-author">আব্দুল্যাহ আদিল মাহমুদ</span>
@@ -591,24 +498,15 @@ Word Count
 <td>
 <span class="listing-date">Oct 10, 2017</span>
 </td>
-<td>
-<span class="listing-categories">নক্ষত্র, মহাবিশ্ব, কসমোলজি</span>
-</td>
-<td>
-<span class="listing-reading-time">5 min</span>
-</td>
-<td>
-<span class="listing-word-count">984 words</span>
-</td>
 
 </tr>
 
 <tr data-index="10" data-categories="JUUwJUE2JTlDJUUwJUE3JTgwJUUwJUE2JUFDJUUwJUE2JUE4JUUwJUE3JTgwJTJDJUUwJUE2JUFDJUUwJUE2JUJFJUUwJUE2JTk5JUUwJUE2JUJFJUUwJUE2JUIyJUUwJUE2JUJGLSVFMCVBNiVBQyVFMCVBNiVCRiVFMCVBNiU5QyVFMCVBNyU4RCVFMCVBNiU5RSVFMCVBNiVCRSVFMCVBNiVBOCVFMCVBNyU4MA==" data-listing-date-sort="1487181600000" data-listing-file-modified-sort="1777009620855" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="556" data-listing-title-sort="স্মরণে মেঘনাদ সাহা" data-listing-filename-sort="meghnad-saha.qmd">
 <td>
-<span class="listing-image"><img loading="lazy" src="./img/bio/meghnad_saha.jpg" style="height: 40px;"></span>
+<a href="./posts/meghnad-saha.html" class="title listing-title">স্মরণে মেঘনাদ সাহা</a>
 </td>
 <td>
-<a href="./posts/meghnad-saha.html" class="title listing-title">স্মরণে মেঘনাদ সাহা</a>
+<span class="listing-image"><img loading="lazy" src="./img/bio/meghnad_saha.jpg" style="height: 40px;"></span>
 </td>
 <td>
 <span class="listing-author">নাসরুল্লাহ মাসুদ</span>
@@ -616,39 +514,21 @@ Word Count
 <td>
 <span class="listing-date">Feb 16, 2017</span>
 </td>
-<td>
-<span class="listing-categories">জীবনী, বাঙালি-বিজ্ঞানী</span>
-</td>
-<td>
-<span class="listing-reading-time">3 min</span>
-</td>
-<td>
-<span class="listing-word-count">556 words</span>
-</td>
 
 </tr>
 
 <tr data-index="11" data-categories="JUUwJUE2JUE4JUUwJUE2JTk1JUUwJUE3JThEJUUwJUE2JUI3JUUwJUE2JUE0JUUwJUE3JThEJUUwJUE2JUIwJTJDJUUwJUE2JUFFJUUwJUE2JUI5JUUwJUE2JUJFJUUwJUE2JUFDJUUwJUE2JUJGJUUwJUE2JUI2JUUwJUE3JThEJUUwJUE2JUFDJTJDJUUwJUE2JUE2JUUwJUE3JTgyJUUwJUE2JUIwJUUwJUE2JUE0JUUwJUE3JThEJUUwJUE2JUFDJTJDJUUwJUE2JUFBJUUwJUE2JUIwJUUwJUE2JUJGJUUwJUE2JUFEJUUwJUE2JUJFJUUwJUE2JUI3JUUwJUE2JUJF" data-listing-date-sort="1444413600000" data-listing-file-modified-sort="1776952516424" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="245" data-listing-title-sort="এক পারসেক কত বড়?" data-listing-filename-sort="parsec.qmd">
 <td>
-<span class="listing-image"><img loading="lazy" src="./img/universe/universe.jpg" style="height: 40px;"></span>
+<a href="./posts/parsec.html" class="title listing-title">এক পারসেক কত বড়?</a>
 </td>
 <td>
-<a href="./posts/parsec.html" class="title listing-title">এক পারসেক কত বড়?</a>
+<span class="listing-image"><img loading="lazy" src="./img/universe/universe.jpg" style="height: 40px;"></span>
 </td>
 <td>
 <span class="listing-author">আব্দুল্যাহ আদিল মাহমুদ</span>
 </td>
 <td>
 <span class="listing-date">Oct 10, 2015</span>
-</td>
-<td>
-<span class="listing-categories">নক্ষত্র, মহাবিশ্ব, দূরত্ব, পরিভাষা</span>
-</td>
-<td>
-<span class="listing-reading-time">2 min</span>
-</td>
-<td>
-<span class="listing-word-count">245 words</span>
 </td>
 
 </tr>

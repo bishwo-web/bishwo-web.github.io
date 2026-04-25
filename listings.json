@@ -22,7 +22,7 @@
     ]
   },
   {
-    "listing": "/index.html",
+    "listing": "/latest.html",
     "items": [
       "/posts/ceres-asteroid-or-dwarf-planet.html",
       "/posts/ganymede.html",
@@ -39,7 +39,7 @@
     ]
   },
   {
-    "listing": "/latest.html",
+    "listing": "/index.html",
     "items": [
       "/posts/ceres-asteroid-or-dwarf-planet.html",
       "/posts/ganymede.html",

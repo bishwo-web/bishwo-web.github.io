@@ -5,14 +5,14 @@ sidebar: true
 listing:
   contents: posts
   sort: "date desc"
-  type: grid
-  page-size: 9
+  type: table
   categories: numbered
   image-placeholder: img/site/thumb.jpg
   sort-ui: true
   filter-ui: true
   feed: true
-  fields: [image, date, title, author, reading-time, categories, description]
+  page-size: 30
+  fields: [title, image, author, date]
 page-layout: full
 title-block-banner: true
 ---
