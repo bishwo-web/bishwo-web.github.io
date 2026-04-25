@@ -12,7 +12,7 @@ listing:
   filter-ui: true
   feed: true
   page-size: 30
-  fields: [image, title, author, date]
+  fields: [image, title, date]
 page-layout: full
 title-block-banner: true
 ---
@@ -21,3 +21,6 @@ title-block-banner: true
 এ সাইটটি বর্তমানে নির্মাণাধীন। জ্যোতির্বিজ্ঞান নিয়ে আমাদের মূল সাইট [sky.bishwo.com সচল থাকবে।](https://sky.bishwo.com/) । তবে ভবিষ্যতে এখানেই সব আপডেট পাওয়া যাবে।
 :::
 
+<div class="text-center">
+  <p class="rounded-pill">সকল সাম্প্রতিক পোস্ট</p>
+</div>

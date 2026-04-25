@@ -12,3 +12,8 @@
 .figcaption {
   text-align: center;
 }
+
+.alt-background {
+  background-color: #007bff;  /* Bootstrap primary blue */
+  border-radius: 10px; /* Optional: rounded corners */
+}

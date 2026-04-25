@@ -7,13 +7,15 @@ listing:
     contents: posts
     sort: "date desc"
     type: grid
-    page-size: 6
+#    page-size: 6
+    max-items: 4
+    grid-columns: 4
     categories: numbered
     image-placeholder: img/site/thumb.jpg
     sort-ui: true
     filter-ui: true
     feed: false
-    fields: [image, date, title, author, categories, description]
+    fields: [image, date, title, author, categories]
   - id: solar-system
     contents: posts
     sort-ui: false
@@ -21,7 +23,7 @@ listing:
     max-items: 5
     sort: "date desc"
     type: table
-    fields: [image, title, author, date]
+    fields: [image, title, date]
     include:
       categories: [সৌরজগৎ]
   - id: universe
@@ -31,7 +33,7 @@ listing:
     max-items: 5
     sort: "date desc"
     type: table
-    fields: [image, title, author, date]
+    fields: [image, title, date]
     include:
       categories: [মহাবিশ্ব]
 page-layout: full
@@ -44,6 +46,10 @@ title-block-banner: true
 
 :::{#landing-posts}
 :::
+
+<div class="text-center">
+  <a href="latest.qmd" class="btn btn-primary rounded-pill">সকল সাম্প্রতিক পোস্ট</a>
+</div>
 
 :::::{.grid}
 ::::{.g-col-12 .g-col-md-6 .animate__animated .animate__fadeIn .animate__faster .animate__delay-1s}

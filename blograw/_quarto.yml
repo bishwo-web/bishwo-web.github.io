@@ -42,6 +42,9 @@ website:
       - href: "index.html#category=রাতের আকাশ"
         text: রাতের আকাশ
         icon: moon-stars-fill
+      - text: "সাম্প্রতিক"
+        icon: card-checklist
+        href: latest.qmd
       - text: "অন্যান্য"
         icon: "feather"
         menu:
@@ -51,9 +54,6 @@ website:
           - text: "কসমোলজি"
             icon: tropical-storm
             href: "index.html#category=কসমোলজি"
-          - text: "সাম্প্রতিক"
-            icon: card-checklist
-            href: latest.qmd
       - href: "https://sky.bishwo.com/"
         text: আর্কাইভ
     right:
