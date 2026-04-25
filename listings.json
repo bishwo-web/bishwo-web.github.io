@@ -37,5 +37,22 @@
       "/posts/meghnad-saha.html",
       "/posts/parsec.html"
     ]
+  },
+  {
+    "listing": "/latest.html",
+    "items": [
+      "/posts/ceres-asteroid-or-dwarf-planet.html",
+      "/posts/ganymede.html",
+      "/posts/saturn-moons.html",
+      "/posts/kuiper-oort.html",
+      "/posts/artemis-did-not-leave.html",
+      "/posts/variable-star.html",
+      "/posts/red-giant.html",
+      "/posts/why-sun-moon-same-size.html",
+      "/posts/how-big-is-sun.html",
+      "/posts/star-vs-universe.html",
+      "/posts/meghnad-saha.html",
+      "/posts/parsec.html"
+    ]
   }
 ]

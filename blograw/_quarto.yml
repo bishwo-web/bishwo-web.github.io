@@ -46,21 +46,26 @@ website:
         icon: "feather"
         menu:
           - text: "ভিডিও"
-            icon: "camera-video"
+            icon: camera-video
             href: "https://www.youtube.com/@Bishwotube"
           - text: "কসমোলজি"
-            icon: "tropical-storm"
+            icon: tropical-storm
             href: "index.html#category=কসমোলজি"
+          - text: "সাম্প্রতিক"
+            icon: card-checklist
+            href: latest.qmd
       - href: "https://sky.bishwo.com/"
         text: আর্কাইভ
     right:
       - text: সকল লেখক
-        icon: people
+        icon: people-fill
         menu:
           - text: "আব্দুল্যাহ আদিল মাহমুদ"
             href: abdullah-adil-mahmud.qmd
+            icon: person-circle
           - text: "নাসরুল্লাহ মাসুদ"
             href: nasrullah-masud.qmd
+            icon: person-circle
       - text: ভিডিও
         icon: camera-video
         menu:

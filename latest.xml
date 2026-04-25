@@ -6,8 +6,8 @@
       version="2.0">
 <channel>
 <title>বিশ্ব ডট কম</title>
-<link>https://www.bishwo.com/</link>
-<atom:link href="https://www.bishwo.com/index.xml" rel="self" type="application/rss+xml"/>
+<link>https://www.bishwo.com/latest.html</link>
+<atom:link href="https://www.bishwo.com/latest.xml" rel="self" type="application/rss+xml"/>
 <description></description>
 <generator>quarto-1.9.37</generator>
 <lastBuildDate>Fri, 24 Apr 2026 18:00:00 GMT</lastBuildDate>

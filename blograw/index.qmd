@@ -5,8 +5,7 @@ sidebar: true
 listing:
   contents: posts
   sort: "date desc"
-  type: default
-#  max-items: 6
+  type: grid
   categories: numbered
   image-placeholder: img/site/thumb.jpg
   sort-ui: true

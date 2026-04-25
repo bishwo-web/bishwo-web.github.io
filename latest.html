@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>বিশ্ব ডট কম</title>
+<title>latest – বিশ্ব ডট কম</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -83,9 +83,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-image','listing-date','listing-title','listing-author','listing-reading-time','listing-categories','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-image','listing-title','listing-author','listing-date','listing-categories','listing-reading-time','listing-word-count',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-title-sort'] }],
       
-      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description","listing-categories"],
+      searchColumns: ["listing-date","listing-title","listing-author"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -143,7 +143,7 @@ window.Quarto = {
 </script>
 
 <link rel="stylesheet" href="styles.css">
-<link rel="alternate" type="application/rss+xml" title="বিশ্ব ডট কম" href="index.xml" data-external="1"></head>
+<link rel="alternate" type="application/rss+xml" title="বিশ্ব ডট কম" href="latest.xml" data-external="1"></head>
 
 <body class="nav-fixed quarto-light">
 
@@ -167,7 +167,7 @@ window.Quarto = {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./index.html" aria-current="page"> <i class="bi bi-house" role="img">
+    <a class="nav-link" href="./index.html"> <i class="bi bi-house" role="img">
 </i> 
 <span class="menu-text">হোম</span></a>
   </li>  
@@ -291,21 +291,21 @@ window.Quarto = {
 
 
 
-<div class="quarto-listing quarto-listing-container-grid" id="listing-listing">
+<div class="quarto-listing quarto-listing-container-table" id="listing-listing">
 <div class="listing-actions-group">
    <div class="input-group input-group-sm quarto-listing-sort">
     <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
     <select id="listing-listing-sort" class="form-select" aria-label="Order By" onchange="window['quarto-listings']['listing-listing'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
       <option value="" disabled="" selected="" hidden="">Order By</option>
       <option value="index" data-direction="asc">Default</option>
-      <option value="listing-title" data-direction="asc">
-        Title
-      </option>
       <option value="listing-date-sort" data-direction="asc">
         Date - Oldest
       </option>
       <option value="listing-date-sort" data-direction="desc">
         Date - Newest
+      </option>
+      <option value="listing-title-sort" data-direction="asc">
+        Title
       </option>
       <option value="listing-author" data-direction="asc">
         Author
@@ -317,410 +317,344 @@ window.Quarto = {
       <input type="text" class="search form-control" placeholder="Filter">
     </div>
 </div>
-<div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-categories="JUUwJUE2JUI4JUUwJUE3JThDJUUwJUE2JUIwJUUwJUE2JTlDJUUwJUE2JTk3JUUwJUE3JThFJTJDJUUwJUE2JUFDJUUwJUE2JUJFJUUwJUE2JUFFJUUwJUE2JUE4JTIwJUUwJUE2JTk3JUUwJUE3JThEJUUwJUE2JUIwJUUwJUE2JUI5JTJDJUUwJUE2JTk3JUUwJUE3JThEJUUwJUE2JUIwJUUwJUE2JUI5" data-listing-date-sort="1777053600000" data-listing-file-modified-sort="1777118945279" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="328">
-<a href="./posts/ceres-asteroid-or-dwarf-planet.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./img/solar-system/ceres.jpg" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-সেরেস: গ্রহাণু নাকি বামন গ্রহ?
-</h5>
-<div class="listing-reading-time card-text text-muted">2 min</div>
-<div class="listing-categories">
+<table class="quarto-listing-table table">
+<thead>
+<tr>
 
-<div class="listing-category" onclick="window.quartoListingCategory('JUUwJUE2JUI4JUUwJUE3JThDJUUwJUE2JUIwJUUwJUE2JTlDJUUwJUE2JTk3JUUwJUE3JThF'); return false;">সৌরজগৎ</div>
+<th>
+ 
+</th>
 
-<div class="listing-category" onclick="window.quartoListingCategory('JUUwJUE2JUFDJUUwJUE2JUJFJUUwJUE2JUFFJUUwJUE2JUE4JTIwJUUwJUE2JTk3JUUwJUE3JThEJUUwJUE2JUIwJUUwJUE2JUI5'); return false;">বামন গ্রহ</div>
+<th>
+<a class="sort" data-sort="listing-title-sort" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Title</a>
+</th>
 
-<div class="listing-category" onclick="window.quartoListingCategory('JUUwJUE2JTk3JUUwJUE3JThEJUUwJUE2JUIwJUUwJUE2JUI5'); return false;">গ্রহ</div>
+<th>
+<a class="sort" data-sort="listing-author" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Author</a>
+</th>
 
-</div>
-<div class="card-text listing-description delink">
-<p>সেরেস চাঁদের চার ভাগের এক ভাগ পরিমাণ চওড়া। আকাশ অনেক বেশি অন্ধকার না হলে একে খালি সাধারণত দেখা যায় না। ২০১৫ সালে নাসার ডন মহাকাশযান সেরেসকে কাছ থেকে পর্যবেক্ষণ করে। এসময়ে এই…</p>
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-আব্দুল্যাহ আদিল মাহমুদ
-</div>
-<div class="listing-date">
-Apr 25, 2026
-</div>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="1" data-categories="JUUwJUE2JUI4JUUwJUE3JThDJUUwJUE2JUIwJUUwJUE2JTlDJUUwJUE2JTk3JUUwJUE3JThFJTJDJUUwJUE2JTk3JUUwJUE3JThEJUUwJUE2JUIwJUUwJUE2JUI5JTJDJUUwJUE2JTg5JUUwJUE2JUFBJUUwJUE2JTk3JUUwJUE3JThEJUUwJUE2JUIwJUUwJUE2JUI5" data-listing-date-sort="1777053600000" data-listing-file-modified-sort="1777111173704" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="354">
-<a href="./posts/ganymede.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./img/solar-system/ganymede-juno.jpg" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-গ্যানিমিড: সৌরজগতের সবচেয়ে বড় উপগ্রহ
-</h5>
-<div class="listing-reading-time card-text text-muted">2 min</div>
-<div class="listing-categories">
+<th>
+<a class="sort" data-sort="listing-date-sort" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Date</a>
+</th>
 
-<div class="listing-category" onclick="window.quartoListingCategory('JUUwJUE2JUI4JUUwJUE3JThDJUUwJUE2JUIwJUUwJUE2JTlDJUUwJUE2JTk3JUUwJUE3JThF'); return false;">সৌরজগৎ</div>
+<th>
+Categories
+</th>
 
-<div class="listing-category" onclick="window.quartoListingCategory('JUUwJUE2JTk3JUUwJUE3JThEJUUwJUE2JUIwJUUwJUE2JUI5'); return false;">গ্রহ</div>
+<th>
+Reading Time
+</th>
 
-<div class="listing-category" onclick="window.quartoListingCategory('JUUwJUE2JTg5JUUwJUE2JUFBJUUwJUE2JTk3JUUwJUE3JThEJUUwJUE2JUIwJUUwJUE2JUI5'); return false;">উপগ্রহ</div>
+<th>
+Word Count
+</th>
 
-</div>
-<div class="card-text listing-description delink">
-<p>১৬১০ সালের জানুয়ারি মাসের সাত তারিখে উপগ্রহটি আবিষ্কৃত হয়। টাইটান ও গ্যানিমিড দুটো চাঁদই বুধ গ্রহের চেয়েও বড়। গ্যানিমিডের প্রধান উপাদান সিলিকেট পাথর ও পানি।</p>
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-আব্দুল্যাহ আদিল মাহমুদ
-</div>
-<div class="listing-date">
-Apr 25, 2026
-</div>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="2" data-categories="JUUwJUE2JTg5JUUwJUE2JUFBJUUwJUE2JTk3JUUwJUE3JThEJUUwJUE2JUIwJUUwJUE2JUI5JTJDJUUwJUE2JTk3JUUwJUE3JThEJUUwJUE2JUIwJUUwJUE2JUI5JTJDJUUwJUE2JUI4JUUwJUE3JThDJUUwJUE2JUIwJUUwJUE2JTlDJUUwJUE2JTk3JUUwJUE3JThF" data-listing-date-sort="1776880800000" data-listing-file-modified-sort="1776952468268" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="307">
-<a href="./posts/saturn-moons.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./img/solar-system/saturn.jpg" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-শনি গ্রহের উপগ্রহ এখন কয়টি?
-</h5>
-<div class="listing-reading-time card-text text-muted">2 min</div>
-<div class="listing-categories">
+</tr>
+</thead>
+<tbody class="list">
 
-<div class="listing-category" onclick="window.quartoListingCategory('JUUwJUE2JTg5JUUwJUE2JUFBJUUwJUE2JTk3JUUwJUE3JThEJUUwJUE2JUIwJUUwJUE2JUI5'); return false;">উপগ্রহ</div>
+<tr data-index="0" data-categories="JUUwJUE2JUI4JUUwJUE3JThDJUUwJUE2JUIwJUUwJUE2JTlDJUUwJUE2JTk3JUUwJUE3JThFJTJDJUUwJUE2JUFDJUUwJUE2JUJFJUUwJUE2JUFFJUUwJUE2JUE4JTIwJUUwJUE2JTk3JUUwJUE3JThEJUUwJUE2JUIwJUUwJUE2JUI5JTJDJUUwJUE2JTk3JUUwJUE3JThEJUUwJUE2JUIwJUUwJUE2JUI5" data-listing-date-sort="1777053600000" data-listing-file-modified-sort="1777118945279" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="328" data-listing-title-sort="সেরেস: গ্রহাণু নাকি বামন গ্রহ?" data-listing-filename-sort="ceres-asteroid-or-dwarf-planet.qmd">
+<td>
+<span class="listing-image"><img loading="lazy" src="./img/solar-system/ceres.jpg" style="height: 40px;"></span>
+</td>
+<td>
+<a href="./posts/ceres-asteroid-or-dwarf-planet.html" class="title listing-title">সেরেস: গ্রহাণু নাকি বামন গ্রহ?</a>
+</td>
+<td>
+<span class="listing-author">আব্দুল্যাহ আদিল মাহমুদ</span>
+</td>
+<td>
+<span class="listing-date">Apr 25, 2026</span>
+</td>
+<td>
+<span class="listing-categories">সৌরজগৎ, বামন গ্রহ, গ্রহ</span>
+</td>
+<td>
+<span class="listing-reading-time">2 min</span>
+</td>
+<td>
+<span class="listing-word-count">328 words</span>
+</td>
 
-<div class="listing-category" onclick="window.quartoListingCategory('JUUwJUE2JTk3JUUwJUE3JThEJUUwJUE2JUIwJUUwJUE2JUI5'); return false;">গ্রহ</div>
+</tr>
 
-<div class="listing-category" onclick="window.quartoListingCategory('JUUwJUE2JUI4JUUwJUE3JThDJUUwJUE2JUIwJUUwJUE2JTlDJUUwJUE2JTk3JUUwJUE3JThF'); return false;">সৌরজগৎ</div>
+<tr data-index="1" data-categories="JUUwJUE2JUI4JUUwJUE3JThDJUUwJUE2JUIwJUUwJUE2JTlDJUUwJUE2JTk3JUUwJUE3JThFJTJDJUUwJUE2JTk3JUUwJUE3JThEJUUwJUE2JUIwJUUwJUE2JUI5JTJDJUUwJUE2JTg5JUUwJUE2JUFBJUUwJUE2JTk3JUUwJUE3JThEJUUwJUE2JUIwJUUwJUE2JUI5" data-listing-date-sort="1777053600000" data-listing-file-modified-sort="1777111173704" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="354" data-listing-title-sort="গ্যানিমিড: সৌরজগতের সবচেয়ে বড় উপগ্রহ" data-listing-filename-sort="ganymede.qmd">
+<td>
+<span class="listing-image"><img loading="lazy" src="./img/solar-system/ganymede-juno.jpg" style="height: 40px;"></span>
+</td>
+<td>
+<a href="./posts/ganymede.html" class="title listing-title">গ্যানিমিড: সৌরজগতের সবচেয়ে বড় উপগ্রহ</a>
+</td>
+<td>
+<span class="listing-author">আব্দুল্যাহ আদিল মাহমুদ</span>
+</td>
+<td>
+<span class="listing-date">Apr 25, 2026</span>
+</td>
+<td>
+<span class="listing-categories">সৌরজগৎ, গ্রহ, উপগ্রহ</span>
+</td>
+<td>
+<span class="listing-reading-time">2 min</span>
+</td>
+<td>
+<span class="listing-word-count">354 words</span>
+</td>
 
-</div>
-<div class="card-text listing-description delink">
-<p>এ লেখার সময় পর্যন্ত শনির উপগ্রহ পাওয়া গেছে ২৯২টি। ২০২৫ সালের শুরু পর্যন্ত কিন্তু গ্রহরাজ বৃহস্পতিরই সবচেয়ে বেশি উপগ্রহ ছিল। কিন্তু বর্তমানে এর চারপাশে ঘোরে ১১৫টি উপগ্রহ।</p>
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-আব্দুল্যাহ আদিল মাহমুদ
-</div>
-<div class="listing-date">
-Apr 23, 2026
-</div>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="3" data-categories="JUUwJUE2JUI4JUUwJUE3JThDJUUwJUE2JUIwJUUwJUE2JTlDJUUwJUE2JTk3JUUwJUE3JThFJTJDJUUwJUE2JUI4JUUwJUE3JTgyJUUwJUE2JUIwJUUwJUE3JThEJUUwJUE2JUFG" data-listing-date-sort="1776794400000" data-listing-file-modified-sort="1776951918649" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="307">
-<a href="./posts/kuiper-oort.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./img/solar-system/kuiper-belt-oort-cloud.jpg" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-সৌরজগতের ধূমকেতুর দুই উৎস কাইপার বেল্ট ও উর্ট ক্লাউড
-</h5>
-<div class="listing-reading-time card-text text-muted">2 min</div>
-<div class="listing-categories">
+</tr>
 
-<div class="listing-category" onclick="window.quartoListingCategory('JUUwJUE2JUI4JUUwJUE3JThDJUUwJUE2JUIwJUUwJUE2JTlDJUUwJUE2JTk3JUUwJUE3JThF'); return false;">সৌরজগৎ</div>
+<tr data-index="2" data-categories="JUUwJUE2JTg5JUUwJUE2JUFBJUUwJUE2JTk3JUUwJUE3JThEJUUwJUE2JUIwJUUwJUE2JUI5JTJDJUUwJUE2JTk3JUUwJUE3JThEJUUwJUE2JUIwJUUwJUE2JUI5JTJDJUUwJUE2JUI4JUUwJUE3JThDJUUwJUE2JUIwJUUwJUE2JTlDJUUwJUE2JTk3JUUwJUE3JThF" data-listing-date-sort="1776880800000" data-listing-file-modified-sort="1776952468268" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="307" data-listing-title-sort="শনি গ্রহের উপগ্রহ এখন কয়টি?" data-listing-filename-sort="saturn-moons.qmd">
+<td>
+<span class="listing-image"><img loading="lazy" src="./img/solar-system/saturn.jpg" style="height: 40px;"></span>
+</td>
+<td>
+<a href="./posts/saturn-moons.html" class="title listing-title">শনি গ্রহের উপগ্রহ এখন কয়টি?</a>
+</td>
+<td>
+<span class="listing-author">আব্দুল্যাহ আদিল মাহমুদ</span>
+</td>
+<td>
+<span class="listing-date">Apr 23, 2026</span>
+</td>
+<td>
+<span class="listing-categories">উপগ্রহ, গ্রহ, সৌরজগৎ</span>
+</td>
+<td>
+<span class="listing-reading-time">2 min</span>
+</td>
+<td>
+<span class="listing-word-count">307 words</span>
+</td>
 
-<div class="listing-category" onclick="window.quartoListingCategory('JUUwJUE2JUI4JUUwJUE3JTgyJUUwJUE2JUIwJUUwJUE3JThEJUUwJUE2JUFG'); return false;">সূর্য</div>
+</tr>
 
-</div>
-<div class="card-text listing-description delink">
-<p>কাইপের বেল্টের বিস্তৃতি সূর্য থেকে ৩০ থেকে ৫০ এইউ পর্যন্ত। এক এইউ পৃথিবী থেকে সূর্যের গড় দুরত্বের সমান। উর্ট ক্লাউড অবশ্য কাইপার বেল্টের তুলনায় অনেক দূরে আছে। এটি সূর্যের ৫০…</p>
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-আব্দুল্যাহ আদিল মাহমুদ
-</div>
-<div class="listing-date">
-Apr 22, 2026
-</div>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="4" data-categories="JUUwJUE2JUFFJUUwJUE2JUI5JUUwJUE2JUJFJUUwJUE2JTk1JUUwJUE2JUJFJUUwJUE2JUI2JUUwJUE2JUFGJUUwJUE2JUJFJUUwJUE2JUE4JTJDJUUwJUE2JTlBJUUwJUE2JUJFJUUwJUE2JTgxJUUwJUE2JUE2JTJDJUUwJUE2JUI4JUUwJUE3JThDJUUwJUE2JUIwJUUwJUE2JTlDJUUwJUE2JTk3JUUwJUE3JThF" data-listing-date-sort="1776189600000" data-listing-file-modified-sort="1776952497820" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="390">
-<a href="./posts/artemis-did-not-leave.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./img/mission/artemis-ii-trajectory.jpg" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-আর্টিমিস ২ পৃথিবী ছেড়ে যায়নি!
-</h5>
-<div class="listing-reading-time card-text text-muted">2 min</div>
-<div class="listing-categories">
+<tr data-index="3" data-categories="JUUwJUE2JUI4JUUwJUE3JThDJUUwJUE2JUIwJUUwJUE2JTlDJUUwJUE2JTk3JUUwJUE3JThFJTJDJUUwJUE2JUI4JUUwJUE3JTgyJUUwJUE2JUIwJUUwJUE3JThEJUUwJUE2JUFG" data-listing-date-sort="1776794400000" data-listing-file-modified-sort="1776951918649" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="307" data-listing-title-sort="সৌরজগতের ধূমকেতুর দুই উৎস কাইপার বেল্ট ও উর্ট ক্লাউড" data-listing-filename-sort="kuiper-oort.qmd">
+<td>
+<span class="listing-image"><img loading="lazy" src="./img/solar-system/kuiper-belt-oort-cloud.jpg" style="height: 40px;"></span>
+</td>
+<td>
+<a href="./posts/kuiper-oort.html" class="title listing-title">সৌরজগতের ধূমকেতুর দুই উৎস কাইপার বেল্ট ও উর্ট ক্লাউড</a>
+</td>
+<td>
+<span class="listing-author">আব্দুল্যাহ আদিল মাহমুদ</span>
+</td>
+<td>
+<span class="listing-date">Apr 22, 2026</span>
+</td>
+<td>
+<span class="listing-categories">সৌরজগৎ, সূর্য</span>
+</td>
+<td>
+<span class="listing-reading-time">2 min</span>
+</td>
+<td>
+<span class="listing-word-count">307 words</span>
+</td>
 
-<div class="listing-category" onclick="window.quartoListingCategory('JUUwJUE2JUFFJUUwJUE2JUI5JUUwJUE2JUJFJUUwJUE2JTk1JUUwJUE2JUJFJUUwJUE2JUI2JUUwJUE2JUFGJUUwJUE2JUJFJUUwJUE2JUE4'); return false;">মহাকাশযান</div>
+</tr>
 
-<div class="listing-category" onclick="window.quartoListingCategory('JUUwJUE2JTlBJUUwJUE2JUJFJUUwJUE2JTgxJUUwJUE2JUE2'); return false;">চাঁদ</div>
+<tr data-index="4" data-categories="JUUwJUE2JUFFJUUwJUE2JUI5JUUwJUE2JUJFJUUwJUE2JTk1JUUwJUE2JUJFJUUwJUE2JUI2JUUwJUE2JUFGJUUwJUE2JUJFJUUwJUE2JUE4JTJDJUUwJUE2JTlBJUUwJUE2JUJFJUUwJUE2JTgxJUUwJUE2JUE2JTJDJUUwJUE2JUI4JUUwJUE3JThDJUUwJUE2JUIwJUUwJUE2JTlDJUUwJUE2JTk3JUUwJUE3JThF" data-listing-date-sort="1776189600000" data-listing-file-modified-sort="1776952497820" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="390" data-listing-title-sort="আর্টিমিস ২ পৃথিবী ছেড়ে যায়নি!" data-listing-filename-sort="artemis-did-not-leave.qmd">
+<td>
+<span class="listing-image"><img loading="lazy" src="./img/mission/artemis-ii-trajectory.jpg" style="height: 40px;"></span>
+</td>
+<td>
+<a href="./posts/artemis-did-not-leave.html" class="title listing-title">আর্টিমিস ২ পৃথিবী ছেড়ে যায়নি!</a>
+</td>
+<td>
+<span class="listing-author">আব্দুল্যাহ আদিল মাহমুদ</span>
+</td>
+<td>
+<span class="listing-date">Apr 15, 2026</span>
+</td>
+<td>
+<span class="listing-categories">মহাকাশযান, চাঁদ, সৌরজগৎ</span>
+</td>
+<td>
+<span class="listing-reading-time">2 min</span>
+</td>
+<td>
+<span class="listing-word-count">390 words</span>
+</td>
 
-<div class="listing-category" onclick="window.quartoListingCategory('JUUwJUE2JUI4JUUwJUE3JThDJUUwJUE2JUIwJUUwJUE2JTlDJUUwJUE2JTk3JUUwJUE3JThF'); return false;">সৌরজগৎ</div>
+</tr>
 
-</div>
-<div class="card-text listing-description delink">
-<p>পৃথিবী সূর্যের চারদিকে চলছে সেকেন্ডে ৩০ কিলোমিটার বেগে। ঘণ্টায় ১ লাখ কিলোমিটারের বেশি। তারমানে আর্টিমিস ২ পৃথিবীতে আসতে আসতে পৃথিবী আগের জায়গা থেকে দূরে সরেছে ২ কোটি ১৭ লাখ…</p>
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-আব্দুল্যাহ আদিল মাহমুদ
-</div>
-<div class="listing-date">
-Apr 15, 2026
-</div>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="5" data-categories="JUUwJUE2JUE4JUUwJUE2JTk1JUUwJUE3JThEJUUwJUE2JUI3JUUwJUE2JUE0JUUwJUE3JThEJUUwJUE2JUIwJTJDJUUwJUE2JTk1JUUwJUE2JUI4JUUwJUE2JUFFJUUwJUE3JThCJUUwJUE2JUIyJUUwJUE2JTlDJUUwJUE2JUJG" data-listing-date-sort="1760032800000" data-listing-file-modified-sort="1776952545782" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="565">
-<a href="./posts/variable-star.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./img/star/variable.webp" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-বিষম তারার গল্প
-</h5>
-<div class="listing-reading-time card-text text-muted">3 min</div>
-<div class="listing-categories">
+<tr data-index="5" data-categories="JUUwJUE2JUE4JUUwJUE2JTk1JUUwJUE3JThEJUUwJUE2JUI3JUUwJUE2JUE0JUUwJUE3JThEJUUwJUE2JUIwJTJDJUUwJUE2JTk1JUUwJUE2JUI4JUUwJUE2JUFFJUUwJUE3JThCJUUwJUE2JUIyJUUwJUE2JTlDJUUwJUE2JUJG" data-listing-date-sort="1760032800000" data-listing-file-modified-sort="1776952545782" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="565" data-listing-title-sort="বিষম তারার গল্প" data-listing-filename-sort="variable-star.qmd">
+<td>
+<span class="listing-image"><img loading="lazy" src="./img/star/variable.webp" style="height: 40px;"></span>
+</td>
+<td>
+<a href="./posts/variable-star.html" class="title listing-title">বিষম তারার গল্প</a>
+</td>
+<td>
+<span class="listing-author">আব্দুল্যাহ আদিল মাহমুদ</span>
+</td>
+<td>
+<span class="listing-date">Oct 10, 2025</span>
+</td>
+<td>
+<span class="listing-categories">নক্ষত্র, কসমোলজি</span>
+</td>
+<td>
+<span class="listing-reading-time">3 min</span>
+</td>
+<td>
+<span class="listing-word-count">565 words</span>
+</td>
 
-<div class="listing-category" onclick="window.quartoListingCategory('JUUwJUE2JUE4JUUwJUE2JTk1JUUwJUE3JThEJUUwJUE2JUI3JUUwJUE2JUE0JUUwJUE3JThEJUUwJUE2JUIw'); return false;">নক্ষত্র</div>
+</tr>
 
-<div class="listing-category" onclick="window.quartoListingCategory('JUUwJUE2JTk1JUUwJUE2JUI4JUUwJUE2JUFFJUUwJUE3JThCJUUwJUE2JUIyJUUwJUE2JTlDJUUwJUE2JUJG'); return false;">কসমোলজি</div>
+<tr data-index="6" data-categories="JUUwJUE2JUE4JUUwJUE2JTk1JUUwJUE3JThEJUUwJUE2JUI3JUUwJUE2JUE0JUUwJUE3JThEJUUwJUE2JUIwJTJDJUUwJUE2JTk1JUUwJUE2JUI4JUUwJUE2JUFFJUUwJUE3JThCJUUwJUE2JUIyJUUwJUE2JTlDJUUwJUE2JUJG" data-listing-date-sort="1696874400000" data-listing-file-modified-sort="1776952525350" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="577" data-listing-title-sort="লোহিত দানব তারার গল্প" data-listing-filename-sort="red-giant.qmd">
+<td>
+<span class="listing-image"><img loading="lazy" src="https://github.com/bishwo-web/bishwo/blob/main/img/star/red_giant.jpg?raw=true" style="height: 40px;"></span>
+</td>
+<td>
+<a href="./posts/red-giant.html" class="title listing-title">লোহিত দানব তারার গল্প</a>
+</td>
+<td>
+<span class="listing-author">আব্দুল্যাহ আদিল মাহমুদ</span>
+</td>
+<td>
+<span class="listing-date">Oct 10, 2023</span>
+</td>
+<td>
+<span class="listing-categories">নক্ষত্র, কসমোলজি</span>
+</td>
+<td>
+<span class="listing-reading-time">3 min</span>
+</td>
+<td>
+<span class="listing-word-count">577 words</span>
+</td>
 
-</div>
-<div class="card-text listing-description delink">
-<p>বিষম তারার খুব ভাল একটি উদাহরণ লোহিত অতিদানব তারা বিটলজুস। বাংলা নাম আর্দ্রা। কালপুরুষ বা আদমসুরত মণ্ডলের দ্বিতীয় উজ্জ্বল তারা। রাতের আকাশের আপাত উজ্জ্বলতায় ক্রমিক নং ১০।…</p>
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-আব্দুল্যাহ আদিল মাহমুদ
-</div>
-<div class="listing-date">
-Oct 10, 2025
-</div>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="6" data-categories="JUUwJUE2JUE4JUUwJUE2JTk1JUUwJUE3JThEJUUwJUE2JUI3JUUwJUE2JUE0JUUwJUE3JThEJUUwJUE2JUIwJTJDJUUwJUE2JTk1JUUwJUE2JUI4JUUwJUE2JUFFJUUwJUE3JThCJUUwJUE2JUIyJUUwJUE2JTlDJUUwJUE2JUJG" data-listing-date-sort="1696874400000" data-listing-file-modified-sort="1776952525350" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="577">
-<a href="./posts/red-giant.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="https://github.com/bishwo-web/bishwo/blob/main/img/star/red_giant.jpg?raw=true" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-লোহিত দানব তারার গল্প
-</h5>
-<div class="listing-reading-time card-text text-muted">3 min</div>
-<div class="listing-categories">
+</tr>
 
-<div class="listing-category" onclick="window.quartoListingCategory('JUUwJUE2JUE4JUUwJUE2JTk1JUUwJUE3JThEJUUwJUE2JUI3JUUwJUE2JUE0JUUwJUE3JThEJUUwJUE2JUIw'); return false;">নক্ষত্র</div>
+<tr data-index="7" data-categories="JUUwJUE2JUI4JUUwJUE3JTgyJUUwJUE2JUIwJUUwJUE3JThEJUUwJUE2JUFGJTJDJUUwJUE2JTlBJUUwJUE2JUJFJUUwJUE2JTgxJUUwJUE2JUE2JTJDJUUwJUE2JUFBJUUwJUE3JTgzJUUwJUE2JUE1JUUwJUE2JUJGJUUwJUE2JUFDJUUwJUE3JTgwJTJDJUUwJUE2JTg2JUUwJUE2JTk1JUUwJUE2JUJFJUUwJUE2JUI2" data-listing-date-sort="1695146400000" data-listing-file-modified-sort="1776964956555" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="456" data-listing-title-sort="পৃথিবীর আকাশে চাঁদ ও সূর্য দেখতে সমান কেন?" data-listing-filename-sort="why-sun-moon-same-size.qmd">
+<td>
+<span class="listing-image"><img loading="lazy" src="https://github.com/bishwo-web/bishwo/blob/main/img/theory/sun-moon-size.png?raw=true" style="height: 40px;"></span>
+</td>
+<td>
+<a href="./posts/why-sun-moon-same-size.html" class="title listing-title">পৃথিবীর আকাশে চাঁদ ও সূর্য দেখতে সমান কেন?</a>
+</td>
+<td>
+<span class="listing-author">আব্দুল্যাহ আদিল মাহমুদ</span>
+</td>
+<td>
+<span class="listing-date">Sep 20, 2023</span>
+</td>
+<td>
+<span class="listing-categories">সূর্য, চাঁদ, পৃথিবী, আকাশ</span>
+</td>
+<td>
+<span class="listing-reading-time">3 min</span>
+</td>
+<td>
+<span class="listing-word-count">456 words</span>
+</td>
 
-<div class="listing-category" onclick="window.quartoListingCategory('JUUwJUE2JTk1JUUwJUE2JUI4JUUwJUE2JUFFJUUwJUE3JThCJUUwJUE2JUIyJUUwJUE2JTlDJUUwJUE2JUJG'); return false;">কসমোলজি</div>
+</tr>
 
-</div>
-<div class="card-text listing-description delink">
-<p>আরও প্রায় পাঁচশো কোটি বছর সূর্য লোহিত দানব হবে। বর্তমান রাতের আকাশের পরিচিত অনেক তারাই বর্তমানে এ দশায় আছে৷ স্বাতী, ক্যাপেলা, অ্যালডেবারান, জ্যেষ্ঠা (antares) এদের মধ্যে…</p>
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-আব্দুল্যাহ আদিল মাহমুদ
-</div>
-<div class="listing-date">
-Oct 10, 2023
-</div>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="7" data-categories="JUUwJUE2JUI4JUUwJUE3JTgyJUUwJUE2JUIwJUUwJUE3JThEJUUwJUE2JUFGJTJDJUUwJUE2JTlBJUUwJUE2JUJFJUUwJUE2JTgxJUUwJUE2JUE2JTJDJUUwJUE2JUFBJUUwJUE3JTgzJUUwJUE2JUE1JUUwJUE2JUJGJUUwJUE2JUFDJUUwJUE3JTgwJTJDJUUwJUE2JTg2JUUwJUE2JTk1JUUwJUE2JUJFJUUwJUE2JUI2" data-listing-date-sort="1695146400000" data-listing-file-modified-sort="1776964956555" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="456">
-<a href="./posts/why-sun-moon-same-size.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="https://github.com/bishwo-web/bishwo/blob/main/img/theory/sun-moon-size.png?raw=true" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-পৃথিবীর আকাশে চাঁদ ও সূর্য দেখতে সমান কেন?
-</h5>
-<div class="listing-reading-time card-text text-muted">3 min</div>
-<div class="listing-categories">
+<tr data-index="8" data-categories="JUUwJUE2JUI4JUUwJUE3JTgyJUUwJUE2JUIwJUUwJUE3JThEJUUwJUE2JUFGJTJDJUUwJUE2JUI4JUUwJUE3JThDJUUwJUE2JUIwJUUwJUE2JTlDJUUwJUE2JTk3JUUwJUE3JThF" data-listing-date-sort="1694282400000" data-listing-file-modified-sort="1776952508393" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="605" data-listing-title-sort="সূর্য কত বড়?" data-listing-filename-sort="how-big-is-sun.qmd">
+<td>
+<span class="listing-image"><img loading="lazy" src="https://github.com/bishwo-web/bishwo/blob/main/img/earth/earth_sun_size.png?raw=true" style="height: 40px;"></span>
+</td>
+<td>
+<a href="./posts/how-big-is-sun.html" class="title listing-title">সূর্য কত বড়?</a>
+</td>
+<td>
+<span class="listing-author">আব্দুল্যাহ আদিল মাহমুদ</span>
+</td>
+<td>
+<span class="listing-date">Sep 10, 2023</span>
+</td>
+<td>
+<span class="listing-categories">সূর্য, সৌরজগৎ</span>
+</td>
+<td>
+<span class="listing-reading-time">4 min</span>
+</td>
+<td>
+<span class="listing-word-count">605 words</span>
+</td>
 
-<div class="listing-category" onclick="window.quartoListingCategory('JUUwJUE2JUI4JUUwJUE3JTgyJUUwJUE2JUIwJUUwJUE3JThEJUUwJUE2JUFG'); return false;">সূর্য</div>
+</tr>
 
-<div class="listing-category" onclick="window.quartoListingCategory('JUUwJUE2JTlBJUUwJUE2JUJFJUUwJUE2JTgxJUUwJUE2JUE2'); return false;">চাঁদ</div>
+<tr data-index="9" data-categories="JUUwJUE2JUE4JUUwJUE2JTk1JUUwJUE3JThEJUUwJUE2JUI3JUUwJUE2JUE0JUUwJUE3JThEJUUwJUE2JUIwJTJDJUUwJUE2JUFFJUUwJUE2JUI5JUUwJUE2JUJFJUUwJUE2JUFDJUUwJUE2JUJGJUUwJUE2JUI2JUUwJUE3JThEJUUwJUE2JUFDJTJDJUUwJUE2JTk1JUUwJUE2JUI4JUUwJUE2JUFFJUUwJUE3JThCJUUwJUE2JUIyJUUwJUE2JTlDJUUwJUE2JUJG" data-listing-date-sort="1507572000000" data-listing-file-modified-sort="1776952538495" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5" data-listing-word-count-sort="984" data-listing-title-sort="মহাবিশ্বের জন্মের আগের নক্ষত্র!" data-listing-filename-sort="star-vs-universe.qmd">
+<td>
+<span class="listing-image"><img loading="lazy" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEizYtljb3X3TLiSDvaCz3IBSClhWKRJguDT_xqpqBxoLW-oT1I4zpbiYya5IfsGW4yaEC6fpSmcq1qifh5fgwWC6w3U7330KqfeOk5_SzKKH5kPabNjICShMYWGFZtHSP9ksJUZr0xfaU4/s640/universe.jpg" style="height: 40px;"></span>
+</td>
+<td>
+<a href="./posts/star-vs-universe.html" class="title listing-title">মহাবিশ্বের জন্মের আগের নক্ষত্র!</a>
+</td>
+<td>
+<span class="listing-author">আব্দুল্যাহ আদিল মাহমুদ</span>
+</td>
+<td>
+<span class="listing-date">Oct 10, 2017</span>
+</td>
+<td>
+<span class="listing-categories">নক্ষত্র, মহাবিশ্ব, কসমোলজি</span>
+</td>
+<td>
+<span class="listing-reading-time">5 min</span>
+</td>
+<td>
+<span class="listing-word-count">984 words</span>
+</td>
 
-<div class="listing-category" onclick="window.quartoListingCategory('JUUwJUE2JUFBJUUwJUE3JTgzJUUwJUE2JUE1JUUwJUE2JUJGJUUwJUE2JUFDJUUwJUE3JTgw'); return false;">পৃথিবী</div>
+</tr>
 
-<div class="listing-category" onclick="window.quartoListingCategory('JUUwJUE2JTg2JUUwJUE2JTk1JUUwJUE2JUJFJUUwJUE2JUI2'); return false;">আকাশ</div>
+<tr data-index="10" data-categories="JUUwJUE2JTlDJUUwJUE3JTgwJUUwJUE2JUFDJUUwJUE2JUE4JUUwJUE3JTgwJTJDJUUwJUE2JUFDJUUwJUE2JUJFJUUwJUE2JTk5JUUwJUE2JUJFJUUwJUE2JUIyJUUwJUE2JUJGLSVFMCVBNiVBQyVFMCVBNiVCRiVFMCVBNiU5QyVFMCVBNyU4RCVFMCVBNiU5RSVFMCVBNiVCRSVFMCVBNiVBOCVFMCVBNyU4MA==" data-listing-date-sort="1487181600000" data-listing-file-modified-sort="1777009620855" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="556" data-listing-title-sort="স্মরণে মেঘনাদ সাহা" data-listing-filename-sort="meghnad-saha.qmd">
+<td>
+<span class="listing-image"><img loading="lazy" src="./img/bio/meghnad_saha.jpg" style="height: 40px;"></span>
+</td>
+<td>
+<a href="./posts/meghnad-saha.html" class="title listing-title">স্মরণে মেঘনাদ সাহা</a>
+</td>
+<td>
+<span class="listing-author">নাসরুল্লাহ মাসুদ</span>
+</td>
+<td>
+<span class="listing-date">Feb 16, 2017</span>
+</td>
+<td>
+<span class="listing-categories">জীবনী, বাঙালি-বিজ্ঞানী</span>
+</td>
+<td>
+<span class="listing-reading-time">3 min</span>
+</td>
+<td>
+<span class="listing-word-count">556 words</span>
+</td>
 
-</div>
-<div class="card-text listing-description delink">
-<p>পৃথিবী থেকে চাঁদের তুলনায় সূর্যের দূরত্ব ৪০০ গুণ৷ আবার সূর্যের আকার চাঁদের ৪০০ গুণ। ফলে চাঁদের তুলনায় সূর্যের বিশালতা আমাদের চোখে হারিয়ে যায় দূরত্বের কারণে৷</p>
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-আব্দুল্যাহ আদিল মাহমুদ
-</div>
-<div class="listing-date">
-Sep 20, 2023
-</div>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="8" data-categories="JUUwJUE2JUI4JUUwJUE3JTgyJUUwJUE2JUIwJUUwJUE3JThEJUUwJUE2JUFGJTJDJUUwJUE2JUI4JUUwJUE3JThDJUUwJUE2JUIwJUUwJUE2JTlDJUUwJUE2JTk3JUUwJUE3JThF" data-listing-date-sort="1694282400000" data-listing-file-modified-sort="1776952508393" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="605">
-<a href="./posts/how-big-is-sun.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="https://github.com/bishwo-web/bishwo/blob/main/img/earth/earth_sun_size.png?raw=true" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-সূর্য কত বড়?
-</h5>
-<div class="listing-reading-time card-text text-muted">4 min</div>
-<div class="listing-categories">
+</tr>
 
-<div class="listing-category" onclick="window.quartoListingCategory('JUUwJUE2JUI4JUUwJUE3JTgyJUUwJUE2JUIwJUUwJUE3JThEJUUwJUE2JUFG'); return false;">সূর্য</div>
+<tr data-index="11" data-categories="JUUwJUE2JUE4JUUwJUE2JTk1JUUwJUE3JThEJUUwJUE2JUI3JUUwJUE2JUE0JUUwJUE3JThEJUUwJUE2JUIwJTJDJUUwJUE2JUFFJUUwJUE2JUI5JUUwJUE2JUJFJUUwJUE2JUFDJUUwJUE2JUJGJUUwJUE2JUI2JUUwJUE3JThEJUUwJUE2JUFDJTJDJUUwJUE2JUE2JUUwJUE3JTgyJUUwJUE2JUIwJUUwJUE2JUE0JUUwJUE3JThEJUUwJUE2JUFDJTJDJUUwJUE2JUFBJUUwJUE2JUIwJUUwJUE2JUJGJUUwJUE2JUFEJUUwJUE2JUJFJUUwJUE2JUI3JUUwJUE2JUJF" data-listing-date-sort="1444413600000" data-listing-file-modified-sort="1776952516424" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="245" data-listing-title-sort="এক পারসেক কত বড়?" data-listing-filename-sort="parsec.qmd">
+<td>
+<span class="listing-image"><img loading="lazy" src="./img/universe/universe.jpg" style="height: 40px;"></span>
+</td>
+<td>
+<a href="./posts/parsec.html" class="title listing-title">এক পারসেক কত বড়?</a>
+</td>
+<td>
+<span class="listing-author">আব্দুল্যাহ আদিল মাহমুদ</span>
+</td>
+<td>
+<span class="listing-date">Oct 10, 2015</span>
+</td>
+<td>
+<span class="listing-categories">নক্ষত্র, মহাবিশ্ব, দূরত্ব, পরিভাষা</span>
+</td>
+<td>
+<span class="listing-reading-time">2 min</span>
+</td>
+<td>
+<span class="listing-word-count">245 words</span>
+</td>
 
-<div class="listing-category" onclick="window.quartoListingCategory('JUUwJUE2JUI4JUUwJUE3JThDJUUwJUE2JUIwJUUwJUE2JTlDJUUwJUE2JTk3JUUwJUE3JThF'); return false;">সৌরজগৎ</div>
+</tr>
 
-</div>
-<div class="card-text listing-description delink">
-<p>সূর্য সৌরজগতের সবচেয়ে বড় বস্তু। যেমন ভারী, তেমনি তার বিশাল অবয়ব৷ সৌরজগতের মোট ভরের ৯৯.৮৬ ভাগ ভরই সূর্যের একার৷ আর আকার? ১০৯টা পৃথিবীকে পাশাপাশি বসালে সূর্যের এপাশ থেকে ওপাশ…</p>
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-আব্দুল্যাহ আদিল মাহমুদ
-</div>
-<div class="listing-date">
-Sep 10, 2023
-</div>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="9" data-categories="JUUwJUE2JUE4JUUwJUE2JTk1JUUwJUE3JThEJUUwJUE2JUI3JUUwJUE2JUE0JUUwJUE3JThEJUUwJUE2JUIwJTJDJUUwJUE2JUFFJUUwJUE2JUI5JUUwJUE2JUJFJUUwJUE2JUFDJUUwJUE2JUJGJUUwJUE2JUI2JUUwJUE3JThEJUUwJUE2JUFDJTJDJUUwJUE2JTk1JUUwJUE2JUI4JUUwJUE2JUFFJUUwJUE3JThCJUUwJUE2JUIyJUUwJUE2JTlDJUUwJUE2JUJG" data-listing-date-sort="1507572000000" data-listing-file-modified-sort="1776952538495" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5" data-listing-word-count-sort="984">
-<a href="./posts/star-vs-universe.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEizYtljb3X3TLiSDvaCz3IBSClhWKRJguDT_xqpqBxoLW-oT1I4zpbiYya5IfsGW4yaEC6fpSmcq1qifh5fgwWC6w3U7330KqfeOk5_SzKKH5kPabNjICShMYWGFZtHSP9ksJUZr0xfaU4/s640/universe.jpg" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-মহাবিশ্বের জন্মের আগের নক্ষত্র!
-</h5>
-<div class="listing-reading-time card-text text-muted">5 min</div>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('JUUwJUE2JUE4JUUwJUE2JTk1JUUwJUE3JThEJUUwJUE2JUI3JUUwJUE2JUE0JUUwJUE3JThEJUUwJUE2JUIw'); return false;">নক্ষত্র</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('JUUwJUE2JUFFJUUwJUE2JUI5JUUwJUE2JUJFJUUwJUE2JUFDJUUwJUE2JUJGJUUwJUE2JUI2JUUwJUE3JThEJUUwJUE2JUFD'); return false;">মহাবিশ্ব</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('JUUwJUE2JTk1JUUwJUE2JUI4JUUwJUE2JUFFJUUwJUE3JThCJUUwJUE2JUIyJUUwJUE2JTlDJUUwJUE2JUJG'); return false;">কসমোলজি</div>
-
-</div>
-<div class="card-text listing-description delink">
-<p>আরও প্রায় পাঁচশো কোটি বছর সূর্য লোহিত দানব হবে। বর্তমান রাতের আকাশের পরিচিত অনেক তারাই বর্তমানে এ দশায় আছে৷ স্বাতী, ক্যাপেলা, অ্যালডেবারান, জ্যেষ্ঠা (antares) এদের মধ্যে…</p>
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-আব্দুল্যাহ আদিল মাহমুদ
-</div>
-<div class="listing-date">
-Oct 10, 2017
-</div>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="10" data-categories="JUUwJUE2JTlDJUUwJUE3JTgwJUUwJUE2JUFDJUUwJUE2JUE4JUUwJUE3JTgwJTJDJUUwJUE2JUFDJUUwJUE2JUJFJUUwJUE2JTk5JUUwJUE2JUJFJUUwJUE2JUIyJUUwJUE2JUJGLSVFMCVBNiVBQyVFMCVBNiVCRiVFMCVBNiU5QyVFMCVBNyU4RCVFMCVBNiU5RSVFMCVBNiVCRSVFMCVBNiVBOCVFMCVBNyU4MA==" data-listing-date-sort="1487181600000" data-listing-file-modified-sort="1777009620855" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="556">
-<a href="./posts/meghnad-saha.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./img/bio/meghnad_saha.jpg" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-স্মরণে মেঘনাদ সাহা
-</h5>
-<div class="listing-reading-time card-text text-muted">3 min</div>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('JUUwJUE2JTlDJUUwJUE3JTgwJUUwJUE2JUFDJUUwJUE2JUE4JUUwJUE3JTgw'); return false;">জীবনী</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('JUUwJUE2JUFDJUUwJUE2JUJFJUUwJUE2JTk5JUUwJUE2JUJFJUUwJUE2JUIyJUUwJUE2JUJGLSVFMCVBNiVBQyVFMCVBNiVCRiVFMCVBNiU5QyVFMCVBNyU4RCVFMCVBNiU5RSVFMCVBNiVCRSVFMCVBNiVBOCVFMCVBNyU4MA=='); return false;">বাঙালি-বিজ্ঞানী</div>
-
-</div>
-<div class="card-text listing-description delink">
-<p>মেঘনাদ সাহার জন্ম ১৮৯৩ সালের ৬ অক্টোবর ঢাকার কাছে শ্যাওড়াতলী গ্রামে। তিনি পদার্থের তাপীয় আয়নীকরণ বিষয়ে বিস্তর গবেষণা করেছিলেন। এই গবেষণার ফলস্বরূপ তিনি একটি সমীকরণ প্রদান…</p>
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-নাসরুল্লাহ মাসুদ
-</div>
-<div class="listing-date">
-Feb 16, 2017
-</div>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="11" data-categories="JUUwJUE2JUE4JUUwJUE2JTk1JUUwJUE3JThEJUUwJUE2JUI3JUUwJUE2JUE0JUUwJUE3JThEJUUwJUE2JUIwJTJDJUUwJUE2JUFFJUUwJUE2JUI5JUUwJUE2JUJFJUUwJUE2JUFDJUUwJUE2JUJGJUUwJUE2JUI2JUUwJUE3JThEJUUwJUE2JUFDJTJDJUUwJUE2JUE2JUUwJUE3JTgyJUUwJUE2JUIwJUUwJUE2JUE0JUUwJUE3JThEJUUwJUE2JUFDJTJDJUUwJUE2JUFBJUUwJUE2JUIwJUUwJUE2JUJGJUUwJUE2JUFEJUUwJUE2JUJFJUUwJUE2JUI3JUUwJUE2JUJF" data-listing-date-sort="1444413600000" data-listing-file-modified-sort="1776952516424" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="245">
-<a href="./posts/parsec.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./img/universe/universe.jpg" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-এক পারসেক কত বড়?
-</h5>
-<div class="listing-reading-time card-text text-muted">2 min</div>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('JUUwJUE2JUE4JUUwJUE2JTk1JUUwJUE3JThEJUUwJUE2JUI3JUUwJUE2JUE0JUUwJUE3JThEJUUwJUE2JUIw'); return false;">নক্ষত্র</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('JUUwJUE2JUFFJUUwJUE2JUI5JUUwJUE2JUJFJUUwJUE2JUFDJUUwJUE2JUJGJUUwJUE2JUI2JUUwJUE3JThEJUUwJUE2JUFD'); return false;">মহাবিশ্ব</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('JUUwJUE2JUE2JUUwJUE3JTgyJUUwJUE2JUIwJUUwJUE2JUE0JUUwJUE3JThEJUUwJUE2JUFD'); return false;">দূরত্ব</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('JUUwJUE2JUFBJUUwJUE2JUIwJUUwJUE2JUJGJUUwJUE2JUFEJUUwJUE2JUJFJUUwJUE2JUI3JUUwJUE2JUJF'); return false;">পরিভাষা</div>
-
-</div>
-<div class="card-text listing-description delink">
-<p>পারসেকের মান আলোকবর্ষের প্রায় তিনগুণ। সঠিক করে বললে ৩.২৬ গুণ। মানে, এক পারসেক = ৩.২৬ আলোকবর্ষ৷ পারসেক কথাটা এসেছে প্যারালাক্স অব ওয়ান সেকেন্ড বা এক সেকেন্ডের প্যারালাক্স…</p>
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-আব্দুল্যাহ আদিল মাহমুদ
-</div>
-<div class="listing-date">
-Oct 10, 2015
-</div>
-</div>
-</div>
-</div></a>
-</div>
-</div>
+</tbody>
+</table>
 <div class="listing-no-matching d-none">No matching items</div>
 </div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

@@ -4,7 +4,7 @@ sidebar: nasrullah-masud
 listing:
   contents: posts
   categories: true
-  type: default
+  type: grid
   max-items: 6
   feed: false
   sort-ui: true
