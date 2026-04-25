@@ -50,20 +50,20 @@ title-block-banner: true
 
 ### সৌরজগৎ
 
-[সকল পোস্ট দেখুন](latest.html#category=সৌরজগৎ)
-
 ::: {#solar-system}
 :::
+
+[সকল পোস্ট দেখুন](latest.html#category=সৌরজগৎ)
 
 ::::
 ::::{.g-col-12 .g-col-md-6 .animate__animated .animate__fadeIn .animate__faster .animate__delay-1s}
 
 ### মহাবিশ্ব
 
-[সকল পোস্ট দেখুন](latest.html#category=মহাবিশ্ব)
-
 ::: {#universe}
 :::
+
+[সকল পোস্ট দেখুন](latest.html#category=মহাবিশ্ব)
 
 ::::
 :::::

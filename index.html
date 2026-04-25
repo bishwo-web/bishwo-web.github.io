@@ -112,7 +112,7 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-image','listing-date','listing-title','listing-author',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-title-sort'] }],
+      valueNames: ['listing-image','listing-title','listing-author','listing-date',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-title-sort'] }],
       
       searchColumns: ["listing-date","listing-title","listing-author"],
     };
@@ -140,9 +140,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-image','listing-date','listing-title','listing-author',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-image','listing-title','listing-author','listing-date',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-title-sort'] }],
       
-      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description","listing-categories"],
+      searchColumns: ["listing-date","listing-title","listing-author"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -770,7 +770,6 @@ Oct 10, 2015
 <div class="grid">
 <section id="সরজগৎ" class="level3 g-col-12 g-col-md-6 animate__animated animate__fadeIn animate__faster animate__delay-1s">
 <h3 class="anchored" data-anchor-id="সরজগৎ">সৌরজগৎ</h3>
-<p><a href="latest.html#category=সৌরজগৎ">সকল পোস্ট দেখুন</a></p>
 <div id="listing-solar-system" class="quarto-listing quarto-listing-container-table">
 <table class="quarto-listing-table table">
 <thead>
@@ -781,15 +780,15 @@ Oct 10, 2015
 </th>
 
 <th>
-Date
-</th>
-
-<th>
 Title
 </th>
 
 <th>
 Author
+</th>
+
+<th>
+Date
 </th>
 
 </tr>
@@ -801,13 +800,13 @@ Author
 <span class="listing-image"><img loading="lazy" src="./img/solar-system/ceres.jpg" style="height: 40px;"></span>
 </td>
 <td>
-<span class="listing-date">Apr 25, 2026</span>
-</td>
-<td>
 <a href="./posts/ceres-asteroid-or-dwarf-planet.html" class="title listing-title">সেরেস: গ্রহাণু নাকি বামন গ্রহ?</a>
 </td>
 <td>
 <span class="listing-author">আব্দুল্যাহ আদিল মাহমুদ</span>
+</td>
+<td>
+<span class="listing-date">Apr 25, 2026</span>
 </td>
 
 </tr>
@@ -817,13 +816,13 @@ Author
 <span class="listing-image"><img loading="lazy" src="./img/solar-system/ganymede-juno.jpg" style="height: 40px;"></span>
 </td>
 <td>
-<span class="listing-date">Apr 25, 2026</span>
-</td>
-<td>
 <a href="./posts/ganymede.html" class="title listing-title">গ্যানিমিড: সৌরজগতের সবচেয়ে বড় উপগ্রহ</a>
 </td>
 <td>
 <span class="listing-author">আব্দুল্যাহ আদিল মাহমুদ</span>
+</td>
+<td>
+<span class="listing-date">Apr 25, 2026</span>
 </td>
 
 </tr>
@@ -833,13 +832,13 @@ Author
 <span class="listing-image"><img loading="lazy" src="./img/solar-system/saturn.jpg" style="height: 40px;"></span>
 </td>
 <td>
-<span class="listing-date">Apr 23, 2026</span>
-</td>
-<td>
 <a href="./posts/saturn-moons.html" class="title listing-title">শনি গ্রহের উপগ্রহ এখন কয়টি?</a>
 </td>
 <td>
 <span class="listing-author">আব্দুল্যাহ আদিল মাহমুদ</span>
+</td>
+<td>
+<span class="listing-date">Apr 23, 2026</span>
 </td>
 
 </tr>
@@ -849,13 +848,13 @@ Author
 <span class="listing-image"><img loading="lazy" src="./img/solar-system/kuiper-belt-oort-cloud.jpg" style="height: 40px;"></span>
 </td>
 <td>
-<span class="listing-date">Apr 22, 2026</span>
-</td>
-<td>
 <a href="./posts/kuiper-oort.html" class="title listing-title">সৌরজগতের ধূমকেতুর দুই উৎস কাইপার বেল্ট ও উর্ট ক্লাউড</a>
 </td>
 <td>
 <span class="listing-author">আব্দুল্যাহ আদিল মাহমুদ</span>
+</td>
+<td>
+<span class="listing-date">Apr 22, 2026</span>
 </td>
 
 </tr>
@@ -865,13 +864,13 @@ Author
 <span class="listing-image"><img loading="lazy" src="./img/mission/artemis-ii-trajectory.jpg" style="height: 40px;"></span>
 </td>
 <td>
-<span class="listing-date">Apr 15, 2026</span>
-</td>
-<td>
 <a href="./posts/artemis-did-not-leave.html" class="title listing-title">আর্টিমিস ২ পৃথিবী ছেড়ে যায়নি!</a>
 </td>
 <td>
 <span class="listing-author">আব্দুল্যাহ আদিল মাহমুদ</span>
+</td>
+<td>
+<span class="listing-date">Apr 15, 2026</span>
 </td>
 
 </tr>
@@ -880,57 +879,72 @@ Author
 </table>
 <div class="listing-no-matching d-none">No matching items</div>
 </div>
+<p><a href="latest.html#category=সৌরজগৎ">সকল পোস্ট দেখুন</a></p>
 </section>
 <section id="মহবশব" class="level3 g-col-12 g-col-md-6 animate__animated animate__fadeIn animate__faster animate__delay-1s">
 <h3 class="anchored" data-anchor-id="মহবশব">মহাবিশ্ব</h3>
-<p><a href="latest.html#category=মহাবিশ্ব">সকল পোস্ট দেখুন</a></p>
-<div id="listing-universe" class="quarto-listing quarto-listing-container-grid">
-<div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-categories="JUUwJUE2JUE4JUUwJUE2JTk1JUUwJUE3JThEJUUwJUE2JUI3JUUwJUE2JUE0JUUwJUE3JThEJUUwJUE2JUIwJTJDJUUwJUE2JUFFJUUwJUE2JUI5JUUwJUE2JUJFJUUwJUE2JUFDJUUwJUE2JUJGJUUwJUE2JUI2JUUwJUE3JThEJUUwJUE2JUFDJTJDJUUwJUE2JTk1JUUwJUE2JUI4JUUwJUE2JUFFJUUwJUE3JThCJUUwJUE2JUIyJUUwJUE2JTlDJUUwJUE2JUJG" data-listing-date-sort="1507572000000" data-listing-file-modified-sort="1776952538495" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5" data-listing-word-count-sort="984">
-<a href="./posts/star-vs-universe.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEizYtljb3X3TLiSDvaCz3IBSClhWKRJguDT_xqpqBxoLW-oT1I4zpbiYya5IfsGW4yaEC6fpSmcq1qifh5fgwWC6w3U7330KqfeOk5_SzKKH5kPabNjICShMYWGFZtHSP9ksJUZr0xfaU4/s640/universe.jpg" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-মহাবিশ্বের জন্মের আগের নক্ষত্র!
-</h5>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-আব্দুল্যাহ আদিল মাহমুদ
-</div>
-<div class="listing-date">
-Oct 10, 2017
-</div>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="1" data-categories="JUUwJUE2JUE4JUUwJUE2JTk1JUUwJUE3JThEJUUwJUE2JUI3JUUwJUE2JUE0JUUwJUE3JThEJUUwJUE2JUIwJTJDJUUwJUE2JUFFJUUwJUE2JUI5JUUwJUE2JUJFJUUwJUE2JUFDJUUwJUE2JUJGJUUwJUE2JUI2JUUwJUE3JThEJUUwJUE2JUFDJTJDJUUwJUE2JUE2JUUwJUE3JTgyJUUwJUE2JUIwJUUwJUE2JUE0JUUwJUE3JThEJUUwJUE2JUFDJTJDJUUwJUE2JUFBJUUwJUE2JUIwJUUwJUE2JUJGJUUwJUE2JUFEJUUwJUE2JUJFJUUwJUE2JUI3JUUwJUE2JUJF" data-listing-date-sort="1444413600000" data-listing-file-modified-sort="1776952516424" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="245">
-<a href="./posts/parsec.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./img/universe/universe.jpg" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-এক পারসেক কত বড়?
-</h5>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-আব্দুল্যাহ আদিল মাহমুদ
-</div>
-<div class="listing-date">
-Oct 10, 2015
-</div>
-</div>
-</div>
-</div></a>
-</div>
-</div>
+<div id="listing-universe" class="quarto-listing quarto-listing-container-table">
+<table class="quarto-listing-table table">
+<thead>
+<tr>
+
+<th>
+ 
+</th>
+
+<th>
+Title
+</th>
+
+<th>
+Author
+</th>
+
+<th>
+Date
+</th>
+
+</tr>
+</thead>
+<tbody class="list">
+
+<tr data-index="0" data-categories="JUUwJUE2JUE4JUUwJUE2JTk1JUUwJUE3JThEJUUwJUE2JUI3JUUwJUE2JUE0JUUwJUE3JThEJUUwJUE2JUIwJTJDJUUwJUE2JUFFJUUwJUE2JUI5JUUwJUE2JUJFJUUwJUE2JUFDJUUwJUE2JUJGJUUwJUE2JUI2JUUwJUE3JThEJUUwJUE2JUFDJTJDJUUwJUE2JTk1JUUwJUE2JUI4JUUwJUE2JUFFJUUwJUE3JThCJUUwJUE2JUIyJUUwJUE2JTlDJUUwJUE2JUJG" data-listing-date-sort="1507572000000" data-listing-file-modified-sort="1776952538495" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5" data-listing-word-count-sort="984" data-listing-title-sort="মহাবিশ্বের জন্মের আগের নক্ষত্র!" data-listing-filename-sort="star-vs-universe.qmd">
+<td>
+<span class="listing-image"><img loading="lazy" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEizYtljb3X3TLiSDvaCz3IBSClhWKRJguDT_xqpqBxoLW-oT1I4zpbiYya5IfsGW4yaEC6fpSmcq1qifh5fgwWC6w3U7330KqfeOk5_SzKKH5kPabNjICShMYWGFZtHSP9ksJUZr0xfaU4/s640/universe.jpg" style="height: 40px;"></span>
+</td>
+<td>
+<a href="./posts/star-vs-universe.html" class="title listing-title">মহাবিশ্বের জন্মের আগের নক্ষত্র!</a>
+</td>
+<td>
+<span class="listing-author">আব্দুল্যাহ আদিল মাহমুদ</span>
+</td>
+<td>
+<span class="listing-date">Oct 10, 2017</span>
+</td>
+
+</tr>
+
+<tr data-index="1" data-categories="JUUwJUE2JUE4JUUwJUE2JTk1JUUwJUE3JThEJUUwJUE2JUI3JUUwJUE2JUE0JUUwJUE3JThEJUUwJUE2JUIwJTJDJUUwJUE2JUFFJUUwJUE2JUI5JUUwJUE2JUJFJUUwJUE2JUFDJUUwJUE2JUJGJUUwJUE2JUI2JUUwJUE3JThEJUUwJUE2JUFDJTJDJUUwJUE2JUE2JUUwJUE3JTgyJUUwJUE2JUIwJUUwJUE2JUE0JUUwJUE3JThEJUUwJUE2JUFDJTJDJUUwJUE2JUFBJUUwJUE2JUIwJUUwJUE2JUJGJUUwJUE2JUFEJUUwJUE2JUJFJUUwJUE2JUI3JUUwJUE2JUJF" data-listing-date-sort="1444413600000" data-listing-file-modified-sort="1776952516424" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="245" data-listing-title-sort="এক পারসেক কত বড়?" data-listing-filename-sort="parsec.qmd">
+<td>
+<span class="listing-image"><img loading="lazy" src="./img/universe/universe.jpg" style="height: 40px;"></span>
+</td>
+<td>
+<a href="./posts/parsec.html" class="title listing-title">এক পারসেক কত বড়?</a>
+</td>
+<td>
+<span class="listing-author">আব্দুল্যাহ আদিল মাহমুদ</span>
+</td>
+<td>
+<span class="listing-date">Oct 10, 2015</span>
+</td>
+
+</tr>
+
+</tbody>
+</table>
 <div class="listing-no-matching d-none">No matching items</div>
 </div>
+<p><a href="latest.html#category=মহাবিশ্ব">সকল পোস্ট দেখুন</a></p>
 </section>
 </div>
 
