@@ -12,7 +12,7 @@ listing:
   filter-ui: true
   feed: true
   page-size: 30
-  fields: [title, image, author, date]
+  fields: [image, title, author, date]
 page-layout: full
 title-block-banner: true
 ---

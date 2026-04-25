@@ -3,16 +3,37 @@
 # subtitle: "পৃথিবী ও মহাবিশ্বের গল্প"
 sidebar: true
 listing:
-  contents: posts
-  sort: "date desc"
-  type: grid
-  page-size: 9
-  categories: numbered
-  image-placeholder: img/site/thumb.jpg
-  sort-ui: true
-  filter-ui: true
-  feed: true
-  fields: [image, date, title, author, reading-time, categories, description]
+  - id: landing-posts
+    contents: posts
+    sort: "date desc"
+    type: grid
+    page-size: 6
+    categories: numbered
+    image-placeholder: img/site/thumb.jpg
+    sort-ui: true
+    filter-ui: true
+    feed: false
+    fields: [image, date, title, author, categories, description]
+  - id: solar-system
+    contents: posts
+    sort-ui: false
+    filter-ui: false
+    max-items: 5
+    sort: "date desc"
+    type: table
+    fields: [image, title, author, date]
+    include:
+      categories: [সৌরজগৎ]
+  - id: universe
+    contents: posts
+    sort-ui: false
+    filter-ui: false
+    max-items: 5
+    sort: "date desc"
+    type: table
+    fields: [image, title, author, date]
+    include:
+      categories: [মহাবিশ্ব]
 page-layout: full
 title-block-banner: true
 ---
@@ -21,3 +42,28 @@ title-block-banner: true
 এ সাইটটি বর্তমানে নির্মাণাধীন। জ্যোতির্বিজ্ঞান নিয়ে আমাদের মূল সাইট [sky.bishwo.com সচল থাকবে।](https://sky.bishwo.com/) । তবে ভবিষ্যতে এখানেই সব আপডেট পাওয়া যাবে।
 :::
 
+:::{#landing-posts}
+:::
+
+:::::{.grid}
+::::{.g-col-12 .g-col-md-6 .animate__animated .animate__fadeIn .animate__faster .animate__delay-1s}
+
+### সৌরজগৎ
+
+[সকল পোস্ট দেখুন](latest.html#category=সৌরজগৎ)
+
+::: {#solar-system}
+:::
+
+::::
+::::{.g-col-12 .g-col-md-6 .animate__animated .animate__fadeIn .animate__faster .animate__delay-1s}
+
+### মহাবিশ্ব
+
+[সকল পোস্ট দেখুন](latest.html#category=মহাবিশ্ব)
+
+::: {#universe}
+:::
+
+::::
+:::::
