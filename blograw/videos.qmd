@@ -1,0 +1,20 @@
+---
+title: "ভিডিও গ্যালারি"
+# subtitle: "পৃথিবী ও মহাবিশ্বের গল্প"
+page-layout: full
+---
+
+::: {layout-nrow=2}
+
+[![আর্টিমিস ২ চাঁদ থেকে গতিশীল পৃথিবীতে কীভাবে ফিরে এল?](img/tube/artemis-ii.png)](https://www.youtube.com/watch?v=DLrXv0DjOV8)
+
+{{< video https://www.youtube.com/watch?v=DLrXv0DjOV8 data-external="1"
+title="আর্টিমিস ২ চাঁদ থেকে গতিশীল পৃথিবীতে কীভাবে ফিরে এল?" >}}
+
+{{< video https://www.youtube.com/watch?v=UglbyDT0FPg data-external="1"
+aria-label="ওয়েবসাইট" >}}
+
+{{< video https://www.youtube.com/watch?v=UglbyDT0FPg data-external="1"
+aria-label="ওয়েবসাইট" >}}
+:::
+
