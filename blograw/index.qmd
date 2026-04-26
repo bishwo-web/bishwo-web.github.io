@@ -8,14 +8,14 @@ listing:
     sort: "date desc"
     type: grid
 #    page-size: 6
-    max-items: 4
-    grid-columns: 4
-    categories: numbered
+    max-items: 5
+    grid-columns: 5
+#    categories: numbered
     image-placeholder: img/site/thumb.jpg
     sort-ui: true
     filter-ui: true
     feed: false
-    fields: [image, date, title, author, categories]
+    fields: [image, date, title]
   - id: solar-system
     contents: posts
     sort-ui: false
@@ -32,7 +32,9 @@ listing:
     filter-ui: false
     max-items: 5
     sort: "date desc"
-    type: table
+    type: grid
+    grid-columns: 2
+    image-height: 80px
     fields: [image, title, date]
     include:
       categories: [মহাবিশ্ব]

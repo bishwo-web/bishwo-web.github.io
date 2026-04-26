@@ -33,13 +33,13 @@ website:
       - href: index.qmd
         text: হোম
         icon: house
-      - href: "index.html#category=সৌরজগৎ"
+      - href: "latest.htmll#category=সৌরজগৎ"
         text: সৌরজগৎ
         icon: sun
-      - href: "index.html#category=নক্ষত্র"
+      - href: "latest.htmll#category=নক্ষত্র"
         text: নক্ষত্র
         icon: stars
-      - href: "index.html#category=রাতের আকাশ"
+      - href: "latest.htmll#category=রাতের আকাশ"
         text: রাতের আকাশ
         icon: moon-stars-fill
       - text: "সাম্প্রতিক"
@@ -53,7 +53,7 @@ website:
             href: "https://www.youtube.com/@Bishwotube"
           - text: "কসমোলজি"
             icon: tropical-storm
-            href: "index.html#category=কসমোলজি"
+            href: "latest.htmll#category=কসমোলজি"
       - href: "https://sky.bishwo.com/"
         text: আর্কাইভ
     right:
