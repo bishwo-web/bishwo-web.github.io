@@ -1,6 +1,8 @@
 project:
   type: website
   output-dir: ../
+  pre-render:
+    - python3 related_posts.py
 
 website:
   title: "বিশ্ব ডট কম"
@@ -33,13 +35,13 @@ website:
       - href: index.qmd
         text: হোম
         icon: house
-      - href: "latest.htmll#category=সৌরজগৎ"
+      - href: "latest.html#category=সৌরজগৎ"
         text: সৌরজগৎ
         icon: sun
-      - href: "latest.htmll#category=নক্ষত্র"
+      - href: "latest.html#category=নক্ষত্র"
         text: নক্ষত্র
         icon: stars
-      - href: "latest.htmll#category=রাতের আকাশ"
+      - href: "latest.html#category=রাতের আকাশ"
         text: রাতের আকাশ
         icon: moon-stars-fill
       - text: "সাম্প্রতিক"
@@ -53,7 +55,7 @@ website:
             href: "https://www.youtube.com/@Bishwotube"
           - text: "কসমোলজি"
             icon: tropical-storm
-            href: "latest.htmll#category=কসমোলজি"
+            href: "latest.html#category=কসমোলজি"
       - href: "https://sky.bishwo.com/"
         text: আর্কাইভ
     right:

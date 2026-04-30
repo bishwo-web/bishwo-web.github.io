@@ -38,3 +38,4 @@ description: আরও প্রায় পাঁচশো কোটি বছর
 - https://earthsky.org/astronomy-essentials/what-are-red-giants-definition/
 - http://sunshine.chpc.utah.edu/Labs/StarLife/remnants.html#
 - https://www.cfa.harvard.edu/research/topic/planetary-nebulas#
+{{< include ../_related.qmd >}}

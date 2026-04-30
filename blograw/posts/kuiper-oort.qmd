@@ -29,3 +29,4 @@ description: কাইপের বেল্টের বিস্তৃতি �
 
 - https://science.nasa.gov/solar-system/oort-cloud/facts/
 - https://www.esa.int/ESA_Multimedia/Images/2014/12/Kuiper_Belt_and_Oort_Cloud_in_context
+{{< include ../_related.qmd >}}

@@ -1,8 +1,33 @@
 import os
+import time
 import pandas as pd
 import re
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
+
+def generate_similarity_matrix():
+    script_dir = os.path.dirname(os.path.abspath(__file__))
+    posts_dir = os.path.join(script_dir, 'posts')
+    csv_path = os.path.join(script_dir, 'related_posts.csv')
+
+    # --- Optimization Logic ---
+    if os.path.exists(csv_path):
+        csv_mtime = os.path.getmtime(csv_path)
+        # Check if any .qmd file has been modified since the CSV was last created
+        needs_update = False
+        for root, dirs, files in os.walk(posts_dir):
+            for file in files:
+                if file.endswith('.qmd'):
+                    if os.path.getmtime(os.path.join(root, file)) > csv_mtime:
+                        needs_update = True
+                        break
+            if needs_update: break
+
+        if not needs_update:
+            print("No new or modified posts detected. Skipping matrix regeneration.")
+            return
+    # --- End Optimization ---
+
 
 def generate_similarity_matrix():
     # This finds the directory where the script is located
