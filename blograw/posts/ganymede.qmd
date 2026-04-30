@@ -30,3 +30,5 @@ description: ১৬১০ সালের জানুয়ারি মাসে�
 
 - [স্পেসফ্লাইট](https://spaceflightnow.com/2021/06/08/jupiters-moon-ganymede-seen-up-close-for-first-time-in-21-years/)
 - উইকিপিডিয়া: [গ্যানিউমিড](https://en.wikipedia.org/wiki/Ganymede_(moon)), [উপগ্রহের তালিকা](https://en.wikipedia.org/wiki/List_of_natural_satellites)
+
+{{< include ../_related.qmd >}}

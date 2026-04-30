@@ -1,0 +1,58 @@
+```{r}
+#| echo: false
+#| results: 'asis'
+
+csv_name <- "related_posts.csv"
+# Check paths (relative to the post in /posts/)
+if (file.exists(csv_name)) {
+    csv_path <- csv_name
+} else if (file.exists(paste0("../", csv_name))) {
+    csv_path <- paste0("../", csv_name)
+} else {
+    csv_path <- NULL
+}
+
+if (!is.null(csv_path)) {
+    # Read CSV
+    df <- read.csv(csv_path, row.names = 1, check.names = FALSE)
+
+    # 1. Clean the current filename (remove .qmd or .rmarkdown)
+    current_file_raw <- basename(knitr::current_input())
+    current_key <- gsub("\\.(qmd|rmarkdown|md)$", "", current_file_raw)
+
+    # 2. Clean the CSV column/row names for matching
+    # We create a mapping so we can find the original filename later
+    clean_cols <- gsub("\\.(qmd|rmarkdown|md)$", "", colnames(df))
+    colnames(df) <- clean_cols
+    rownames(df) <- clean_cols
+
+    # 3. Match and Display
+    if (current_key %in% colnames(df)) {
+        sims <- df[, current_key]
+        names(sims) <- rownames(df)
+
+        # Exclude self and filter low scores
+        sims <- sims[names(sims) != current_key]
+        sims <- sims[sims > 0.01]
+
+        if (length(sims) > 0) {
+            top_n <- min(5, length(sims))
+            top_5 <- sort(sims, decreasing = TRUE)[1:top_n]
+
+            cat("\n### সম্পর্কিত লেখা (Related Posts)\n\n")
+            for (i in seq_along(top_5)) {
+                # Get the name and format it for the link
+                # Since we stripped extensions, we add .html for the link
+                # because Quarto converts .qmd to .html in the final site
+                slug <- names(top_5)[i]
+
+                display_name <- gsub("-", " ", slug)
+                display_name <- paste0(toupper(substr(display_name, 1, 1)), substr(display_name, 2, nchar(display_name)))
+
+                cat(paste0("- [", display_name, "](", slug, ".html)\n"))
+            }
+        }
+    }
+}
+```
+
