@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>বিশ্ব ডট কম</title>
+<title>Authors – বিশ্ব ডট কম</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -34,8 +34,6 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
 <link href="./assets/bishwo_clean.png" rel="icon" type="image/png">
-<script src="site_libs/quarto-listing/list.min.js"></script>
-<script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
@@ -73,91 +71,6 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
-
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-landing-posts .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-image','listing-date','listing-title',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-landing-posts'] = new List('listing-landing-posts', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  
-
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-solar-system .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-image','listing-title','listing-date',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-title-sort'] }],
-      
-      searchColumns: ["listing-date","listing-title","listing-author"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-solar-system'] = new List('listing-solar-system', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  
-
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-universe .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-image','listing-title','listing-date',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-universe'] = new List('listing-universe', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
 <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-9XSTMB89MF"></script>
 
 <script type="text/javascript">
@@ -168,35 +81,6 @@ gtag('js', new Date());
 gtag('config', 'G-9XSTMB89MF', { 'anonymize_ip': true});
 </script>
 
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
 
 <link rel="stylesheet" href="styles.css">
 </head>
@@ -204,7 +88,7 @@ window.Quarto = {
 <body class="nav-fixed quarto-light">
 
 <div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top quarto-banner">
+  <header id="quarto-header" class="headroom fixed-top">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
@@ -223,7 +107,7 @@ window.Quarto = {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./index.html" aria-current="page"> <i class="bi bi-house" role="img">
+    <a class="nav-link" href="./index.html"> <i class="bi bi-house" role="img">
 </i> 
 <span class="menu-text">হোম</span></a>
   </li>  
@@ -274,11 +158,30 @@ window.Quarto = {
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item dropdown ">
     <a class="nav-link dropdown-toggle" href="#" id="nav-menu--1" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+      <i class="bi bi-people-fill" role="img">
+</i> 
+ <span class="menu-text">সকল লেখক</span>
+    </a>
+    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu--1">    
+        <li>
+    <a class="dropdown-item" href="./abdullah-adil-mahmud.html"><i class="bi bi-person-circle" role="img">
+</i> 
+ <span class="dropdown-text">আব্দুল্যাহ আদিল মাহমুদ</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./nasrullah-masud.html"><i class="bi bi-person-circle" role="img">
+</i> 
+ <span class="dropdown-text">নাসরুল্লাহ মাসুদ</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu--2" role="link" data-bs-toggle="dropdown" aria-expanded="false">
       <i class="bi bi-camera-video" role="img">
 </i> 
  <span class="menu-text">ভিডিও</span>
     </a>
-    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu--1">    
+    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu--2">    
         <li>
     <a class="dropdown-item" href="https://www.youtube.com/@Bishwotube"><i class="bi bi-youtube" role="img">
 </i> 
@@ -299,331 +202,49 @@ window.Quarto = {
     </nav>
 </header>
 <!-- content -->
-<header id="title-block-header" class="quarto-title-block"></header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#list-of-contributors" id="toc-list-of-contributors" class="nav-link active" data-scroll-target="#list-of-contributors">List of Contributors</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
-<main class="content quarto-banner-title-block column-page" id="quarto-document-content">
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Authors</h1>
+</div>
 
 
 
+<div class="quarto-title-meta">
 
-<div class="callout callout-style-default callout-tip callout-titled" title="গুরুত্বপূর্ণ ঘোষণা">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Tip</span>গুরুত্বপূর্ণ ঘোষণা
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>এ সাইটটি বর্তমানে নির্মাণাধীন। জ্যোতির্বিজ্ঞান নিয়ে আমাদের মূল সাইট <a href="https://sky.bishwo.com/">sky.bishwo.com সচল থাকবে।</a> । তবে ভবিষ্যতে এখানেই সব আপডেট পাওয়া যাবে।</p>
-</div>
-</div>
-<div id="listing-landing-posts" class="quarto-listing quarto-listing-container-grid">
-<div class="listing-actions-group">
-   <div class="input-group input-group-sm quarto-listing-sort">
-    <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
-    <select id="listing-landing-posts-sort" class="form-select" aria-label="Order By" onchange="window['quarto-listings']['listing-landing-posts'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
-      <option value="" disabled="" selected="" hidden="">Order By</option>
-      <option value="index" data-direction="asc">Default</option>
-      <option value="listing-title" data-direction="asc">
-        Title
-      </option>
-      <option value="listing-date-sort" data-direction="asc">
-        Date - Oldest
-      </option>
-      <option value="listing-date-sort" data-direction="desc">
-        Date - Newest
-      </option>
-    </select>
+    
+  
+    
   </div>
-    <div class="input-group input-group-sm quarto-listing-filter">
-      <span class="input-group-text"><i class="bi bi-search"></i></span>
-      <input type="text" class="search form-control" placeholder="Filter">
-    </div>
-</div>
-<div class="list grid quarto-listing-cols-5">
-<div class="g-col-1" data-index="0" data-categories="JUUwJUE2JUE3JUUwJUE3JTgyJUUwJUE2JUFFJUUwJUE2JTk1JUUwJUE3JTg3JUUwJUE2JUE0JUUwJUE3JTgxJTJDJUUwJUE2JUI4JUUwJUE3JTgyJUUwJUE2JUIwJUUwJUE3JThEJUUwJUE2JUFGJTJDJUUwJUE2JUI4JUUwJUE3JThDJUUwJUE2JUIwJUUwJUE2JTlDJUUwJUE2JTk3JUUwJUE3JThF" data-listing-date-sort="1777572000000" data-listing-file-modified-sort="1777660350514" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="340">
-<a href="./posts/comet-types.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./img/solar-system/comets.png" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-কতরকম ধূমকেতু!
-</h5>
-<div class="card-attribution card-text-small end">
-<div class="listing-date">
-May 1, 2026
-</div>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="1" data-categories="JUUwJUE2JUE4JUUwJUE2JTk1JUUwJUE3JThEJUUwJUE2JUI3JUUwJUE2JUE0JUUwJUE3JThEJUUwJUE2JUIwJTJDJUUwJUE2JTk1JUUwJUE2JUI4JUUwJUE2JUFFJUUwJUE3JThCJUUwJUE2JUIyJUUwJUE2JTlDJUUwJUE2JUJG" data-listing-date-sort="1777312800000" data-listing-file-modified-sort="1777635643298" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="360">
-<a href="./posts/blue-dwarf.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./img/star/blue-dwarf-size.jpg" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-নীল বামন: যে তারার এখনও জন্ম হয়নি
-</h5>
-<div class="card-attribution card-text-small end">
-<div class="listing-date">
-Apr 28, 2026
-</div>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="2" data-categories="JUUwJUE2JUI4JUUwJUE3JThDJUUwJUE2JUIwJUUwJUE2JTlDJUUwJUE2JTk3JUUwJUE3JThFJTJDJUUwJUE2JUFDJUUwJUE2JUJFJUUwJUE2JUFFJUUwJUE2JUE4JTIwJUUwJUE2JTk3JUUwJUE3JThEJUUwJUE2JUIwJUUwJUE2JUI5JTJDJUUwJUE2JTk3JUUwJUE3JThEJUUwJUE2JUIwJUUwJUE2JUI5" data-listing-date-sort="1777053600000" data-listing-file-modified-sort="1777556981494" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="331">
-<a href="./posts/ceres-asteroid-or-dwarf-planet.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./img/solar-system/ceres.jpg" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-সেরেস: গ্রহাণু নাকি বামন গ্রহ?
-</h5>
-<div class="card-attribution card-text-small end">
-<div class="listing-date">
-Apr 25, 2026
-</div>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="3" data-categories="JUUwJUE2JUI4JUUwJUE3JThDJUUwJUE2JUIwJUUwJUE2JTlDJUUwJUE2JTk3JUUwJUE3JThFJTJDJUUwJUE2JTk3JUUwJUE3JThEJUUwJUE2JUIwJUUwJUE2JUI5JTJDJUUwJUE2JTg5JUUwJUE2JUFBJUUwJUE2JTk3JUUwJUE3JThEJUUwJUE2JUIwJUUwJUE2JUI5" data-listing-date-sort="1777053600000" data-listing-file-modified-sort="1777556993273" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="357">
-<a href="./posts/ganymede.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./img/solar-system/ganymede-juno.jpg" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-গ্যানিমিড: সৌরজগতের সবচেয়ে বড় উপগ্রহ
-</h5>
-<div class="card-attribution card-text-small end">
-<div class="listing-date">
-Apr 25, 2026
-</div>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="4" data-categories="JUUwJUE2JTg5JUUwJUE2JUFBJUUwJUE2JTk3JUUwJUE3JThEJUUwJUE2JUIwJUUwJUE2JUI5JTJDJUUwJUE2JTk3JUUwJUE3JThEJUUwJUE2JUIwJUUwJUE2JUI5JTJDJUUwJUE2JUI4JUUwJUE3JThDJUUwJUE2JUIwJUUwJUE2JTlDJUUwJUE2JTk3JUUwJUE3JThF" data-listing-date-sort="1776880800000" data-listing-file-modified-sort="1777556981502" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="310">
-<a href="./posts/saturn-moons.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./img/solar-system/saturn.jpg" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-শনি গ্রহের উপগ্রহ এখন কয়টি?
-</h5>
-<div class="card-attribution card-text-small end">
-<div class="listing-date">
-Apr 23, 2026
-</div>
-</div>
-</div>
-</div></a>
-</div>
-</div>
-<div class="listing-no-matching d-none">No matching items</div>
-</div>
-<div class="text-center">
-<p><a href="./latest.html" class="btn btn-primary rounded-pill">সকল সাম্প্রতিক পোস্ট</a></p>
-</div>
-<div class="grid">
-<section id="সরজগৎ" class="level3 g-col-12 g-col-md-6 animate__animated animate__fadeIn animate__faster animate__delay-1s">
-<h3 class="anchored" data-anchor-id="সরজগৎ">সৌরজগৎ</h3>
-<div id="listing-solar-system" class="quarto-listing quarto-listing-container-table">
-<table class="quarto-listing-table table">
-<thead>
-<tr>
+  
 
-<th>
- 
-</th>
 
-<th>
-Title
-</th>
+</header>
 
-<th>
-Date
-</th>
 
-</tr>
-</thead>
-<tbody class="list">
+<section id="list-of-contributors" class="level3">
+<h3 class="anchored" data-anchor-id="list-of-contributors">List of Contributors</h3>
+<ul>
+<li><a href="authors/abdullah-adil-mahmud.html.html">আব্দুল্যাহ আদিল মাহমুদ</a></li>
+<li><a href="authors/nasrullah-masud.html">নাসরুল্লাহ মাসুদ</a></li>
+</ul>
 
-<tr data-index="0" data-categories="JUUwJUE2JUE3JUUwJUE3JTgyJUUwJUE2JUFFJUUwJUE2JTk1JUUwJUE3JTg3JUUwJUE2JUE0JUUwJUE3JTgxJTJDJUUwJUE2JUI4JUUwJUE3JTgyJUUwJUE2JUIwJUUwJUE3JThEJUUwJUE2JUFGJTJDJUUwJUE2JUI4JUUwJUE3JThDJUUwJUE2JUIwJUUwJUE2JTlDJUUwJUE2JTk3JUUwJUE3JThF" data-listing-date-sort="1777572000000" data-listing-file-modified-sort="1777660350514" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="340" data-listing-title-sort="কতরকম ধূমকেতু!" data-listing-filename-sort="comet-types.qmd">
-<td>
-<span class="listing-image"><img loading="lazy" src="./img/solar-system/comets.png" style="height: 40px;"></span>
-</td>
-<td>
-<a href="./posts/comet-types.html" class="title listing-title">কতরকম ধূমকেতু!</a>
-</td>
-<td>
-<span class="listing-date">May 1, 2026</span>
-</td>
 
-</tr>
-
-<tr data-index="1" data-categories="JUUwJUE2JUI4JUUwJUE3JThDJUUwJUE2JUIwJUUwJUE2JTlDJUUwJUE2JTk3JUUwJUE3JThFJTJDJUUwJUE2JUFDJUUwJUE2JUJFJUUwJUE2JUFFJUUwJUE2JUE4JTIwJUUwJUE2JTk3JUUwJUE3JThEJUUwJUE2JUIwJUUwJUE2JUI5JTJDJUUwJUE2JTk3JUUwJUE3JThEJUUwJUE2JUIwJUUwJUE2JUI5" data-listing-date-sort="1777053600000" data-listing-file-modified-sort="1777556981494" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="331" data-listing-title-sort="সেরেস: গ্রহাণু নাকি বামন গ্রহ?" data-listing-filename-sort="ceres-asteroid-or-dwarf-planet.qmd">
-<td>
-<span class="listing-image"><img loading="lazy" src="./img/solar-system/ceres.jpg" style="height: 40px;"></span>
-</td>
-<td>
-<a href="./posts/ceres-asteroid-or-dwarf-planet.html" class="title listing-title">সেরেস: গ্রহাণু নাকি বামন গ্রহ?</a>
-</td>
-<td>
-<span class="listing-date">Apr 25, 2026</span>
-</td>
-
-</tr>
-
-<tr data-index="2" data-categories="JUUwJUE2JUI4JUUwJUE3JThDJUUwJUE2JUIwJUUwJUE2JTlDJUUwJUE2JTk3JUUwJUE3JThFJTJDJUUwJUE2JTk3JUUwJUE3JThEJUUwJUE2JUIwJUUwJUE2JUI5JTJDJUUwJUE2JTg5JUUwJUE2JUFBJUUwJUE2JTk3JUUwJUE3JThEJUUwJUE2JUIwJUUwJUE2JUI5" data-listing-date-sort="1777053600000" data-listing-file-modified-sort="1777556993273" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="357" data-listing-title-sort="গ্যানিমিড: সৌরজগতের সবচেয়ে বড় উপগ্রহ" data-listing-filename-sort="ganymede.qmd">
-<td>
-<span class="listing-image"><img loading="lazy" src="./img/solar-system/ganymede-juno.jpg" style="height: 40px;"></span>
-</td>
-<td>
-<a href="./posts/ganymede.html" class="title listing-title">গ্যানিমিড: সৌরজগতের সবচেয়ে বড় উপগ্রহ</a>
-</td>
-<td>
-<span class="listing-date">Apr 25, 2026</span>
-</td>
-
-</tr>
-
-<tr data-index="3" data-categories="JUUwJUE2JTg5JUUwJUE2JUFBJUUwJUE2JTk3JUUwJUE3JThEJUUwJUE2JUIwJUUwJUE2JUI5JTJDJUUwJUE2JTk3JUUwJUE3JThEJUUwJUE2JUIwJUUwJUE2JUI5JTJDJUUwJUE2JUI4JUUwJUE3JThDJUUwJUE2JUIwJUUwJUE2JTlDJUUwJUE2JTk3JUUwJUE3JThF" data-listing-date-sort="1776880800000" data-listing-file-modified-sort="1777556981502" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="310" data-listing-title-sort="শনি গ্রহের উপগ্রহ এখন কয়টি?" data-listing-filename-sort="saturn-moons.qmd">
-<td>
-<span class="listing-image"><img loading="lazy" src="./img/solar-system/saturn.jpg" style="height: 40px;"></span>
-</td>
-<td>
-<a href="./posts/saturn-moons.html" class="title listing-title">শনি গ্রহের উপগ্রহ এখন কয়টি?</a>
-</td>
-<td>
-<span class="listing-date">Apr 23, 2026</span>
-</td>
-
-</tr>
-
-<tr data-index="4" data-categories="JUUwJUE2JUI4JUUwJUE3JThDJUUwJUE2JUIwJUUwJUE2JTlDJUUwJUE2JTk3JUUwJUE3JThFJTJDJUUwJUE2JUI4JUUwJUE3JTgyJUUwJUE2JUIwJUUwJUE3JThEJUUwJUE2JUFG" data-listing-date-sort="1776794400000" data-listing-file-modified-sort="1777569281305" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="310" data-listing-title-sort="সৌরজগতের ধূমকেতুর দুই উৎস কাইপার বেল্ট ও উর্ট ক্লাউড" data-listing-filename-sort="kuiper-oort.qmd">
-<td>
-<span class="listing-image"><img loading="lazy" src="./img/solar-system/kuiper-belt-oort-cloud.jpg" style="height: 40px;"></span>
-</td>
-<td>
-<a href="./posts/kuiper-oort.html" class="title listing-title">সৌরজগতের ধূমকেতুর দুই উৎস কাইপার বেল্ট ও উর্ট ক্লাউড</a>
-</td>
-<td>
-<span class="listing-date">Apr 22, 2026</span>
-</td>
-
-</tr>
-
-</tbody>
-</table>
-<div class="listing-no-matching d-none">No matching items</div>
-</div>
-<p><a href="latest.html#category=সৌরজগৎ">সকল পোস্ট দেখুন</a></p>
 </section>
-<section id="মহবশব" class="level3 g-col-12 g-col-md-6 animate__animated animate__fadeIn animate__faster animate__delay-1s">
-<h3 class="anchored" data-anchor-id="মহবশব">মহাবিশ্ব</h3>
-<div id="listing-universe" class="quarto-listing quarto-listing-container-grid">
-<div class="list grid quarto-listing-cols-2">
-<div class="g-col-1" data-index="0" data-categories="JUUwJUE2JUE4JUUwJUE2JTk1JUUwJUE3JThEJUUwJUE2JUI3JUUwJUE2JUE0JUUwJUE3JThEJUUwJUE2JUIwJTJDJUUwJUE2JUE2JUUwJUE3JTgyJUUwJUE2JUIwJUUwJUE2JUE0JUUwJUE3JThEJUUwJUE2JUFDJTJDJUUwJUE2JUFFJUUwJUE2JUI5JUUwJUE2JUJFJUUwJUE2JUFDJUUwJUE2JUJGJUUwJUE2JUI2JUUwJUE3JThEJUUwJUE2JUFD" data-listing-date-sort="1697047200000" data-listing-file-modified-sort="1777556981495" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="424">
-<a href="./posts/how-is-star-distance-measured.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./img/star/stars.jpg" class="thumbnail-image card-img" style="height: 80px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-নক্ষত্রের দূরত্ব বের করা হয় কীভাবে?
-</h5>
-<div class="card-attribution card-text-small end">
-<div class="listing-date">
-Oct 12, 2023
-</div>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="1" data-categories="JUUwJUE2JUE4JUUwJUE2JTk1JUUwJUE3JThEJUUwJUE2JUI3JUUwJUE2JUE0JUUwJUE3JThEJUUwJUE2JUIwJTJDJUUwJUE2JUE2JUUwJUE3JTgyJUUwJUE2JUIwJUUwJUE2JUE0JUUwJUE3JThEJUUwJUE2JUFDJTJDJUUwJUE2JUFFJUUwJUE2JUI5JUUwJUE2JUJFJUUwJUE2JUFDJUUwJUE2JUJGJUUwJUE2JUI2JUUwJUE3JThEJUUwJUE2JUFD" data-listing-date-sort="1697047200000" data-listing-file-modified-sort="1777556981500" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="650">
-<a href="./posts/nova-star.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./img/star/stars.jpg" class="thumbnail-image card-img" style="height: 80px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-নোভা নক্ষত্রের গল্প
-</h5>
-<div class="card-attribution card-text-small end">
-<div class="listing-date">
-Oct 12, 2023
-</div>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="2" data-categories="JUUwJUE2JUE4JUUwJUE2JTk1JUUwJUE3JThEJUUwJUE2JUI3JUUwJUE2JUE0JUUwJUE3JThEJUUwJUE2JUIwJTJDJUUwJUE2JUFFJUUwJUE2JUI5JUUwJUE2JUJFJUUwJUE2JUFDJUUwJUE2JUJGJUUwJUE2JUI2JUUwJUE3JThEJUUwJUE2JUFDJTJDJUUwJUE2JTk1JUUwJUE2JUI4JUUwJUE2JUFFJUUwJUE3JThCJUUwJUE2JUIyJUUwJUE2JTlDJUUwJUE2JUJG" data-listing-date-sort="1507572000000" data-listing-file-modified-sort="1777556981504" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5" data-listing-word-count-sort="987">
-<a href="./posts/star-vs-universe.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEizYtljb3X3TLiSDvaCz3IBSClhWKRJguDT_xqpqBxoLW-oT1I4zpbiYya5IfsGW4yaEC6fpSmcq1qifh5fgwWC6w3U7330KqfeOk5_SzKKH5kPabNjICShMYWGFZtHSP9ksJUZr0xfaU4/s640/universe.jpg" class="thumbnail-image card-img" style="height: 80px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-মহাবিশ্বের জন্মের আগের নক্ষত্র!
-</h5>
-<div class="card-attribution card-text-small end">
-<div class="listing-date">
-Oct 10, 2017
-</div>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="3" data-categories="JUUwJUE2JUE4JUUwJUE2JTk1JUUwJUE3JThEJUUwJUE2JUI3JUUwJUE2JUE0JUUwJUE3JThEJUUwJUE2JUIwJTJDJUUwJUE2JUFFJUUwJUE2JUI5JUUwJUE2JUJFJUUwJUE2JUFDJUUwJUE2JUJGJUUwJUE2JUI2JUUwJUE3JThEJUUwJUE2JUFDJTJDJUUwJUE2JUE2JUUwJUE3JTgyJUUwJUE2JUIwJUUwJUE2JUE0JUUwJUE3JThEJUUwJUE2JUFDJTJDJUUwJUE2JUFBJUUwJUE2JUIwJUUwJUE2JUJGJUUwJUE2JUFEJUUwJUE2JUJFJUUwJUE2JUI3JUUwJUE2JUJF" data-listing-date-sort="1444413600000" data-listing-file-modified-sort="1777556981501" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="248">
-<a href="./posts/parsec.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./img/universe/universe.jpg" class="thumbnail-image card-img" style="height: 80px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-এক পারসেক কত বড়?
-</h5>
-<div class="card-attribution card-text-small end">
-<div class="listing-date">
-Oct 10, 2015
-</div>
-</div>
-</div>
-</div></a>
-</div>
-</div>
-<div class="listing-no-matching d-none">No matching items</div>
-</div>
-<p><a href="latest.html#category=মহাবিশ্ব">সকল পোস্ট দেখুন</a></p>
-</section>
-</div>
-
-
-
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

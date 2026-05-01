@@ -59,15 +59,15 @@ website:
       - href: "https://sky.bishwo.com/"
         text: আর্কাইভ
     right:
-      - text: সকল লেখক
-        icon: people-fill
-        menu:
-          - text: "আব্দুল্যাহ আদিল মাহমুদ"
-            href: abdullah-adil-mahmud.qmd
-            icon: person-circle
-          - text: "নাসরুল্লাহ মাসুদ"
-            href: nasrullah-masud.qmd
-            icon: person-circle
+#      - text: সকল লেখক
+#        icon: people-fill
+ #       menu:
+  #        - text: "আব্দুল্যাহ আদিল মাহমুদ"
+   #         href: abdullah-adil-mahmud.qmd
+    #        icon: person-circle
+     #     - text: "নাসরুল্লাহ মাসুদ"
+      #      href: nasrullah-masud.qmd
+       #     icon: person-circle
       - text: ভিডিও
         icon: camera-video
         menu:
