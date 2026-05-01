@@ -30,7 +30,7 @@ if (!is.null(csv_path)) {
     if (length(sims) > 0) {
       top_5 <- sort(sims, decreasing = TRUE)[1:min(5, length(sims))]
 
-      cat("\n### রিলেটেড লেখা \n\n")
+      cat("\n### একইরকম আরও লেখা \n\n")
 
       for (slug in names(top_5)) {
         qmd_file <- paste0(slug, ".qmd")
@@ -43,9 +43,10 @@ if (!is.null(csv_path)) {
         if (is.null(post_img)) post_img <- "[https://raw.githubusercontent.com/bishwo-web/bishwo-web.github.io/refs/heads/main/img/star/stars.jpg](https://raw.githubusercontent.com/bishwo-web/bishwo-web.github.io/refs/heads/main/img/star/stars.jpg)"
 
         # Using Quarto Divs for Layout
-        # This creates a flex-row-like structure using Markdown
-        cat("::: {layout='[[15, 50]]'}\n")
-        cat(paste0("![](", post_img, ")\n\n"))
+# This creates a flex-row-like structure using Markdown
+        # Wrapping the image in [![](... )](link) makes it clickable
+        cat("::: {layout='[[15, 85]]'}\n")
+        cat(paste0("[![](", post_img, "){height='60px' style='object-fit: cover;'}]", "(", slug, ".html)\n\n"))
         cat(paste0("[**", post_title, "**](", slug, ".html)\n"))
         cat(":::\n\n")
         cat("---\n\n") # Separator line
