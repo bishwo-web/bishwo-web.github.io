@@ -3,6 +3,8 @@ project:
   output-dir: ../
   pre-render:
     - python3 related_posts.py
+  post-render:
+    - Rscript posts/_gen_posts_csv.R
 
 website:
   title: "বিশ্ব ডট কম"
