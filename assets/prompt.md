@@ -74,3 +74,27 @@ listing:
   include:
     author: "{আব্দুল্যাহ আদিল মাহমুদ}*"
 ---
+
+Let's start over. Any qmd within blograw/authors/ also maintains the layout of the site; only problem is author-specific posts are not listed by listing mechanism of Quarto. So We do the following:
+
+1. Read blograw/posts/posts.csv
+
+its contents are like
+"title","name","date","image","categories","tags","description","file_path"
+"এ মাসের তারা: রোহিণী","আব্দুল্যাহ আদিল মাহমুদ","2023-09-10","../img/star/aldebaran.jpg","নক্ষত্র, রাতের আকাশ","আকাশ","রাতের আকাশের চতুর্দশ উজ্জ্বল তারার গল্প দিয়ে। নাম রোহিণী। অবস্থান বৃষমণ্ডলে (Taurus)। এ মণ্ডলটা রাশিচক্রের ১২টি (বর্তমানে ১৩টি) মণ্ডলের অন্যতম।","aldebaran.qmd"
+"আর্টিমিস ২ পৃথিবী ছেড়ে যায়নি!","আব্দুল্যাহ আদিল মাহমুদ","2026-04-15","../img/mission/artemis-ii-trajectory.jpg","মহাকাশযান, চাঁদ, সৌরজগৎ","চাঁদ, কক্ষপথ","পৃথিবী সূর্যের চারদিকে চলছে সেকেন্ডে ৩০ কিলোমিটার বেগে। ঘণ্টায় ১ লাখ কিলোমিটারের বেশি। তারমানে আর্টিমিস ২ পৃথিবীতে আসতে আসতে পৃথিবী আগের জায়গা থেকে দূরে সরেছে ২ কোটি ১৭ লাখ ৬৬ হাজার কিলোমিটার। অথচ পুরো ভ্রমণপথে যানটি নিজে চলেছে মাত্র প্রায় ১১ লাখ ২৭ হাজার কিলোমিটার পথ। তাহলে পৃথিবীকে ধরার জন্য বাড়তি দূরত্বটা কীভাবে পার হলো?","artemis-did-not-leave.qmd"
+
+2. create one qmd inside blograw/authors for each unique name column (it's author name actually)
+3. The qmd will list all the posts by the name.
+4. Above the list will be author bio, taken from blograw/authors/authors.csv
+
+Its contents are like
+name, id, image, web, bio
+আব্দুল্যাহ আদিল মাহমুদ, adil, ../img/site/adil.jpeg, www.thinkermahmud.com, অনলাইন পোর্টাল বিশ্ব ডট কম-এর প্রতিষ্ঠাতা ও সম্পাদক। প্রকাশিত বইয়ের সংখ্যা ছয়টি। ক্যাডেট কলেজে শিক্ষকতা পেশায় নিয়োজিত আছেন।
+মোকারম হোসাইন, mokarom, ../img/site/mokarom.png, #, বৈজ্ঞানিক কর্মকর্তা, বিসিএসআইআর। পড়াশোনা করেছেন ঢাকা বিশ্ববিদ্যালয়ে। ছাত্রজীবন থেকেই বিজ্ঞান লেখালেখির সাথে যুক্ত।
+নাসরুল্লাহ মাসুদ, nasrullah, ..img/site/nasrullah.jpeg, #, বরেন্দ্র বিশ্ববিদ্যালয়ের শিক্ষক হিসেবে কর্মরত আছেন।
+
+The author file would be named blograw/authors/id.qmd and will have
+name, image, website and bio (profile)
+
+Make _gen_authors_bio.R for this.

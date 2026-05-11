@@ -1,0 +1,27 @@
+---
+title: "নাসরুল্লাহ মাসুদ"
+sidebar: false
+---
+
+::: {.author-profile-card style='display: flex; gap: 25px; background: #fdfdfd; border: 1px solid #eee; padding: 25px; border-radius: 15px; margin-bottom: 40px;'}
+![নাসরুল্লাহ মাসুদ](..img/site/nasrullah.jpeg){width=150px style='border-radius: 50%; object-fit: cover;'}
+<div>
+## নাসরুল্লাহ মাসুদ
+বরেন্দ্র বিশ্ববিদ্যালয়ের শিক্ষক হিসেবে কর্মরত আছেন।
+
+
+</div>
+:::
+
+---
+
+## এই লেখকের সকল নিবন্ধ
+
+::: {.author-post-item style='display: flex; gap: 20px; margin-bottom: 25px; border-bottom: 1px solid #eee; padding-bottom: 15px;'}
+![](../posts/../img/bio/meghnad_saha.jpg){width=160px style='border-radius: 5px;'}
+<div>
+### [স্মরণে মেঘনাদ সাহা](../posts/meghnad-saha.html)
+*প্রকাশিত: 2017-02-16* 
+মেঘনাদ সাহার জন্ম ১৮৯৩ সালের ৬ অক্টোবর ঢাকার কাছে শ্যাওড়াতলী গ্রামে। তিনি পদার্থের তাপীয় আয়নীকরণ বিষয়ে বিস্তর গবেষণা করেছিলেন। এই গবেষণার ফলস্বরূপ তিনি একটি সমীকরণ প্রদান করেন। এটিই সাহা সমীকরণ নামে পরিচিত।
+</div>
+:::

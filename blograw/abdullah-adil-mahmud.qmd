@@ -2,17 +2,16 @@
 title: "আব্দুল্যাহ আদিল মাহমুদ-এর সকল লেখা"
 sidebar: abdullah-adil-mahmud
 listing:
-  contents: posts
+  contents:
+    - "../posts/*.qmd"  # Go up one level to find the posts folder
   categories: true
   type: grid
-#  max-items: 6
   feed: true
   sort-ui: true
   filter-ui: true
   sort: "date desc"
   field-display-names:
     title: "আব্দুল্যাহ আদিল মাহমুদ"
-    url: https://www.thinkermahmud.com/
   include:
     author: "{আব্দুল্যাহ আদিল মাহমুদ}*"
 ---

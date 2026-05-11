@@ -1,0 +1,27 @@
+---
+title: "মোকারম হোসাইন"
+sidebar: false
+---
+
+::: {.author-profile-card style='display: flex; gap: 25px; background: #fdfdfd; border: 1px solid #eee; padding: 25px; border-radius: 15px; margin-bottom: 40px;'}
+![মোকারম হোসাইন](../img/site/mokarom.png){width=150px style='border-radius: 50%; object-fit: cover;'}
+<div>
+## মোকারম হোসাইন
+বৈজ্ঞানিক কর্মকর্তা, বিসিএসআইআর। পড়াশোনা করেছেন ঢাকা বিশ্ববিদ্যালয়ে। ছাত্রজীবন থেকেই বিজ্ঞান লেখালেখির সাথে যুক্ত।
+
+
+</div>
+:::
+
+---
+
+## এই লেখকের সকল নিবন্ধ
+
+::: {.author-post-item style='display: flex; gap: 20px; margin-bottom: 25px; border-bottom: 1px solid #eee; padding-bottom: 15px;'}
+![](../posts/../img/earth/gravity-hill-2.jpg){width=160px style='border-radius: 5px;'}
+<div>
+### [গ্র্যাভিটি হিলের রহস্য](../posts/gravity-hill.html)
+*প্রকাশিত: 2016-10-14* 
+সাধারণত একটি বস্তু নিজে নিজেই ঢালু পথে উপর হতে নিচে নামে। কারণ পৃথিবী অভিকর্ষ বল দ্বারা প্রতিটি বস্তুকে কেন্দ্রের দিকে টানে। কিন্তু এমনটা অস্বাভাবিক মনে হয় যখন কোনো বস্তু পাহাড়ের ঢালু পথে নিচ থেকে উপরে ওঠে কোনো প্রকার বল প্রয়োগ ছাড়াই। অনেকেই একে  রহস্যময় পর্বত বা রহস্যময় স্থান হিসেবে অভিহিত করে থাকেন। তবে এর পেছনে আছে বৈজ্ঞানিক ব্যাখ্যা।
+</div>
+:::
