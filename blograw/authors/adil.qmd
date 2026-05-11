@@ -1,162 +1,209 @@
 ---
-title: "আব্দুল্যাহ আদিল মাহমুদ"
+title: "আব্দুল্যাহ আদিল মাহমুদ-এর সকল লেখা"
 sidebar: false
 ---
 
-::: {.author-profile-card style='display: flex; gap: 25px; background: #fdfdfd; border: 1px solid #eee; padding: 25px; border-radius: 15px; margin-bottom: 40px;'}
-![আব্দুল্যাহ আদিল মাহমুদ](../img/site/adil.jpeg){width=150px style='border-radius: 50%; object-fit: cover;'}
-<div>
-## আব্দুল্যাহ আদিল মাহমুদ
+::: {.callout-tip title="লেখক পরিচিতি"}
+<img src="../img/site/adil.jpeg" style="border-radius: 50%; width: 100px; float: left; margin-right: 20px; object-fit: cover; height: 100px;">
+
+**আব্দুল্যাহ আদিল মাহমুদ** 
 অনলাইন পোর্টাল বিশ্ব ডট কম-এর প্রতিষ্ঠাতা ও সম্পাদক। প্রকাশিত বইয়ের সংখ্যা ছয়টি। ক্যাডেট কলেজে শিক্ষকতা পেশায় নিয়োজিত আছেন।
 
-[ওয়েবসাইট](http://www.thinkermahmud.com)
-</div>
+**ওয়েব:** [www.thinkermahmud.com](http://www.thinkermahmud.com)
 :::
 
 ---
 
 ## এই লেখকের সকল নিবন্ধ
 
-::: {.author-post-item style='display: flex; gap: 20px; margin-bottom: 25px; border-bottom: 1px solid #eee; padding-bottom: 15px;'}
-![](../posts/../img/solar-system/comets.png){width=160px style='border-radius: 5px;'}
+::: {.author-post-item .paginated-post style='display: flex; gap: 20px; margin-bottom: 25px; border-bottom: 1px solid #eee; padding-bottom: 15px;'}
+![](../posts/../img/solar-system/comets.png){width=160px height=100px style='object-fit: cover; border-radius: 5px; flex-shrink: 0;'}
 <div>
 ### [কতরকম ধূমকেতু!](../posts/comet-types.html)
 *প্রকাশিত: 2026-05-01* 
+
 স্বল্পকালীন বা স্বল্প পর্যায়ের ধূমকেতুরা ২০০ বছরের মধ্যেই সূর্যকে একবার প্রদক্ষিণ করে। এর সবচেয়ে বিখ্যাত নমুনা হ্যালির ধূমকেতু। পর্যায়কাল ২০ থেকে ২০০ বছরে মধ্যে হলে তাদেরকে বলে হ্যালি-টাইপ ধূমকেতু।
 </div>
 :::
 
-::: {.author-post-item style='display: flex; gap: 20px; margin-bottom: 25px; border-bottom: 1px solid #eee; padding-bottom: 15px;'}
-![](../posts/../img/star/blue-dwarf-size.jpg){width=160px style='border-radius: 5px;'}
+::: {.author-post-item .paginated-post style='display: flex; gap: 20px; margin-bottom: 25px; border-bottom: 1px solid #eee; padding-bottom: 15px;'}
+![](../posts/../img/star/blue-dwarf-size.jpg){width=160px height=100px style='object-fit: cover; border-radius: 5px; flex-shrink: 0;'}
 <div>
 ### [নীল বামন: যে তারার এখনও জন্ম হয়নি](../posts/blue-dwarf.html)
 *প্রকাশিত: 2026-04-28* 
+
 নীল বামন তারার জন্ম হয় লোহিত বামন তারা থেকে। ‘হয়’ না বলে বলা উচিত ‘হবে’। কারণ মহাবিশ্বের যে বয়স, তাতে এখনও এ তারার বয়সের সময়ই আসেনি।
 </div>
 :::
 
-::: {.author-post-item style='display: flex; gap: 20px; margin-bottom: 25px; border-bottom: 1px solid #eee; padding-bottom: 15px;'}
-![](../posts/../img/solar-system/ceres.jpg){width=160px style='border-radius: 5px;'}
+::: {.author-post-item .paginated-post style='display: flex; gap: 20px; margin-bottom: 25px; border-bottom: 1px solid #eee; padding-bottom: 15px;'}
+![](../posts/../img/solar-system/ceres.jpg){width=160px height=100px style='object-fit: cover; border-radius: 5px; flex-shrink: 0;'}
 <div>
 ### [সেরেস: গ্রহাণু নাকি বামন গ্রহ?](../posts/ceres-asteroid-or-dwarf-planet.html)
 *প্রকাশিত: 2026-04-25* 
+
 সেরেস চাঁদের চার ভাগের এক ভাগ পরিমাণ চওড়া। আকাশ অনেক বেশি অন্ধকার না হলে একে খালি সাধারণত দেখা যায় না। ২০১৫ সালে নাসার ডন মহাকাশযান সেরেসকে কাছ থেকে পর্যবেক্ষণ করে। এসময়ে এই যানটিই প্রথমবারের মতো সেরেসকে প্রদক্ষিণও করে।
 </div>
 :::
 
-::: {.author-post-item style='display: flex; gap: 20px; margin-bottom: 25px; border-bottom: 1px solid #eee; padding-bottom: 15px;'}
-![](../posts/../img/solar-system/ganymede-juno.jpg){width=160px style='border-radius: 5px;'}
+::: {.author-post-item .paginated-post style='display: flex; gap: 20px; margin-bottom: 25px; border-bottom: 1px solid #eee; padding-bottom: 15px;'}
+![](../posts/../img/solar-system/ganymede-juno.jpg){width=160px height=100px style='object-fit: cover; border-radius: 5px; flex-shrink: 0;'}
 <div>
 ### [গ্যানিমিড: সৌরজগতের সবচেয়ে বড় উপগ্রহ](../posts/ganymede.html)
 *প্রকাশিত: 2026-04-25* 
+
 ১৬১০ সালের জানুয়ারি মাসের সাত তারিখে উপগ্রহটি আবিষ্কৃত হয়। টাইটান ও গ্যানিমিড দুটো চাঁদই বুধ গ্রহের চেয়েও বড়। গ্যানিমিডের প্রধান উপাদান সিলিকেট পাথর ও পানি।
 </div>
 :::
 
-::: {.author-post-item style='display: flex; gap: 20px; margin-bottom: 25px; border-bottom: 1px solid #eee; padding-bottom: 15px;'}
-![](../posts/../img/solar-system/saturn.jpg){width=160px style='border-radius: 5px;'}
+::: {.author-post-item .paginated-post style='display: flex; gap: 20px; margin-bottom: 25px; border-bottom: 1px solid #eee; padding-bottom: 15px;'}
+![](../posts/../img/solar-system/saturn.jpg){width=160px height=100px style='object-fit: cover; border-radius: 5px; flex-shrink: 0;'}
 <div>
 ### [শনি গ্রহের উপগ্রহ এখন কয়টি?](../posts/saturn-moons.html)
 *প্রকাশিত: 2026-04-23* 
+
 এ লেখার সময় পর্যন্ত শনির উপগ্রহ পাওয়া গেছে ২৯২টি। ২০২৫ সালের শুরু পর্যন্ত কিন্তু গ্রহরাজ বৃহস্পতিরই সবচেয়ে বেশি উপগ্রহ ছিল। কিন্তু বর্তমানে এর চারপাশে ঘোরে ১১৫টি উপগ্রহ।
 </div>
 :::
 
-::: {.author-post-item style='display: flex; gap: 20px; margin-bottom: 25px; border-bottom: 1px solid #eee; padding-bottom: 15px;'}
-![](../posts/../img/solar-system/kuiper-belt-oort-cloud.jpg){width=160px style='border-radius: 5px;'}
+::: {.author-post-item .paginated-post style='display: flex; gap: 20px; margin-bottom: 25px; border-bottom: 1px solid #eee; padding-bottom: 15px;'}
+![](../posts/../img/solar-system/kuiper-belt-oort-cloud.jpg){width=160px height=100px style='object-fit: cover; border-radius: 5px; flex-shrink: 0;'}
 <div>
 ### [সৌরজগতের ধূমকেতুর দুই উৎস কাইপার বেল্ট ও উর্ট ক্লাউড](../posts/kuiper-oort.html)
 *প্রকাশিত: 2026-04-22* 
+
 কাইপের বেল্টের বিস্তৃতি সূর্য থেকে ৩০ থেকে ৫০ এইউ পর্যন্ত। এক এইউ পৃথিবী থেকে সূর্যের গড় দুরত্বের সমান। উর্ট ক্লাউড অবশ্য কাইপার বেল্টের তুলনায় অনেক দূরে আছে। এটি সূর্যের ৫০ হাজার থেকে ২ লাখ এইউ পর্যন্ত বিস্তৃত।
 </div>
 :::
 
-::: {.author-post-item style='display: flex; gap: 20px; margin-bottom: 25px; border-bottom: 1px solid #eee; padding-bottom: 15px;'}
-![](../posts/../img/mission/artemis-ii-trajectory.jpg){width=160px style='border-radius: 5px;'}
+::: {.author-post-item .paginated-post style='display: flex; gap: 20px; margin-bottom: 25px; border-bottom: 1px solid #eee; padding-bottom: 15px;'}
+![](../posts/../img/mission/artemis-ii-trajectory.jpg){width=160px height=100px style='object-fit: cover; border-radius: 5px; flex-shrink: 0;'}
 <div>
 ### [আর্টিমিস ২ পৃথিবী ছেড়ে যায়নি!](../posts/artemis-did-not-leave.html)
 *প্রকাশিত: 2026-04-15* 
+
 পৃথিবী সূর্যের চারদিকে চলছে সেকেন্ডে ৩০ কিলোমিটার বেগে। ঘণ্টায় ১ লাখ কিলোমিটারের বেশি। তারমানে আর্টিমিস ২ পৃথিবীতে আসতে আসতে পৃথিবী আগের জায়গা থেকে দূরে সরেছে ২ কোটি ১৭ লাখ ৬৬ হাজার কিলোমিটার। অথচ পুরো ভ্রমণপথে যানটি নিজে চলেছে মাত্র প্রায় ১১ লাখ ২৭ হাজার কিলোমিটার পথ। তাহলে পৃথিবীকে ধরার জন্য বাড়তি দূরত্বটা কীভাবে পার হলো?
 </div>
 :::
 
-::: {.author-post-item style='display: flex; gap: 20px; margin-bottom: 25px; border-bottom: 1px solid #eee; padding-bottom: 15px;'}
-![](../posts/../img/star/variable.webp){width=160px style='border-radius: 5px;'}
+::: {.author-post-item .paginated-post style='display: flex; gap: 20px; margin-bottom: 25px; border-bottom: 1px solid #eee; padding-bottom: 15px;'}
+![](../posts/../img/star/variable.webp){width=160px height=100px style='object-fit: cover; border-radius: 5px; flex-shrink: 0;'}
 <div>
 ### [বিষম তারার গল্প](../posts/variable-star.html)
 *প্রকাশিত: 2025-10-10* 
+
 বিষম তারার খুব ভাল একটি উদাহরণ লোহিত অতিদানব তারা বিটলজুস। বাংলা নাম আর্দ্রা। কালপুরুষ বা আদমসুরত মণ্ডলের দ্বিতীয় উজ্জ্বল তারা। রাতের আকাশের আপাত উজ্জ্বলতায় ক্রমিক নং ১০। ২০১৯ সালে এটি দ্রুত অনুজ্জ্বল হতে থাকে। ২০২০ নাগাদ আগের অর্ধেক উজ্জ্বল হয়ে যায়। এ আকস্মিক পরিবর্তন অনেকসময় সুপারনোভা হিসেবে বিস্ফোরিত হওয়ার লক্ষ্মণ প্রকাশ করে।
 </div>
 :::
 
-::: {.author-post-item style='display: flex; gap: 20px; margin-bottom: 25px; border-bottom: 1px solid #eee; padding-bottom: 15px;'}
-![](../posts/../img/star/stars.jpg){width=160px style='border-radius: 5px;'}
+::: {.author-post-item .paginated-post style='display: flex; gap: 20px; margin-bottom: 25px; border-bottom: 1px solid #eee; padding-bottom: 15px;'}
+![](../posts/../img/star/stars.jpg){width=160px height=100px style='object-fit: cover; border-radius: 5px; flex-shrink: 0;'}
 <div>
 ### [নক্ষত্রের দূরত্ব বের করা হয় কীভাবে?](../posts/how-is-star-distance-measured.html)
 *প্রকাশিত: 2023-10-12* 
+
 পারালাক্স পদ্ধতি দিয়ে পৃথিবী থেকে সর্বোচ্চ ৪০০ আলোকবর্ষ দূরের তারার দূরত্ব মাপা যায়। আরও দূরের তারার দূরত্ব মাপার সরাসরি কোনো উপায় নেই। তবে নক্ষত্রের রঙ ও উজ্জ্বলতার সম্পর্ক কাজে লাগিয়ে দূরত্ব জানা যায়।
 </div>
 :::
 
-::: {.author-post-item style='display: flex; gap: 20px; margin-bottom: 25px; border-bottom: 1px solid #eee; padding-bottom: 15px;'}
-![](../posts/../img/star/stars.jpg){width=160px style='border-radius: 5px;'}
+::: {.author-post-item .paginated-post style='display: flex; gap: 20px; margin-bottom: 25px; border-bottom: 1px solid #eee; padding-bottom: 15px;'}
+![](../posts/../img/star/stars.jpg){width=160px height=100px style='object-fit: cover; border-radius: 5px; flex-shrink: 0;'}
 <div>
 ### [নোভা নক্ষত্রের গল্প](../posts/nova-star.html)
 *প্রকাশিত: 2023-10-12* 
+
 পারালাক্স পদ্ধতি দিয়ে পৃথিবী থেকে সর্বোচ্চ ৪০০ আলোকবর্ষ দূরের তারার দূরত্ব মাপা যায়। আরও দূরের তারার দূরত্ব মাপার সরাসরি কোনো উপায় নেই। তবে নক্ষত্রের রঙ ও উজ্জ্বলতার সম্পর্ক কাজে লাগিয়ে দূরত্ব জানা যায়।
 </div>
 :::
 
-::: {.author-post-item style='display: flex; gap: 20px; margin-bottom: 25px; border-bottom: 1px solid #eee; padding-bottom: 15px;'}
-![](../posts/https://github.com/bishwo-web/bishwo/blob/main/img/star/red_giant.jpg?raw=true){width=160px style='border-radius: 5px;'}
+::: {.author-post-item .paginated-post style='display: flex; gap: 20px; margin-bottom: 25px; border-bottom: 1px solid #eee; padding-bottom: 15px;'}
+![](../posts/https://github.com/bishwo-web/bishwo/blob/main/img/star/red_giant.jpg?raw=true){width=160px height=100px style='object-fit: cover; border-radius: 5px; flex-shrink: 0;'}
 <div>
 ### [লোহিত দানব তারার গল্প](../posts/red-giant.html)
 *প্রকাশিত: 2023-10-10* 
+
 আরও প্রায় পাঁচশো কোটি বছর সূর্য লোহিত দানব হবে। বর্তমান রাতের আকাশের পরিচিত অনেক তারাই বর্তমানে এ দশায় আছে৷ স্বাতী, ক্যাপেলা, অ্যালডেবারান, জ্যেষ্ঠা (antares) এদের মধ্যে অন্যতম।
 </div>
 :::
 
-::: {.author-post-item style='display: flex; gap: 20px; margin-bottom: 25px; border-bottom: 1px solid #eee; padding-bottom: 15px;'}
-![](../posts/https://github.com/bishwo-web/bishwo/blob/main/img/theory/sun-moon-size.png?raw=true){width=160px style='border-radius: 5px;'}
+::: {.author-post-item .paginated-post style='display: flex; gap: 20px; margin-bottom: 25px; border-bottom: 1px solid #eee; padding-bottom: 15px;'}
+![](../posts/https://github.com/bishwo-web/bishwo/blob/main/img/theory/sun-moon-size.png?raw=true){width=160px height=100px style='object-fit: cover; border-radius: 5px; flex-shrink: 0;'}
 <div>
 ### [পৃথিবীর আকাশে চাঁদ ও সূর্য দেখতে সমান কেন?](../posts/why-sun-moon-same-size.html)
 *প্রকাশিত: 2023-09-20* 
+
 পৃথিবী থেকে চাঁদের তুলনায় সূর্যের দূরত্ব ৪০০ গুণ৷ আবার সূর্যের আকার চাঁদের ৪০০ গুণ। ফলে চাঁদের তুলনায় সূর্যের বিশালতা আমাদের চোখে হারিয়ে যায় দূরত্বের কারণে৷
 </div>
 :::
 
-::: {.author-post-item style='display: flex; gap: 20px; margin-bottom: 25px; border-bottom: 1px solid #eee; padding-bottom: 15px;'}
-![](../posts/../img/star/aldebaran.jpg){width=160px style='border-radius: 5px;'}
+::: {.author-post-item .paginated-post style='display: flex; gap: 20px; margin-bottom: 25px; border-bottom: 1px solid #eee; padding-bottom: 15px;'}
+![](../posts/../img/star/aldebaran.jpg){width=160px height=100px style='object-fit: cover; border-radius: 5px; flex-shrink: 0;'}
 <div>
 ### [এ মাসের তারা: রোহিণী](../posts/aldebaran.html)
 *প্রকাশিত: 2023-09-10* 
+
 রাতের আকাশের চতুর্দশ উজ্জ্বল তারার গল্প দিয়ে। নাম রোহিণী। অবস্থান বৃষমণ্ডলে (Taurus)। এ মণ্ডলটা রাশিচক্রের ১২টি (বর্তমানে ১৩টি) মণ্ডলের অন্যতম।
 </div>
 :::
 
-::: {.author-post-item style='display: flex; gap: 20px; margin-bottom: 25px; border-bottom: 1px solid #eee; padding-bottom: 15px;'}
-![](../posts/https://github.com/bishwo-web/bishwo/blob/main/img/earth/earth_sun_size.png?raw=true){width=160px style='border-radius: 5px;'}
+::: {.author-post-item .paginated-post style='display: flex; gap: 20px; margin-bottom: 25px; border-bottom: 1px solid #eee; padding-bottom: 15px;'}
+![](../posts/https://github.com/bishwo-web/bishwo/blob/main/img/earth/earth_sun_size.png?raw=true){width=160px height=100px style='object-fit: cover; border-radius: 5px; flex-shrink: 0;'}
 <div>
 ### [সূর্য কত বড়?](../posts/how-big-is-sun.html)
 *প্রকাশিত: 2023-09-10* 
+
 সূর্য সৌরজগতের সবচেয়ে বড় বস্তু। যেমন ভারী, তেমনি তার বিশাল অবয়ব৷ সৌরজগতের মোট ভরের ৯৯.৮৬ ভাগ ভরই সূর্যের একার৷ আর আকার? ১০৯টা পৃথিবীকে পাশাপাশি বসালে সূর্যের এপাশ থেকে ওপাশ পর্যন্ত যাওয়া যাবে৷ মানে ব্যাস পৃথিবীর ১০৯ গুণ।
 </div>
 :::
 
-::: {.author-post-item style='display: flex; gap: 20px; margin-bottom: 25px; border-bottom: 1px solid #eee; padding-bottom: 15px;'}
-![](../posts/https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEizYtljb3X3TLiSDvaCz3IBSClhWKRJguDT_xqpqBxoLW-oT1I4zpbiYya5IfsGW4yaEC6fpSmcq1qifh5fgwWC6w3U7330KqfeOk5_SzKKH5kPabNjICShMYWGFZtHSP9ksJUZr0xfaU4/s640/universe.jpg){width=160px style='border-radius: 5px;'}
+::: {.author-post-item .paginated-post style='display: flex; gap: 20px; margin-bottom: 25px; border-bottom: 1px solid #eee; padding-bottom: 15px;'}
+![](../posts/https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEizYtljb3X3TLiSDvaCz3IBSClhWKRJguDT_xqpqBxoLW-oT1I4zpbiYya5IfsGW4yaEC6fpSmcq1qifh5fgwWC6w3U7330KqfeOk5_SzKKH5kPabNjICShMYWGFZtHSP9ksJUZr0xfaU4/s640/universe.jpg){width=160px height=100px style='object-fit: cover; border-radius: 5px; flex-shrink: 0;'}
 <div>
 ### [মহাবিশ্বের জন্মের আগের নক্ষত্র!](../posts/star-vs-universe.html)
 *প্রকাশিত: 2017-10-10* 
+
 আরও প্রায় পাঁচশো কোটি বছর সূর্য লোহিত দানব হবে। বর্তমান রাতের আকাশের পরিচিত অনেক তারাই বর্তমানে এ দশায় আছে৷ স্বাতী, ক্যাপেলা, অ্যালডেবারান, জ্যেষ্ঠা (antares) এদের মধ্যে অন্যতম।
 </div>
 :::
 
-::: {.author-post-item style='display: flex; gap: 20px; margin-bottom: 25px; border-bottom: 1px solid #eee; padding-bottom: 15px;'}
-![](../posts/../img/universe/universe.jpg){width=160px style='border-radius: 5px;'}
+::: {.author-post-item .paginated-post style='display: flex; gap: 20px; margin-bottom: 25px; border-bottom: 1px solid #eee; padding-bottom: 15px;'}
+![](../posts/../img/universe/universe.jpg){width=160px height=100px style='object-fit: cover; border-radius: 5px; flex-shrink: 0;'}
 <div>
 ### [এক পারসেক কত বড়?](../posts/parsec.html)
 *প্রকাশিত: 2015-10-10* 
+
 পারসেকের মান আলোকবর্ষের প্রায় তিনগুণ। সঠিক করে বললে ৩.২৬ গুণ। মানে, এক পারসেক = ৩.২৬ আলোকবর্ষ৷ পারসেক কথাটা এসেছে প্যারালাক্স অব ওয়ান সেকেন্ড বা এক সেকেন্ডের প্যারালাক্স থেকে।
 </div>
 :::
+
+::: {#pagination-controls style='display: flex; justify-content: center; gap: 10px; margin-top: 20px;'}
+<button id='prevPage' class='btn btn-outline-primary'>আগের পাতা</button>
+<span id='pageInfo' style='align-self: center;'></span>
+<button id='nextPage' class='btn btn-outline-primary'>পরের পাতা</button>
+:::
+
+```{=html}
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  const posts = document.querySelectorAll('.paginated-post');
+  const perPage = 10;
+  let currentPage = 1;
+  const totalPages = Math.ceil(posts.length / perPage);
+
+  function showPage(page) {
+    posts.forEach((post, index) => {
+      post.style.display = (index >= (page - 1) * perPage && index < page * perPage) ? 'flex' : 'none';
+    });
+    document.getElementById('pageInfo').innerText = `পাতা ${page} / ${totalPages}`;
+    document.getElementById('prevPage').disabled = (page === 1);
+    document.getElementById('nextPage').disabled = (page === totalPages);
+  }
+
+  document.getElementById('prevPage').addEventListener('click', () => { if(currentPage > 1) showPage(--currentPage); });
+  document.getElementById('nextPage').addEventListener('click', () => { if(currentPage < totalPages) showPage(++currentPage); });
+
+  showPage(currentPage);
+});
+</script>
+```
+

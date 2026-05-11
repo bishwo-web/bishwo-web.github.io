@@ -5,6 +5,7 @@ project:
     - python3 related_posts.py
   post-render:
     - Rscript posts/_gen_posts_csv.R
+    - Rscript authors/_gen_authors_bio.R
 
 website:
   title: "বিশ্ব ডট কম"
