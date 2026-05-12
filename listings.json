@@ -1,17 +1,8 @@
 [
   {
-    "listing": "/abdullah-adil-mahmud.html",
-    "items": []
-  },
-  {
-    "listing": "/nasrullah-masud.html",
-    "items": [
-      "/posts/meghnad-saha.html"
-    ]
-  },
-  {
     "listing": "/latest.html",
     "items": [
+      "/posts/mercury-diamond.html",
       "/posts/comet-types.html",
       "/posts/blue-dwarf.html",
       "/posts/ceres-asteroid-or-dwarf-planet.html",
@@ -35,6 +26,7 @@
   {
     "listing": "/index.html",
     "items": [
+      "/posts/mercury-diamond.html",
       "/posts/comet-types.html",
       "/posts/blue-dwarf.html",
       "/posts/ceres-asteroid-or-dwarf-planet.html",

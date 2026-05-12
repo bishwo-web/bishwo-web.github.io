@@ -4,12 +4,12 @@ sidebar: false
 ---
 
 ::: {.callout-tip title="লেখক পরিচিতি"}
-<img src="..img/site/nasrullah.jpeg" style="border-radius: 50%; width: 100px; float: left; margin-right: 20px; object-fit: cover; height: 100px;">
+<img src="../img/site/nasrullah.jpeg" style="border-radius: 50%; width: 100px; float: left; margin-right: 20px; object-fit: cover; height: 100px;">
 
 **নাসরুল্লাহ মাসুদ** 
 বরেন্দ্র বিশ্ববিদ্যালয়ের শিক্ষক হিসেবে কর্মরত আছেন।
 
-
+**ওয়েব:** [http://scholar.google.com/citations?user=NDQy8_kAAAAJ&hl=en](http://http://scholar.google.com/citations?user=NDQy8_kAAAAJ&hl=en)
 :::
 
 ---

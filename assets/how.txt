@@ -1,0 +1,11 @@
+## For Individual posts
+
+- quarto render blograw/posts/
+- quarto render blograw/authors/_gen_authors_bio.R
+- quarto render blograw/authors
+
+## Whole Site
+
+Just
+
+- quarto render blograw

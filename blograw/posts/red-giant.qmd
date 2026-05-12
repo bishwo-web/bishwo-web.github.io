@@ -2,7 +2,7 @@
 title: "লোহিত দানব তারার গল্প"
 author:
   - name: "আব্দুল্যাহ আদিল মাহমুদ"
-    url: "../abdullah-adil-mahmud.html"
+    url: "../authors/adil.qmd"
 date: "2023-10-10"
 image: https://github.com/bishwo-web/bishwo/blob/main/img/star/red_giant.jpg?raw=true
 categories: [নক্ষত্র, কসমোলজি]

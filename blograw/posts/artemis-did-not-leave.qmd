@@ -2,7 +2,7 @@
 title: "আর্টিমিস ২ পৃথিবী ছেড়ে যায়নি!"
 author:
   - name: "আব্দুল্যাহ আদিল মাহমুদ"
-    url: "../abdullah-adil-mahmud.html"
+    url: "../authors/adil.qmd"
 date: "2026-04-15"
 image: ../img/mission/artemis-ii-trajectory.jpg
 categories: [মহাকাশযান, চাঁদ, সৌরজগৎ]

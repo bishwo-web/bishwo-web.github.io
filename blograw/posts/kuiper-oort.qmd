@@ -2,7 +2,7 @@
 title: "সৌরজগতের ধূমকেতুর দুই উৎস কাইপার বেল্ট ও উর্ট ক্লাউড"
 author:
   - name: "আব্দুল্যাহ আদিল মাহমুদ"
-    url: "../authors/abdullah-adil-mahmud.html"
+    url: "../authors/adil.qmd"
 date: "2026-04-22"
 image: ../img/solar-system/kuiper-belt-oort-cloud.jpg
 categories: [সৌরজগৎ, সূর্য]

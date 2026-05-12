@@ -2,7 +2,7 @@
 title: "পৃথিবীর আকাশে চাঁদ ও সূর্য দেখতে সমান কেন?"
 author:
   - name: "আব্দুল্যাহ আদিল মাহমুদ"
-    url: "../abdullah-adil-mahmud.html"
+    url: "../authors/adil.qmd"
 date: "2023-09-20"
 image: https://github.com/bishwo-web/bishwo/blob/main/img/theory/sun-moon-size.png?raw=true
 categories: [সূর্য, চাঁদ, পৃথিবী, আকাশ]

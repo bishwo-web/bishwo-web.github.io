@@ -17,6 +17,16 @@ sidebar: false
 ## এই লেখকের সকল নিবন্ধ
 
 ::: {.author-post-item .paginated-post style='display: flex; gap: 20px; margin-bottom: 25px; border-bottom: 1px solid #eee; padding-bottom: 15px;'}
+![](../posts/../img/solar-system/mercury.jpg){width=160px height=100px style='object-fit: cover; border-radius: 5px; flex-shrink: 0;'}
+<div>
+### [বুধ গ্রহে হীরা!](../posts/mercury-diamond.html)
+*প্রকাশিত: 2026-05-11* 
+
+বুধ সৌরজগতের সবচেয়ে ছোট গ্রহ। চাঁদের চেয়ে কিছুটা বড় হলেও বৃহস্পতির উপগ্রহ গ্যানিমিডের চেয়ে ছোট। তবে এর পৃষ্ঠের নীচে সম্ভবত অমূল্য রত্ন রয়েছে। কার্বনের এক রূপভেদ হীরা আছে সম্ভবত এতে।
+</div>
+:::
+
+::: {.author-post-item .paginated-post style='display: flex; gap: 20px; margin-bottom: 25px; border-bottom: 1px solid #eee; padding-bottom: 15px;'}
 ![](../posts/../img/solar-system/comets.png){width=160px height=100px style='object-fit: cover; border-radius: 5px; flex-shrink: 0;'}
 <div>
 ### [কতরকম ধূমকেতু!](../posts/comet-types.html)

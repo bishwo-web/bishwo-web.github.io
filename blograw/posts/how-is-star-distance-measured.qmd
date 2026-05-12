@@ -2,7 +2,7 @@
 title: "নক্ষত্রের দূরত্ব বের করা হয় কীভাবে?"
 author:
   - name: "আব্দুল্যাহ আদিল মাহমুদ"
-    url: "../abdullah-adil-mahmud.html"
+    url: "../authors/adil.qmd"
 date: "2023-10-12"
 image: ../img/star/stars.jpg
 categories: [নক্ষত্র, দূরত্ব, মহাবিশ্ব]

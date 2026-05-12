@@ -4,7 +4,7 @@ author:
   - name: আব্দুল্যাহ আদিল মাহমুদ
     id: adil
     image: ../img/site/adil.jpg
-    url: "../abdullah-adil-mahmud.html"
+    url: "../authors/adil.qmd"
 date: "2023-09-10"
 image: https://github.com/bishwo-web/bishwo/blob/main/img/earth/earth_sun_size.png?raw=true
 categories: [সূর্য, সৌরজগৎ]

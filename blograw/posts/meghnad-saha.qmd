@@ -2,7 +2,7 @@
 title: "স্মরণে মেঘনাদ সাহা"
 author:
   - name: "নাসরুল্লাহ মাসুদ"
-    url: "../authors/nasrullah-masud"
+    url: "../authors/nasrullah.qmd"
 date: "2017-02-16"
 image: ../img/bio/meghnad_saha.jpg
 categories: [জীবনী, বাঙালি-বিজ্ঞানী]

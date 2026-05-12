@@ -2,7 +2,7 @@
 title: "গ্যানিমিড: সৌরজগতের সবচেয়ে বড় উপগ্রহ"
 author:
   - name: "আব্দুল্যাহ আদিল মাহমুদ"
-    url: "../abdullah-adil-mahmud.html"
+    url: "../authors/adil.qmd"
 date: "2026-04-25"
 image: ../img/solar-system/ganymede-juno.jpg
 categories: [সৌরজগৎ, গ্রহ, উপগ্রহ]

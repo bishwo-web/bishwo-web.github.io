@@ -2,7 +2,7 @@
 title: "মহাবিশ্বের জন্মের আগের নক্ষত্র!"
 author:
   - name: "আব্দুল্যাহ আদিল মাহমুদ"
-    url: "../abdullah-adil-mahmud.html"
+    url: "../authors/adil.qmd"
 date: "2017-10-10"
 image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEizYtljb3X3TLiSDvaCz3IBSClhWKRJguDT_xqpqBxoLW-oT1I4zpbiYya5IfsGW4yaEC6fpSmcq1qifh5fgwWC6w3U7330KqfeOk5_SzKKH5kPabNjICShMYWGFZtHSP9ksJUZr0xfaU4/s640/universe.jpg
 categories: [নক্ষত্র, মহাবিশ্ব, কসমোলজি]

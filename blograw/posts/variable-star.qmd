@@ -2,7 +2,7 @@
 title: "বিষম তারার গল্প"
 author:
   - name: "আব্দুল্যাহ আদিল মাহমুদ"
-    url: "../abdullah-adil-mahmud.html"
+    url: "../authors/adil.qmd"
 date: "2025-10-10"
 image: ../img/star/variable.webp
 categories: [নক্ষত্র, কসমোলজি]

@@ -4,7 +4,7 @@ author:
   - name: আব্দুল্যাহ আদিল মাহমুদ
     id: adil
     image: ../img/site/adil.jpg
-    url: "../abdullah-adil-mahmud.html"
+    url: "../authors/adil.qmd"
 date: "2026-04-28"
 image: ../img/star/blue-dwarf-size.jpg
 categories: [নক্ষত্র, কসমোলজি]
