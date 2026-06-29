@@ -17,6 +17,26 @@ sidebar: false
 ## এই লেখকের সকল নিবন্ধ
 
 ::: {.author-post-item .paginated-post style='display: flex; gap: 20px; margin-bottom: 25px; border-bottom: 1px solid #eee; padding-bottom: 15px;'}
+![](../posts/../img/universe/pink-planet.jpg){width=160px height=100px style='object-fit: cover; border-radius: 5px; flex-shrink: 0;'}
+<div>
+### [গোলাপি গ্রহ জিজে ৫০৪ বি এবং জেমস ওয়েবের নতুন আবিষ্কার](../posts/pink-planet.html)
+*প্রকাশিত: 2026-06-29* 
+
+পৃথিবী থেকে ৫৭ আলোকবর্ষ দূরের বিখ্যাত গোলাপি এক্সোপ্ল্যানেট GJ 504 b-এর বায়ুমণ্ডলে লবণের মেঘ আবিষ্কার করেছেন বিজ্ঞানীরা। জেমস ওয়েব টেলিস্কোপের পাঠানো নতুন তথ্য নিয়ে একটি সংক্ষিপ্ত আলোচনা।
+</div>
+:::
+
+::: {.author-post-item .paginated-post style='display: flex; gap: 20px; margin-bottom: 25px; border-bottom: 1px solid #eee; padding-bottom: 15px;'}
+![](../posts/../img/galaxy/M82-65.webp){width=160px height=100px style='object-fit: cover; border-radius: 5px; flex-shrink: 0;'}
+<div>
+### [সিগার গ্যালাক্সির অভিনব ছবি](../posts/M-82-65.html)
+*প্রকাশিত: 2026-06-28* 
+
+টেলিস্কোপটি এটি পর্যবেক্ষণ করতে ৬৫ ঘণ্টা বা প্রায় তিন দিন সময় নিয়েছে। এর ফলে পাওয়া গেছে ২২৩ মেগাপিক্সেলের একটি ছবি। এই ছবিতে ১৬.৫ মিলিয়ন বা ১.৬৫ কোটি
+</div>
+:::
+
+::: {.author-post-item .paginated-post style='display: flex; gap: 20px; margin-bottom: 25px; border-bottom: 1px solid #eee; padding-bottom: 15px;'}
 ![](../posts/../img/theory/hot-jupiter.jpg){width=160px height=100px style='object-fit: cover; border-radius: 5px; flex-shrink: 0;'}
 <div>
 ### [হট জুপিটার কাকে বলে?](../posts/hot-jupiter.html)

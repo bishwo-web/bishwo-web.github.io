@@ -2,13 +2,15 @@
   {
     "listing": "/latest.html",
     "items": [
+      "/posts/pink-planet.html",
+      "/posts/M-82-65.html",
+      "/posts/hot-jupiter.html",
       "/posts/earth-inside.html",
       "/posts/mercury-diamond.html",
       "/posts/comet-types.html",
       "/posts/blue-dwarf.html",
       "/posts/ganymede.html",
       "/posts/ceres-asteroid-or-dwarf-planet.html",
-      "/posts/hot-jupiter.html",
       "/posts/saturn-moons.html",
       "/posts/kuiper-oort.html",
       "/posts/artemis-did-not-leave.html",
@@ -28,13 +30,15 @@
   {
     "listing": "/index.html",
     "items": [
+      "/posts/pink-planet.html",
+      "/posts/M-82-65.html",
+      "/posts/hot-jupiter.html",
       "/posts/earth-inside.html",
       "/posts/mercury-diamond.html",
       "/posts/comet-types.html",
       "/posts/blue-dwarf.html",
       "/posts/ganymede.html",
       "/posts/ceres-asteroid-or-dwarf-planet.html",
-      "/posts/hot-jupiter.html",
       "/posts/saturn-moons.html",
       "/posts/kuiper-oort.html",
       "/posts/artemis-did-not-leave.html",
