@@ -17,6 +17,26 @@ sidebar: false
 ## এই লেখকের সকল নিবন্ধ
 
 ::: {.author-post-item .paginated-post style='display: flex; gap: 20px; margin-bottom: 25px; border-bottom: 1px solid #eee; padding-bottom: 15px;'}
+![](../posts/../img/theory/hot-jupiter.jpg){width=160px height=100px style='object-fit: cover; border-radius: 5px; flex-shrink: 0;'}
+<div>
+### [হট জুপিটার কাকে বলে?](../posts/hot-jupiter.html)
+*প্রকাশিত: 2026-06-25* 
+
+হট জুপিটার বা উষ্ণ বৃহস্পতির সাইজ ও উপাদান আমাদের বৃহস্পতির মতোই। তবে এদের তাপমাত্রা অনেক বেশি। কারণ এরা থাকেই সূর্যের খুব কাছে। যা আবার বৃহস্পতির সাথে মেলে না।
+</div>
+:::
+
+::: {.author-post-item .paginated-post style='display: flex; gap: 20px; margin-bottom: 25px; border-bottom: 1px solid #eee; padding-bottom: 15px;'}
+![](../posts/../img/infographic/earth-inside-others.png){width=160px height=100px style='object-fit: cover; border-radius: 5px; flex-shrink: 0;'}
+<div>
+### [ইনফোগ্রাফিক: কোথায় কতটি পৃথিবীর জায়গা হবে?](../posts/earth-inside.html)
+*প্রকাশিত: 2026-06-21* 
+
+সূর্য বা বিভিন্ন গ্রহে কতটি পৃথিবীর জায়গা হবে তা দেখুন এক নজরে।
+</div>
+:::
+
+::: {.author-post-item .paginated-post style='display: flex; gap: 20px; margin-bottom: 25px; border-bottom: 1px solid #eee; padding-bottom: 15px;'}
 ![](../posts/../img/solar-system/mercury.jpg){width=160px height=100px style='object-fit: cover; border-radius: 5px; flex-shrink: 0;'}
 <div>
 ### [বুধ গ্রহে হীরা!](../posts/mercury-diamond.html)
