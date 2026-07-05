@@ -17,6 +17,26 @@ sidebar: false
 ## এই লেখকের সকল নিবন্ধ
 
 ::: {.author-post-item .paginated-post style='display: flex; gap: 20px; margin-bottom: 25px; border-bottom: 1px solid #eee; padding-bottom: 15px;'}
+![](../posts/../img/mission/ship-thru-asteroid-belt.jpg){width=160px height=100px style='object-fit: cover; border-radius: 5px; flex-shrink: 0;'}
+<div>
+### [মহাকাশযান গ্রহাণুবেষ্টনী পার হয় কীভাবে?](../posts/asteroid-belt-not-wall.html)
+*প্রকাশিত: 2026-07-05* 
+
+ভয়েজার মহাকাশযান বৃহস্পতি গ্রহে পৌঁছানোর আগে বিজ্ঞানীদের মনে একটি বড় প্রশ্ন ছিল—এটি কি গ্রহাণু বলয় বা অ্যাস্টেরয়েড বেল্ট পার হতে পারবে?
+</div>
+:::
+
+::: {.author-post-item .paginated-post style='display: flex; gap: 20px; margin-bottom: 25px; border-bottom: 1px solid #eee; padding-bottom: 15px;'}
+![](../posts/../img/mission/ngrst.jpg){width=160px height=100px style='object-fit: cover; border-radius: 5px; flex-shrink: 0;'}
+<div>
+### [কেনেডি স্পেস সেন্টারে পৌঁছাল নাসার ন্যান্সি গ্রেস রোমান স্পেস টেলিস্কোপ](../posts/ngrst-nasa.html)
+*প্রকাশিত: 2026-06-29* 
+
+উৎক্ষেপণের আগের চূড়ান্ত প্রস্তুতির জন্য নাসার ৪.৩ বিলিয়ন ডলারের ন্যান্সি গ্রেস রোমান স্পেস টেলিস্কোপটি ফ্লোরিডার কেনেডি স্পেস সেন্টারে এসে পৌঁছেছে।
+</div>
+:::
+
+::: {.author-post-item .paginated-post style='display: flex; gap: 20px; margin-bottom: 25px; border-bottom: 1px solid #eee; padding-bottom: 15px;'}
 ![](../posts/../img/universe/pink-planet.jpg){width=160px height=100px style='object-fit: cover; border-radius: 5px; flex-shrink: 0;'}
 <div>
 ### [গোলাপি গ্রহ গ্লিজ ৫০৪ বি](../posts/pink-planet.html)

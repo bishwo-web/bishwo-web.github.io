@@ -2,6 +2,8 @@
   {
     "listing": "/latest.html",
     "items": [
+      "/posts/asteroid-belt-not-wall.html",
+      "/posts/ngrst-nasa.html",
       "/posts/pink-planet.html",
       "/posts/M-82-65.html",
       "/posts/hot-jupiter.html",
@@ -30,6 +32,8 @@
   {
     "listing": "/index.html",
     "items": [
+      "/posts/asteroid-belt-not-wall.html",
+      "/posts/ngrst-nasa.html",
       "/posts/pink-planet.html",
       "/posts/M-82-65.html",
       "/posts/hot-jupiter.html",
