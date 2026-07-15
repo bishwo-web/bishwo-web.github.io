@@ -17,12 +17,62 @@ sidebar: false
 ## এই লেখকের সকল নিবন্ধ
 
 ::: {.author-post-item .paginated-post style='display: flex; gap: 20px; margin-bottom: 25px; border-bottom: 1px solid #eee; padding-bottom: 15px;'}
+![](../posts/../img/universe/abell-2744.jpg){width=160px height=100px style='object-fit: cover; border-radius: 5px; flex-shrink: 0;'}
+<div>
+### [আজকের ছবি: প্যান্ডোরা ক্লাস্টার](../posts/apod-abell-2744.html)
+*প্রকাশিত: 2026-07-12* 
+
+চারটি ছোট ছোট ছায়াপথপুঞ্জ মিলিত হয়ে তৈরি হয়েছে অ্যাবেল ২৭৪৪। এ পুঞ্জটির জন্ম হয়েছে আজ থেকে ৩৫ কোটি বছর আগে।
+</div>
+:::
+
+::: {.author-post-item .paginated-post style='display: flex; gap: 20px; margin-bottom: 25px; border-bottom: 1px solid #eee; padding-bottom: 15px;'}
+![](../posts/../img/ancient-black-hole.jpg){width=160px height=100px style='object-fit: cover; border-radius: 5px; flex-shrink: 0;'}
+<div>
+### [পাওয়া গেল গ্যালাক্সির চেয়েও প্রাচীন ব্ল্যাক হোল!](../posts/black-hole-older-than-galaxy.html)
+*প্রকাশিত: 2026-07-12* 
+
+জেমস ওয়েব স্পেস টেলিস্কোপ মহাবিশ্বের শুরুর দিকের এমন একটি ব্ল্যাক হোলের সন্ধান পেয়েছে, যা সম্ভবত তার চারপাশের গ্যালাক্সির আগেই তৈরি হয়েছিল।
+</div>
+:::
+
+::: {.author-post-item .paginated-post style='display: flex; gap: 20px; margin-bottom: 25px; border-bottom: 1px solid #eee; padding-bottom: 15px;'}
+![](../posts/../img/universe/WD185-6b.jpg){width=160px height=100px style='object-fit: cover; border-radius: 5px; flex-shrink: 0;'}
+<div>
+### [অদ্ভুত যে গ্রহ মৃত তারার চারপাশে ঘোরে](../posts/planet-orbiting-dead-star-WD-1856-b.html)
+*প্রকাশিত: 2026-07-08* 
+
+ডাব্লিউডি ১৮৫৬ বি এর নক্ষত্রের মৃত্যুর পরেও বেঁচে যাওয়া এক গ্রহ। বিশাল এই গ্রহটি পৃথিবী থেকে প্রায় ৮২ আলোকবর্ষ দূরে একটি শ্বেত বামনকে কেন্দ্র করে ঘুরছে।
+</div>
+:::
+
+::: {.author-post-item .paginated-post style='display: flex; gap: 20px; margin-bottom: 25px; border-bottom: 1px solid #eee; padding-bottom: 15px;'}
+![](../posts/../img/aliens-exist.jpg){width=160px height=100px style='object-fit: cover; border-radius: 5px; flex-shrink: 0;'}
+<div>
+### [এলিয়েন কেন এখনও পৃথিবীতে আসেনি?](../posts/why-no-aliens-visited-us.html)
+*প্রকাশিত: 2026-07-06* 
+
+মহাবিশ্ব এত বিশাল যে এখানে আমরা একা নই। কিন্তু বুদ্ধিমান এলিয়েনরা থাকলে তারা কেন আমাদের কাছে আসেনি? বিজ্ঞানীরা এর তিনটি চমৎকার কারণ দেখিয়েছেন।
+</div>
+:::
+
+::: {.author-post-item .paginated-post style='display: flex; gap: 20px; margin-bottom: 25px; border-bottom: 1px solid #eee; padding-bottom: 15px;'}
 ![](../posts/../img/mission/ship-thru-asteroid-belt.jpg){width=160px height=100px style='object-fit: cover; border-radius: 5px; flex-shrink: 0;'}
 <div>
 ### [মহাকাশযান গ্রহাণুবেষ্টনী পার হয় কীভাবে?](../posts/asteroid-belt-not-wall.html)
 *প্রকাশিত: 2026-07-05* 
 
 ভয়েজার মহাকাশযান বৃহস্পতি গ্রহে পৌঁছানোর আগে বিজ্ঞানীদের মনে একটি বড় প্রশ্ন ছিল—এটি কি গ্রহাণু বলয় বা অ্যাস্টেরয়েড বেল্ট পার হতে পারবে?
+</div>
+:::
+
+::: {.author-post-item .paginated-post style='display: flex; gap: 20px; margin-bottom: 25px; border-bottom: 1px solid #eee; padding-bottom: 15px;'}
+![](../posts/../img/solar-system/earth-moon.webp){width=160px height=100px style='object-fit: cover; border-radius: 5px; flex-shrink: 0;'}
+<div>
+### [চাঁদহীন পৃথিবী: যেখানে দিন হতো ৮ ঘণ্টার আর বছর ১,৪০০ দিনের](../posts/moonless-earth-day-year.html)
+*প্রকাশিত: 2026-06-29* 
+
+আমাদের পরিচিত ২৪ ঘণ্টার দিন আর ৩৬৫ দিনের বছর মূলত চাঁদের অবদান। চাঁদ না থাকলে কেমন হতো আমাদের পৃথিবী? চলুন দেখে নেই।
 </div>
 :::
 

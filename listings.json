@@ -2,6 +2,8 @@
   {
     "listing": "/latest.html",
     "items": [
+      "/posts/apod-abell-2744.html",
+      "/posts/planet-orbiting-dead-star-WD-1856-b.html",
       "/posts/asteroid-belt-not-wall.html",
       "/posts/ngrst-nasa.html",
       "/posts/pink-planet.html",
@@ -32,6 +34,8 @@
   {
     "listing": "/index.html",
     "items": [
+      "/posts/apod-abell-2744.html",
+      "/posts/planet-orbiting-dead-star-WD-1856-b.html",
       "/posts/asteroid-belt-not-wall.html",
       "/posts/ngrst-nasa.html",
       "/posts/pink-planet.html",

@@ -1,26 +1,21 @@
 ---
-title: "About"
-image: img/abdullah.jpeg
+title: "বিশ্ব ডট কম পরিচিতি"
+image: assets/bishwo_clean.png
 about:
   template: jolla
   links:
-    - icon: twitter
-      text: Twitter
-      href: https://x.com/thinkermahmud
-    - icon: linkedin
-      text: LinkedIn
-      href: https://www.linkedin.com/in/mahmudstat/
+    - icon: youtube
+      text: Youtube
+      href: https://www.youtube.com/@Bishwotube
+    - icon: facebook
+      text: Facebook
+      href: https://www.facebook.com/bishwo.bd
     - icon: github
       text: Github
-      href: https://github.com/mahmudstat
+      href: https://github.com/bishwo-web
 
 ---
 
-I am a **lecturer in statistics** at *Mymensingh Girls' Cadet College*, Mymensingh. Earlier I taught statistics at *Sylhet Cadet College* & *Pabna Cadet College*. Before joining Cadet College service, I was employed as a research assistant at *EAL*, Dhaka. I also worked as a science contributor for *The Daily Prothom Alo*.
+বিশ্ব ডট কম বিজ্ঞান, বিশেষ করে মহাকাশবিজ্ঞান নিয়ে বাংলায় নির্মিত সবচেয়ে বড় পোর্টাল। এখানে মহাকাশবিজ্ঞানের বিভিন্ন বিষয়ে তিন শতাধিক নিবন্ধ রয়েছে। সম্প্রতি শুরু হয়েছে আমাদের [ইউটিউব চ্যানেল](https://www.youtube.com/@Bishwotube)।
 
-I love to make my [tecahing slides](https://docs.statmania.info/lectures) using coding ([***10 of them***](https://docs.statmania.info)), also generating questions using **Python**, **Bash**, and **Latex**, among others, inside ***Rstudio***, or using [***Quarto***](https://quarto.org).
-
-I have, with the pen name *Abdullah Adil Mahmud (আব্দুল্যাহ আদিল মাহমুদ)*, writt
-en **SIX science books**, which are all available on [Rokomari.com](https://www.rokomari.com/book/author/47631).
-
-[Learn more ...](https://www.thinkermahmud.com/)
+পুরাতন ওয়েবসাইট [ভিজিট করুন এখানে](https://sky.bishwo.com/)।

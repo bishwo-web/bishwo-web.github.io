@@ -7,6 +7,12 @@
 # one-liner after post rendering
 quarto render blograw/authors/_gen_authors_bio.R; quarto render blograw/authors
 
+# Draft
+
+Start filename with an underscore (_)
+or
+Keep in assets/posts.txt file
+
 ## Whole Site
 
 Just
