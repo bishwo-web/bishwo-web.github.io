@@ -1,0 +1,191 @@
+[
+  {
+    "objectID": "05-moments-skewness-kurtosis.html#central-moments",
+    "href": "05-moments-skewness-kurtosis.html#central-moments",
+    "title": "Moments, Skewness & Kurtosis | Anonymous Mirror",
+    "section": "Central Moments",
+    "text": "Central Moments\nCentral Moments: \\(\\mu_r=\\frac{\\sum(x_i-\\bar x)^r}{n}\\)\n\n\n\n\\(\\mu_1=\\frac{\\sum(x_i-\\bar x)}{n}=\\frac{\\sum x_i}{n}-\\frac{n \\bar x}{n}=\\frac{n \\bar x}{n}-\\frac{n \\bar x}{n}=0\\)\n\n\n\n\n\n\n\\(\\mu_2=\\frac{\\sum(x_i-\\bar x)^2}{n}=\\sigma^2\\)\n\\(\\mu_3=\\frac{\\sum(x_i-\\bar x)^3}{n}\\)\n\\(\\mu_4=\\frac{\\sum(x_i-\\bar x)^4}{n}\\)\nFor grouped data: \\(\\mu_r=\\frac{\\sum f_i(x_i-\\bar x)^r}{n}\\)"
+  },
+  {
+    "objectID": "05-moments-skewness-kurtosis.html#raw-moments",
+    "href": "05-moments-skewness-kurtosis.html#raw-moments",
+    "title": "Moments, Skewness & Kurtosis | Anonymous Mirror",
+    "section": "Raw Moments",
+    "text": "Raw Moments\n\\(\\mu_r'=\\frac{\\sum(x_i-a)^r}{n}\\); a is arbitrary number\n\\(\\mu_1'=\\frac{\\sum(x_i-a)}{n}=\\frac{\\sum x_i}{n}-\\frac{na}{n}=\\bar x-a\\)"
+  },
+  {
+    "objectID": "05-moments-skewness-kurtosis.html#value-of-1st-central-moment",
+    "href": "05-moments-skewness-kurtosis.html#value-of-1st-central-moment",
+    "title": "Moments, Skewness & Kurtosis | Anonymous Mirror",
+    "section": "Value of 1st Central Moment",
+    "text": "Value of 1st Central Moment\n\\(\\displaystyle \\mu_1=\\frac{\\sum (x_i-\\bar x)}{n}=\\frac{\\sum x_i}{n}=\\bar x - \\bar x = 0\\)"
+  },
+  {
+    "objectID": "05-moments-skewness-kurtosis.html#binomial-formula-from-pascal-triangle",
+    "href": "05-moments-skewness-kurtosis.html#binomial-formula-from-pascal-triangle",
+    "title": "Moments, Skewness & Kurtosis | Anonymous Mirror",
+    "section": "Binomial Formula from Pascal Triangle",
+    "text": "Binomial Formula from Pascal Triangle\n\nCoefficients using the triangle\n\n\\((a+b)^1 = a + b\\)\n\\((a+b)^2 = a^2 + 2ab + b^2\\)\n\\((a+b)^3=a^3+3a^2b+3ab^2+b^3\\)\n\\((a+b)^4=a^4+4a^3b+6a^2b^2+4ab^3+b^4\\)"
+  },
+  {
+    "objectID": "05-moments-skewness-kurtosis.html#changing-origin-of-moments",
+    "href": "05-moments-skewness-kurtosis.html#changing-origin-of-moments",
+    "title": "Moments, Skewness & Kurtosis | Anonymous Mirror",
+    "section": "Changing Origin of Moments",
+    "text": "Changing Origin of Moments\nFrom \\(\\mu_r'(a)\\) to \\(\\mu_r'(k)\\)\nAssume, \\(a^r = \\mu_r'(a)\\), \\(b = a - k\\)\n\n\n\nBinomial Formulae\n\n\\((a+b)^1 = a + b\\)\n\\((a+b)^2 = a^2 + 2ab + b^2\\)\n\\((a+b)^3=a^3+3a^2b+3ab^2+b^3\\)\n\\((a+b)^4=a^4+4a^3b+6a^2b^2+4ab^3+b^4\\)\n\n\n\n\n\n\n\n\\(\\mu_1'(k) = \\mu_1'(a) + b\\)\n\n\n\\(\\mu_2'(k) = \\mu_2'(a) + 2 \\mu_1'(a)b + b^2\\)\n\n\n?\n\n\n?\n\n\n\n\n\n\n\nSee Examples"
+  },
+  {
+    "objectID": "05-moments-skewness-kurtosis.html#central-moments-from-raws",
+    "href": "05-moments-skewness-kurtosis.html#central-moments-from-raws",
+    "title": "Moments, Skewness & Kurtosis | Anonymous Mirror",
+    "section": "Central Moments from Raws",
+    "text": "Central Moments from Raws\nUse \\(k = \\bar x\\)\nThat’s it! DO NOT MEMORIZE!"
+  },
+  {
+    "objectID": "05-moments-skewness-kurtosis.html#nd-central-moment",
+    "href": "05-moments-skewness-kurtosis.html#nd-central-moment",
+    "title": "Moments, Skewness & Kurtosis | Anonymous Mirror",
+    "section": "2nd Central Moment",
+    "text": "2nd Central Moment\n\\(\\mu_2=\\mu_2' - \\mu_1'^2\\)\n\n\n\n\\(\\mu_2=\\mu_2'(a)+2\\mu_1'(a)(a-\\bar x)+(a-\\bar x)^2\\) [From here]\n\\(\\mu_2'-2(a-\\bar x)^2+(a-\\bar x)^2\\) [since \\(\\mu_1'(a) = \\bar x-a\\)]\n\\(\\mu_2'-(a-\\bar x)^2\\)\n\\(\\mu_2' - \\mu_1'^2\\)"
+  },
+  {
+    "objectID": "05-moments-skewness-kurtosis.html#chracteristics-of-moments",
+    "href": "05-moments-skewness-kurtosis.html#chracteristics-of-moments",
+    "title": "Moments, Skewness & Kurtosis | Anonymous Mirror",
+    "section": "Chracteristics of Moments",
+    "text": "Chracteristics of Moments\n\n\n\n\nUsed for testing for symmetry, normality, and skewness\nFirst raw moment around zero is Arithmetic Mean (\\(\\mu_1'=\\frac{\\sum (x_i)}{n}=\\bar x\\))\nSecond central moment is equal to variance (\\(\\sigma^2 = \\frac{\\sum (x_i-\\bar x)^2 )}{n}\\))\n2nd and 3rd central moments are used to measure skewness (detailed later)\n2nd and 4th central moments are used to measure kurtosis"
+  },
+  {
+    "objectID": "05-moments-skewness-kurtosis.html#can-moments-be-negative",
+    "href": "05-moments-skewness-kurtosis.html#can-moments-be-negative",
+    "title": "Moments, Skewness & Kurtosis | Anonymous Mirror",
+    "section": "Can Moments Be Negative?",
+    "text": "Can Moments Be Negative?\n\\(\\displaystyle \\mu_r = \\frac{\\sum(x_i-\\bar x)^r )}{n}; r=1,2,3, \\cdots\\)\n\n\n\n0 if all values are equal to origin\nNegative if r is an Odd number\nPositive if r is Even number"
+  },
+  {
+    "objectID": "05-moments-skewness-kurtosis.html#skewness",
+    "href": "05-moments-skewness-kurtosis.html#skewness",
+    "title": "Moments, Skewness & Kurtosis | Anonymous Mirror",
+    "section": "Skewness",
+    "text": "Skewness\nLack of symmetry\n\n\n+Ve Skew \\(\\rightarrow \\bar X \\gt Me \\gt Mode\\)\n-Ve Skew \\(\\rightarrow \\bar X \\lt Me \\lt Mode\\)\nNo Skew \\(\\rightarrow \\bar X = Me = Mode\\)"
+  },
+  {
+    "objectID": "05-moments-skewness-kurtosis.html#positive-skewness",
+    "href": "05-moments-skewness-kurtosis.html#positive-skewness",
+    "title": "Moments, Skewness & Kurtosis | Anonymous Mirror",
+    "section": "Positive Skewness",
+    "text": "Positive Skewness\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLow values have high frequency\nHigh values have low frequency\nAs the value increases, the frequency decreases\n\n\n\nMost students score low, very few get good scores."
+  },
+  {
+    "objectID": "05-moments-skewness-kurtosis.html#negative-skewness",
+    "href": "05-moments-skewness-kurtosis.html#negative-skewness",
+    "title": "Moments, Skewness & Kurtosis | Anonymous Mirror",
+    "section": "Negative Skewness",
+    "text": "Negative Skewness\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLow values have low frequency\nHigh values have high frequency\nAs the value increases, so does the frequency\n\nVery few students get low marks, most get high marks."
+  },
+  {
+    "objectID": "05-moments-skewness-kurtosis.html#symmetric",
+    "href": "05-moments-skewness-kurtosis.html#symmetric",
+    "title": "Moments, Skewness & Kurtosis | Anonymous Mirror",
+    "section": "Symmetric",
+    "text": "Symmetric\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAverage values have maximum frequency\nLow values have low frequency and high values have high frequency\nAs the value go farther from mean, their frequency gradually decreases."
+  },
+  {
+    "objectID": "05-moments-skewness-kurtosis.html#kurtosis",
+    "href": "05-moments-skewness-kurtosis.html#kurtosis",
+    "title": "Moments, Skewness & Kurtosis | Anonymous Mirror",
+    "section": "Kurtosis",
+    "text": "Kurtosis\n\nNormal distribution \\(\\rightarrow\\)\n\nMost students get average marks\nHigher and lower marks are obtained by lesser number of students"
+  },
+  {
+    "objectID": "05-moments-skewness-kurtosis.html#kurtosis-misconception",
+    "href": "05-moments-skewness-kurtosis.html#kurtosis-misconception",
+    "title": "Moments, Skewness & Kurtosis | Anonymous Mirror",
+    "section": "Kurtosis Misconception",
+    "text": "Kurtosis Misconception\nKurtosis is NOT a degree of peakedness. Learn more"
+  },
+  {
+    "objectID": "05-moments-skewness-kurtosis.html#measures-of-skewness",
+    "href": "05-moments-skewness-kurtosis.html#measures-of-skewness",
+    "title": "Moments, Skewness & Kurtosis | Anonymous Mirror",
+    "section": "Measures of SKewness",
+    "text": "Measures of SKewness\n\n\n\n\nPearson’s Coefficient: \\(SK_P=\\frac{Mean-Mode}{\\sigma}=\\frac{3(Mean-Median)}{\\sigma} ;(-3,3)\\)\n(\\(Mode=3Me-2\\bar X\\))\n\n\n\n\nBowley’s Coefficient: \\(SK_B=\\frac{Q_3+Q_1-2Me}{Q_3-Q_1}; (-1,1)\\)\nKelly’s Coefficient: \\(SK_k=\\frac{D_1+D_9-2Me}{D_9-D1}\\)\nMethod of Moments: \\(\\beta_1=\\frac{\\mu_3^2}{\\mu_2^3}\\)\n\n\n\n\n\n\nEstimate Skewness\n4, 23, 55, 70, 74, 78, 86, 89"
+  },
+  {
+    "objectID": "05-moments-skewness-kurtosis.html#skewness-working-formula",
+    "href": "05-moments-skewness-kurtosis.html#skewness-working-formula",
+    "title": "Moments, Skewness & Kurtosis | Anonymous Mirror",
+    "section": "Skewness Working Formula",
+    "text": "Skewness Working Formula\nCoefficient of skewness, \\(\\gamma_1 = \\sqrt{\\beta_1} = \\sqrt{\\frac{\\mu_3^2}{\\mu_2^3}} = \\frac{\\mu_3}{\\sqrt{\\mu_2^3}}\\)\nIf \\(\\gamma_1 &lt; 0 \\rightarrow\\) Negative Skew\nIf \\(\\gamma_1 &gt; 0 \\rightarrow\\) Positive Skew\nIf \\(\\gamma_1 = 0 \\rightarrow\\) No Skew (Symmetric Distribution)"
+  },
+  {
+    "objectID": "05-moments-skewness-kurtosis.html#measures-of-kurtosis",
+    "href": "05-moments-skewness-kurtosis.html#measures-of-kurtosis",
+    "title": "Moments, Skewness & Kurtosis | Anonymous Mirror",
+    "section": "Measures of Kurtosis",
+    "text": "Measures of Kurtosis\n\nPearsons’s Coefficient of Moments, \\(\\beta_2 = \\frac{\\mu_4}{\\mu_2^2}\\)\nPercentile Coefficient, \\(K=\\frac{\\frac 1 2 (Q_3-Q_1)}{P_{90}-P_{10}}\\)"
+  },
+  {
+    "objectID": "05-moments-skewness-kurtosis.html#kurtosis-working-formula",
+    "href": "05-moments-skewness-kurtosis.html#kurtosis-working-formula",
+    "title": "Moments, Skewness & Kurtosis | Anonymous Mirror",
+    "section": "Kurtosis Working Formula",
+    "text": "Kurtosis Working Formula\n\\(\\gamma_2=\\beta_2-3\\)\n\\(\\gamma_2=0 \\space or \\space \\beta_2=3) \\rightarrow\\) Mesokurtik \\(\\gamma_2\\gt0 \\space or \\space \\beta_2 \\gt 3) \\rightarrow\\) Leptokurtik \\(\\gamma_2\\lt0 \\space or \\space \\beta_2\\lt3) \\rightarrow\\) Platykurtik\n9, 7, 8, 6 \\(\\rightarrow\\) Find kurtosis"
+  },
+  {
+    "objectID": "05-moments-skewness-kurtosis.html#five-number-summary",
+    "href": "05-moments-skewness-kurtosis.html#five-number-summary",
+    "title": "Moments, Skewness & Kurtosis | Anonymous Mirror",
+    "section": "Five Number Summary",
+    "text": "Five Number Summary\n\n\n\nMinimum\nMaximum\nQuartiles: \\(Q_1, Q_2, Q_3\\)\n\n\n\n\n\\(Q_1 - X_L&lt;X_H-Q_3 \\rightarrow\\) Positive Skew\n\\(Q_1 - X_L&gt;X_H-Q_3 \\rightarrow\\) Negative Skew"
+  },
+  {
+    "objectID": "05-moments-skewness-kurtosis.html#example-of-five-number-summary",
+    "href": "05-moments-skewness-kurtosis.html#example-of-five-number-summary",
+    "title": "Moments, Skewness & Kurtosis | Anonymous Mirror",
+    "section": "Example of Five Number Summary",
+    "text": "Example of Five Number Summary\n2, 1, 0, 5, -6, 7, -4\nSolution\n\n\n\nMinimum\n\\(Q_1\\)\n\\(Q_2\\)\n\\(Q_3\\)\nMaximum\n\n\n\n\n-6\n-4\n1\n5\n7"
+  },
+  {
+    "objectID": "05-moments-skewness-kurtosis.html#box-and-whisker-plot",
+    "href": "05-moments-skewness-kurtosis.html#box-and-whisker-plot",
+    "title": "Moments, Skewness & Kurtosis | Anonymous Mirror",
+    "section": "Box and Whisker Plot",
+    "text": "Box and Whisker Plot"
+  },
+  {
+    "objectID": "05-moments-skewness-kurtosis.html#misc",
+    "href": "05-moments-skewness-kurtosis.html#misc",
+    "title": "Moments, Skewness & Kurtosis | Anonymous Mirror",
+    "section": "Misc",
+    "text": "Misc\n\n\n\n\n\\(\\bar X = 65, Me = 70, SK_P = -0.5\\); Mod = ? CV = ?\n\n\nGM & HM of quartiles of a symmetrical distribution are 8 and 6.4, respectively. Find median.\n\n\nMean, SK(P), coefficient of skewness and CV of distribution are 50, 0.4, and 40%, respectively. Find SD, mode, & median.\n\n\nVariance of a mesokurtik distribution is 4. Find \\(\\mu_4\\)."
+  },
+  {
+    "objectID": "05-moments-skewness-kurtosis.html#skewness-problems",
+    "href": "05-moments-skewness-kurtosis.html#skewness-problems",
+    "title": "Moments, Skewness & Kurtosis | Anonymous Mirror",
+    "section": "Skewness Problems",
+    "text": "Skewness Problems\n\\(\\bar X = 400, CV = 8\\%\\), and \\(SK_P = 0.40\\).\nFind Mode and Median."
+  },
+  {
+    "objectID": "05-moments-skewness-kurtosis.html#moments-conversion-problems",
+    "href": "05-moments-skewness-kurtosis.html#moments-conversion-problems",
+    "title": "Moments, Skewness & Kurtosis | Anonymous Mirror",
+    "section": "Moments Conversion Problems",
+    "text": "Moments Conversion Problems\n\n\n\nFirst three moments about 2 are 1, 16, and -40, , respectively. Find them about 0.\nFirst four moments about 5 are 2, 20,40, and 50, respectively. Find the central moments.\nFirst three moments about 2 are -1, 6, and 30, respectively. Find them about 5.\n\n\n\n\n\n\n3, 24, 76\n0, 16, -64, 162\n-4, 21, -78"
+  },
+  {
+    "objectID": "05-moments-skewness-kurtosis.html#background",
+    "href": "05-moments-skewness-kurtosis.html#background",
+    "title": "Moments, Skewness & Kurtosis | Anonymous Mirror",
+    "section": "Background",
+    "text": "Background\nYear: 1946\nMaj Hadlam (British Army)\n\n\n\nSon born 349 Days after departure\nUsual gestational period: 9 Months 10 Days = 280 Days\nSued\nVerdict: He is the Father!\nOther instances: 340 (Father Lost), 331 (Father Won)"
+  },
+  {
+    "objectID": "05-moments-skewness-kurtosis.html#study",
+    "href": "05-moments-skewness-kurtosis.html#study",
+    "title": "Moments, Skewness & Kurtosis | Anonymous Mirror",
+    "section": "Study",
+    "text": "Study\n\nSample: 13634 Female individuals\nMean duration: 280 days\n\n\n\nHighest Duraion: 360 Days"
+  }
+]

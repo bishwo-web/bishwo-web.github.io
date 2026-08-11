@@ -1,0 +1,25 @@
+project:
+  type: website
+  output-dir: .
+
+website:
+  title: "Bishwo Lectures"
+  repo-url: https://github.com/bishwo-web/
+
+format:
+  revealjs:
+    theme: sky
+    transition: convex
+    slide-number:  c/t
+    navigation-mode: vertical
+    controls-layout: bottom-right
+    incremental: true
+    css:
+    - css/styles.css
+    - styles.css
+    logo: css/bishwo_clean.png
+    footer: 'Press space or use arrow to change slides'
+revealjs-plugins:
+
+
+
