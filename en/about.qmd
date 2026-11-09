@@ -1,0 +1,23 @@
+---
+title: "About Bishwo.com"
+description: "Bishwo.com is a science site about space, the Earth and the universe. This is its English edition."
+---
+
+**Bishwo.com** is a science site about space, the Earth and the universe. It began in Bengali, and this is the English edition: short articles that explain one idea at a time.
+
+## What we write about
+
+- **The Solar System:** planets, moons, asteroids and comets.
+- **Stars and the night sky:** how stars are born, measured and named.
+- **The Earth:** its interior, plates and the forces that shape it.
+- **Cosmology:** galaxies, black holes and the scale of the universe.
+
+Browse by [tag](tags.html) or [category](categories.html), or follow the [RSS feed](index.xml).
+
+## Who writes here
+
+Author profiles, with each author's posts, are on the [author pages](authors/abdullah-al-mahmud.html).
+
+## The Bengali edition
+
+Most of our articles are in Bengali at [www.bishwo.com](https://www.bishwo.com).

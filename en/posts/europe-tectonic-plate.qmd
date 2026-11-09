@@ -1,0 +1,29 @@
+---
+title: "Does Europe Have Its Own Tectonic Plate?"
+author: "Abdullah Adil Mahmud"
+date: "2026-11-09"
+categories: [Earth, Tectonics, Geology, Regions]
+tags: [tectonic-plates, europe, eurasia]
+description: "Geographical Europe has no plate of its own. Most of it rides on the Eurasian Plate, with a few exceptions at the edges."
+image: ../img/anatolian-plate.png
+---
+
+**No. Geographical Europe does not have its own tectonic plate.** Most of the continent sits on the huge **Eurasian Plate**.
+
+## The Eurasian Plate
+
+This single lithospheric plate spans all of Europe and most of Asia. The exceptions are the Indian subcontinent, the Arabian Peninsula and easternmost Siberia.
+
+Europe and Asia share one continuous landmass on the same plate, so geologists often treat them as a single unit, **Eurasia**. The line between the two continents is a cultural, historical and political convention, not a geological boundary.
+
+## Exceptions at the edges
+
+Not every part of geographical Europe lies on the main body of the Eurasian Plate.
+
+- **Iceland** is split down the middle by the Mid-Atlantic Ridge. Its western half rests on the North American Plate.
+- **Southern Europe**, such as parts of Italy and Greece, is strongly affected by microplates like the Adriatic Plate, squeezed between Eurasia and the African Plate.
+
+## Related reading
+
+- [Is Turkey part of the European plate?](is-turkey-part-of-european-plate.qmd)
+- [Major tectonic plates and subplates](major-tectonic-plates.qmd)

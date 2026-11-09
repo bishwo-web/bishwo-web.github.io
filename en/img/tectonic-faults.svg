@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 470" width="900" height="470" font-family="'JetBrains Mono','Fira Code',Consolas,monospace">
+<title>Three types of tectonic faults</title>
+<desc>Block diagrams of a normal fault, a reverse fault and a strike-slip fault, with arrows showing the direction of movement.</desc>
+<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#1b0e08"/><stop offset="1" stop-color="#2a1608"/></linearGradient></defs>
+<rect width="900" height="470" fill="url(#bg)"/>
+<g text-anchor="middle" fill="#ffe3c2" font-size="20" font-weight="700">
+<text x="150" y="60">Normal</text><text x="450" y="60">Reverse</text><text x="750" y="60">Strike-slip (top view)</text></g>
+<g fill="#ffb347" stroke="#ff8c1a" stroke-width="2">
+<!-- normal: right block down -->
+<polygon points="40,170 150,170 150,300 40,300"/>
+<polygon points="150,200 260,200 260,330 150,330" fill="#ff9d2e"/>
+<!-- reverse: right block up -->
+<polygon points="340,200 450,200 450,330 340,330"/>
+<polygon points="450,170 560,170 560,300 450,300" fill="#ff9d2e"/>
+<!-- strike-slip: top view -->
+<polygon points="650,130 750,130 750,340 650,340"/>
+<polygon points="750,130 850,130 850,340 750,340" fill="#ff9d2e"/>
+</g>
+<g stroke="#ffe3c2" stroke-width="3" fill="none" stroke-linecap="round">
+<line x1="150" y1="170" x2="150" y2="330" stroke-dasharray="8 6"/>
+<line x1="450" y1="170" x2="450" y2="330" stroke-dasharray="8 6"/>
+<line x1="750" y1="130" x2="750" y2="340" stroke-dasharray="8 6"/>
+</g>
+<g stroke="#3ee6c4" stroke-width="5" fill="none" stroke-linecap="round">
+<path d="M205 360v40m-12-14 12 14 12-14"/><path d="M95 340v-40m-12 14 12-14 12 14"/>
+<path d="M395 340v40m-12-14 12 14 12-14"/><path d="M505 360v-40m-12 14 12-14 12 14"/>
+<path d="M700 380v-60m-12 14 12-14 12 14"/><path d="M800 90v60m-12-14 12 14 12-14"/>
+</g>
+<g text-anchor="middle" fill="#ffcf99" font-size="15">
+<text x="150" y="435">rocks pull apart</text><text x="450" y="435">rocks push together</text><text x="750" y="435">rocks slide sideways</text></g>
+</svg>

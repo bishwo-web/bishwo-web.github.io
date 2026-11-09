@@ -1,0 +1,15 @@
+# Author profiles. Key = slug (authors/<slug>.html). A post belongs to the author whose
+# `name` (or an alias) equals its front-matter `author:`.
+abdullah-al-mahmud:
+  name: Abdullah Al Mahmud
+  aliases: [Abdullah Adil Mahmud]
+  image: img/abdullah.jpeg
+  tagline: Statistics Teacher, Writer, and Computer nerd
+  bio: >-
+    I teach statistics and write about it, along with R, Python, C and the
+    tools around them. I build my own teaching slides with code and have
+    written six science books under the pen name Abdullah Adil Mahmud.
+  links:
+    - {text: Website, href: "https://www.thinkermahmud.com/"}
+    - {text: Twitter, href: "https://x.com/thinkermahmud"}
+    - {text: LinkedIn, href: "https://www.linkedin.com/in/mahmudstat/"}

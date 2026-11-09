@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 470" width="900" height="470" font-family="'JetBrains Mono','Fira Code',Consolas,monospace">
+<title>Monsoon rain at the Meghalaya hills</title>
+<desc>Cross-section: moist monsoon wind blows from the Bay of Bengal across flat plains, hits the steep Meghalaya hills, rises, cools and drops heavy rain, with Sylhet at the foot of the hills.</desc>
+<defs><linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#0d1f2b"/><stop offset="1" stop-color="#16353a"/></linearGradient></defs>
+<rect width="900" height="470" fill="url(#bg)"/>
+<!-- sea -->
+<polygon points="0,380 120,380 120,470 0,470" fill="#1f7ab8"/>
+<!-- plains -->
+<polygon points="120,380 560,380 560,470 120,470" fill="#5fae5a"/>
+<!-- hills -->
+<polygon points="560,380 640,200 720,170 900,150 900,470 560,470" fill="#3f7d4a"/>
+<polygon points="640,200 720,170 750,200 700,215" fill="#6fbf6a" opacity=".6"/>
+<!-- haor -->
+<ellipse cx="500" cy="385" rx="55" ry="8" fill="#6fc3ff"/>
+<!-- clouds -->
+<g fill="#e8f1f5"><ellipse cx="610" cy="125" rx="70" ry="30"/><ellipse cx="670" cy="100" rx="60" ry="30"/><ellipse cx="740" cy="120" rx="70" ry="28"/></g>
+<!-- rain -->
+<g stroke="#6fc3ff" stroke-width="4" stroke-linecap="round">
+<path d="M600 165l-8 26M630 170l-8 26M660 150l-8 26M690 155l-8 26M720 160l-8 26M750 155l-8 26"/></g>
+<!-- wind arrow rising -->
+<path d="M150 330 C 350 320, 480 330, 580 300 S 640 220, 690 150" fill="none" stroke="#ffe066" stroke-width="6" stroke-linecap="round" stroke-dasharray="14 10"/>
+<path d="M690 150 l-22 8 m22 -8 l-6 22" stroke="#ffe066" stroke-width="6" fill="none" stroke-linecap="round"/>
+<g font-size="16" fill="#eaf6f8" text-anchor="middle">
+<text x="60" y="360">Bay of Bengal</text><text x="330" y="365" fill="#ffe066">moist monsoon wind over flat plains</text>
+<text x="740" y="38">heavy rain on the hills</text><text x="740" y="58" font-size="13" fill="#b9d9e2">Meghalaya plateau</text>
+<text x="500" y="420" fill="#0d1f2b" font-weight="700">Sylhet</text>
+<text x="500" y="440" font-size="12" fill="#0d1f2b">floods run down into haors</text></g>
+</svg>

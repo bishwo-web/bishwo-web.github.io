@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 470" width="900" height="470" font-family="'JetBrains Mono','Fira Code',Consolas,monospace">
+<title>How oceans and mountains form</title>
+<desc>Cross-section of an ocean basin: new crust forms at a mid-ocean ridge on the left, and the oceanic plate dives under a continent on the right, where mountains and volcanoes rise.</desc>
+<defs><linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#0a1633"/><stop offset="1" stop-color="#0d2247"/></linearGradient></defs>
+<rect width="900" height="470" fill="url(#bg)"/>
+<!-- ocean -->
+<polygon points="0,150 640,150 640,330 0,330" fill="#1f6fd1" opacity=".55"/>
+<!-- mantle -->
+<rect x="0" y="330" width="900" height="140" fill="#8a2d3b"/>
+<!-- oceanic crust -->
+<polygon points="0,250 130,235 260,250 640,290 640,330 0,330" fill="#5b6c7d"/>
+<!-- ridge -->
+<polygon points="110,250 130,225 150,250" fill="#7d8fa1"/>
+<path d="M130 330V230" stroke="#ff7a59" stroke-width="6"/>
+<!-- continent + mountains -->
+<polygon points="640,290 900,290 900,120 840,70 790,110 740,60 700,120 640,150" fill="#a8946f"/>
+<polygon points="740,60 722,90 758,90" fill="#f4f7fb"/><polygon points="840,70 826,92 854,92" fill="#f4f7fb"/>
+<polygon points="640,290 900,290 900,330 640,330" fill="#6d5a45"/>
+<!-- subducting slab -->
+<polygon points="640,290 640,330 820,470 900,470 900,440 700,300" fill="#5b6c7d"/>
+<!-- magma/volcano -->
+<path d="M770 330V120" stroke="#ff7a59" stroke-width="4" stroke-dasharray="8 6"/>
+<g stroke="#ffd1c2" stroke-width="4" fill="none" stroke-linecap="round">
+<path d="M70 200l-30 0m10-10-10 10 10 10"/><path d="M190 200l30 0m-10-10 10 10-10 10"/>
+<path d="M690 400l30 22m-6-14 6 14-14-6"/></g>
+<g font-size="16" fill="#eaf1ff" text-anchor="middle">
+<text x="130" y="110">mid-ocean ridge</text><text x="130" y="132" fill="#ffb29c">new crust forms</text>
+<text x="400" y="200">ocean basin</text>
+<text x="770" y="40">mountains</text>
+<text x="500" y="410" fill="#ffd1c2">subduction: old crust sinks</text></g>
+</svg>

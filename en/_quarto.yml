@@ -1,0 +1,71 @@
+project:
+  type: website
+  render:
+    - "*.qmd"
+    - "posts/*.qmd"
+    - "authors/*.qmd"
+  output-dir: read
+  pre-render:
+    - unflatten_posts.py
+    - _extensions/blogkit/build_site_data.py
+  post-render:
+    - _extensions/blogkit/repair_index.py
+    - place_index.py
+    - flatten_posts.py
+
+blogkit:
+  hero-tagline: "Space, Earth and the universe, explained in English."
+  labels: {moreTopics: more}
+
+website:
+  title: "Bishwo.com"
+  description: "Space and Earth science, in English, from Bishwo.com."
+  site-url: "https://www.bishwo.com/en/read/"
+  favicon: img/bishwo.png
+  open-graph:
+    image: img/bishwo.png
+  twitter-card:
+    image: img/bishwo.png
+  google-analytics:
+    tracking-id: "G-9XSTMB89MF"
+  navbar:
+    background: light
+    logo: img/bishwo.png
+    logo-alt: "Bishwo.com logo"
+    left:
+      - href: index.qmd
+        text: Home
+        icon: house
+      - href: tags.qmd
+        text: Tags
+        icon: tags
+      - href: categories.qmd
+        text: Categories
+        icon: collection
+      - href: "https://www.bishwo.com"
+        text: "বাংলা"
+        icon: globe
+    right:
+      - href: about.qmd
+        text: About
+        icon: info-circle
+  page-footer:
+    left: |
+      © 2026 Bishwo.com
+
+      Made with [Quarto](https://quarto.org) using [blogkit](https://github.com/statmania/quarto-blogkit)
+    center:
+      - {text: Tags, href: tags.qmd}
+      - {text: Categories, href: categories.qmd}
+      - {text: About, href: about.qmd}
+      - {text: "বাংলা", href: "https://www.bishwo.com"}
+      - {text: RSS, href: index.xml}
+
+format:
+  blogkit-html:
+    css: site.css
+    include-after-body:
+      - starfield-include.html
+    include-in-header:
+      text: |
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">

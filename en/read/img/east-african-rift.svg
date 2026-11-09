@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 470" width="900" height="470" font-family="'JetBrains Mono','Fira Code',Consolas,monospace">
+<title>The East African Rift valley</title>
+<desc>Cross-section of a rift valley: the continental crust stretches and thins, the central block drops, steep fault cliffs frame a lake on the valley floor, and a volcano rises on the edge, with hot mantle rock rising below.</desc>
+<defs><linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#1c0b16"/><stop offset="1" stop-color="#2b1020"/></linearGradient>
+<radialGradient id="hot" cx=".5" cy="1" r="1"><stop offset="0" stop-color="#ff5e3a"/><stop offset="1" stop-color="#7a1f2b" stop-opacity="0"/></radialGradient></defs>
+<rect width="900" height="470" fill="url(#bg)"/>
+<!-- mantle glow -->
+<rect x="0" y="330" width="900" height="140" fill="#5a1626"/>
+<ellipse cx="450" cy="470" rx="300" ry="170" fill="url(#hot)"/>
+<!-- crust: left shoulder, sunken floor, right shoulder -->
+<polygon points="0,190 280,190 330,285 570,285 620,190 900,190 900,340 640,330 450,355 260,330 0,340" fill="#c9a66b"/>
+<polygon points="0,190 280,190 330,285 570,285 620,190 900,190 900,205 625,205 575,300 325,300 275,205 0,205" fill="#e1c48a"/>
+<!-- lake -->
+<polygon points="340,285 560,285 548,300 352,300" fill="#3fc1e8"/>
+<!-- volcano -->
+<polygon points="690,190 750,100 810,190" fill="#8a6a45"/><polygon points="738,118 750,100 762,118" fill="#ff7a59"/>
+<path d="M750 330V120" stroke="#ff7a59" stroke-width="4" stroke-dasharray="8 6"/>
+<!-- fault lines -->
+<path d="M280 190 L330 285 M620 190 L570 285" stroke="#ffd1a1" stroke-width="3" stroke-dasharray="8 6"/>
+<g stroke="#ffd1a1" stroke-width="4" fill="none" stroke-linecap="round">
+<path d="M95 150l-40 0m12-10-12 10 12 10"/><path d="M805 150l40 0m-12-10 12 10-12 10"/><path d="M450 440v-60m-12 14 12-14 12 14"/></g>
+<g font-size="16" fill="#fbeedd" text-anchor="middle">
+<text x="450" y="250">rift valley floor, with a lake</text>
+<text x="450" y="175" fill="#ffc9a8">crust stretches and thins</text>
+<text x="750" y="80">volcano</text><text x="450" y="455" fill="#ffd1c2" font-size="14">hot mantle rock rises</text>
+<text x="75" y="125">plates move apart</text></g>
+</svg>

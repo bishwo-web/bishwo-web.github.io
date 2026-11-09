@@ -1,0 +1,6 @@
+# options for all posts in this folder
+freeze: true
+title-block-banner: true
+toc: true
+toc-depth: 3
+toc-title: "On this page"

@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 470" width="900" height="470" font-family="'JetBrains Mono','Fira Code',Consolas,monospace">
+<title>The major tectonic plates (schematic)</title>
+<desc>A simplified schematic world map showing the seven major tectonic plates (Pacific, North American, South American, Eurasian, African, Indo-Australian, Antarctic) and a few minor plates (Nazca, Arabian, Philippine Sea).</desc>
+<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#1a1030"/><stop offset="1" stop-color="#2a1646"/></linearGradient></defs>
+<rect width="900" height="470" fill="url(#bg)"/>
+<g stroke="#1a1030" stroke-width="3" stroke-linejoin="round">
+<!-- Pacific, both sides of the map edge -->
+<polygon points="790,130 900,110 900,425 800,420 790,300" fill="#3f8fd8"/>
+<polygon points="0,100 110,140 150,200 230,235 255,330 290,420 60,425 0,420" fill="#3f8fd8"/>
+<polygon points="110,70 330,70 350,150 300,215 230,235 150,200 110,140" fill="#f0a35e"/>
+<polygon points="255,240 330,255 340,330 290,420 255,330" fill="#e86f8a"/>
+<polygon points="400,70 760,70 780,150 700,230 560,215 480,200 420,160" fill="#f2d35b"/>
+<polygon points="440,215 560,225 600,300 530,380 460,330 425,260" fill="#58c78a"/>
+<polygon points="590,235 700,240 790,300 790,380 650,380 600,310" fill="#a98bf0"/>
+<polygon points="60,425 840,425 840,460 60,460" fill="#8fd6e8"/>
+<!-- minor plates -->
+<polygon points="215,300 255,310 270,380 225,390" fill="#ff7a59"/>
+<polygon points="560,225 600,225 610,262 575,268" fill="#c8e66b"/>
+<polygon points="715,205 765,200 775,250 725,255" fill="#ff9fd0"/>
+</g>
+<g font-size="16" font-weight="700" fill="#150b26" text-anchor="middle">
+<text x="850" y="270">PACIFIC</text><text x="90" y="300">PACIFIC</text><text x="228" y="150">NORTH</text><text x="228" y="170">AMERICAN</text>
+<text x="306" y="300" font-size="13">SOUTH</text><text x="306" y="316" font-size="13">AMERICAN</text>
+<text x="590" y="140">EURASIAN</text><text x="515" y="305">AFRICAN</text>
+<text x="690" y="325" font-size="13">INDO-</text><text x="690" y="341" font-size="13">AUSTRALIAN</text>
+<text x="450" y="448">ANTARCTIC</text></g>
+<g font-size="11" font-weight="700" fill="#150b26" text-anchor="middle">
+<text x="238" y="350" font-size="10">NAZCA</text><text x="585" y="249">ARAB.</text><text x="745" y="233">PHIL.</text></g>
+<text x="20" y="25" font-size="12" fill="#cbb8ee">schematic, not to scale</text>
+</svg>
