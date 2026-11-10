@@ -10,7 +10,191 @@
 <atom:link href="https://www.bishwo.com/en/read/index-earth.xml" rel="self" type="application/rss+xml"/>
 <description>Space and Earth science, in English, from Bishwo.com.</description>
 <generator>quarto-1.9.38</generator>
-<lastBuildDate>Sun, 08 Nov 2026 18:00:00 GMT</lastBuildDate>
+<lastBuildDate>Mon, 09 Nov 2026 18:00:00 GMT</lastBuildDate>
+<item>
+  <title>Relative Humidity Explained</title>
+  <dc:creator>Abdullah Adil Mahmud</dc:creator>
+  <link>https://www.bishwo.com/en/read/relative-humidity-explained.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+
+<p>Relative humidity (RH) tells you how much water vapor is in the air compared with the maximum the air could hold at that temperature. It is written as a percentage.</p>
+<p>Think of the air as a sponge. A sponge can hold only so much water before it starts to drip.</p>
+<ul>
+<li><strong>0% RH:</strong> the sponge is bone-dry.</li>
+<li><strong>50% RH:</strong> the sponge is half full.</li>
+<li><strong>100% RH:</strong> the sponge is soaked. Add more moisture, or cool the air, and the vapor condenses into dew, clouds, rain or fog.</li>
+</ul>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://www.bishwo.com/en/read/img/relative-humidity.svg" class="img-fluid figure-img" alt="Two containers hold the same amount of water. The small one, for cold morning air, is 90 percent full; the large one, for hot afternoon air, is 40 percent full."></p>
+<figcaption>The same amount of water vapor gives 90% RH in cold air and 40% RH in warm air.</figcaption>
+</figure>
+</div>
+<section id="the-catch-it-depends-on-temperature" class="level2">
+<h2 class="anchored" data-anchor-id="the-catch-it-depends-on-temperature">The catch: it depends on temperature</h2>
+<p>The word “relative” is the key. How much vapor the air can hold depends on its temperature.</p>
+<ul>
+<li><strong>Warm air</strong> is a giant sponge, with room for a lot of vapor.</li>
+<li><strong>Cold air</strong> is a tiny sponge, with room for very little.</li>
+</ul>
+<p>So the same amount of vapor gives a very different percentage at different temperatures:</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Time of day</th>
+<th>Sponge size</th>
+<th>Relative humidity</th>
+<th>Feels</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Cold morning</td>
+<td>Small</td>
+<td>about 90%</td>
+<td>Damp, dewy or foggy</td>
+</tr>
+<tr class="even">
+<td>Hot afternoon</td>
+<td>Large</td>
+<td>about 40%</td>
+<td>Much drier</td>
+</tr>
+</tbody>
+</table>
+<p>The water in the air has not changed. The sun has warmed the air, so its capacity has grown and the same vapor fills a smaller share of it.</p>
+</section>
+<section id="why-it-matters-to-us" class="level2">
+<h2 class="anchored" data-anchor-id="why-it-matters-to-us">Why it matters to us</h2>
+<p>Relative humidity decides how well sweat can evaporate.</p>
+<ul>
+<li>On a <strong>hot, dry day</strong> (low RH) sweat evaporates quickly, because the air has plenty of room for it. That cools you down.</li>
+<li>On a <strong>sticky, muggy day</strong> (high RH) the air is already nearly full, so sweat clings to your skin. You feel much hotter than the thermometer says.</li>
+</ul>
+<p>The same idea explains why winter nights in humid places such as Sylhet turn foggy: as the air cools, its RH climbs towards 100%.</p>
+</section>
+<section id="related-reading" class="level2">
+<h2 class="anchored" data-anchor-id="related-reading">Related reading</h2>
+<ul>
+<li><a href="../posts/why-sylhet-warmer-in-winter-than-other-regions-in-bangladesh.html">Why Is Sylhet Warmer in Winter than Some Other Regions in Bangladesh?</a></li>
+<li><a href="../posts/sylhet-meghalaya-rainfall-pattern.html">Why Sylhet Gets Rain Like Meghalaya</a></li>
+</ul>
+
+
+</section>
+
+ ]]></description>
+  <category>Earth</category>
+  <category>Climate</category>
+  <guid>https://www.bishwo.com/en/read/relative-humidity-explained.html</guid>
+  <pubDate>Mon, 09 Nov 2026 18:00:00 GMT</pubDate>
+  <media:content url="https://www.bishwo.com/en/read/img/relative-humidity.png" medium="image" type="image/png" height="76" width="144"/>
+</item>
+<item>
+  <title>Why Is Sylhet Warmer in Winter than Some Other Regions in Bangladesh?</title>
+  <dc:creator>Abdullah Adil Mahmud</dc:creator>
+  <link>https://www.bishwo.com/en/read/why-sylhet-warmer-in-winter-than-other-regions-in-bangladesh.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+
+<p>Sylhet is famous for its monsoon rain, but its winters have a quirk too. From December to February Sylhet stays noticeably warmer, especially at night, than the north and northwest of Bangladesh, such as Rangpur, Dinajpur and Rajshahi.</p>
+<p>The warmth comes from a mix of topography, wind and geography.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://www.bishwo.com/en/read/img/sylhet-winter.svg" class="img-fluid figure-img" alt="Cross-section: cold wind from the north is blocked by the Meghalaya hills, while a fog blanket keeps Sylhet warmer at night."></p>
+<figcaption>Hills block the cold wind and fog holds in Sylhet’s night warmth.</figcaption>
+</figure>
+</div>
+<section id="the-shield-of-the-meghalaya-plateau" class="level2">
+<h2 class="anchored" data-anchor-id="the-shield-of-the-meghalaya-plateau">1. The shield of the Meghalaya Plateau</h2>
+<p>The biggest reason is the Meghalaya Plateau to Sylhet’s north.</p>
+<ul>
+<li>Bangladesh’s winter cold waves come from chilly winds blowing south from the Himalayan region, the northerly winter monsoon.</li>
+<li>On the way they meet the hills of Meghalaya, which rise above 1,300 metres.</li>
+<li>The plateau acts as a partial shield, blocking or deflecting the lowest and coldest layers of air. Northwestern Bangladesh is open to these cold waves, while Sylhet lies in the shelter of the hills.</li>
+</ul>
+</section>
+<section id="the-fog-and-cloud-blanket" class="level2">
+<h2 class="anchored" data-anchor-id="the-fog-and-cloud-blanket">2. The fog and cloud blanket</h2>
+<p>Sylhet is a basin full of water: the Surma and Kushiyara rivers and many haors (wetlands). So the ground and air stay moist even in the dry season.</p>
+<ul>
+<li>On winter nights this moisture often condenses into low fog and thin cloud.</li>
+<li>The layer acts like a blanket. It slows the loss of the day’s heat to the sky at night (radiational cooling). The drier, flat northwest loses heat quickly after sunset, and temperatures there fall sharply.</li>
+</ul>
+</section>
+<section id="a-small-advantage-of-latitude" class="level2">
+<h2 class="anchored" data-anchor-id="a-small-advantage-of-latitude">3. A small advantage of latitude</h2>
+<p>The harshest winters, at places like Panchagarh and Kurigram, are further north and closer to the Himalayas. Sylhet lies a little further south, so winter sunshine arrives at a slightly higher angle. The effect is small, and it adds to the first two causes instead of replacing them.</p>
+</section>
+<section id="the-difference-in-numbers" class="level2">
+<h2 class="anchored" data-anchor-id="the-difference-in-numbers">The difference in numbers</h2>
+<p>In a severe cold wave, night temperatures in the north can fall to about 5–7 °C. Typical winter nights in Sylhet stay much milder, roughly 11–15 °C.</p>
+</section>
+<section id="sandy-ground-and-hills-what-i-noticed" class="level2">
+<h2 class="anchored" data-anchor-id="sandy-ground-and-hills-what-i-noticed">Sandy ground and hills: what I noticed</h2>
+<p>I lived in Sylhet for some time, and one thing stayed with me. Winter mornings are often foggy, yet the fog clears early, and the afternoons turn warm and sunny. My guess is that the local ground and the hills play a part:</p>
+<ul>
+<li><strong>Sandy soils.</strong> Dry sand has a lower heat capacity than wet clay, so it warms quickly in the sun and warms the air just above it. Much of Bangladesh has damp alluvial silt and clay, which warms more slowly.</li>
+<li><strong>The hills (tilas).</strong> Sloping ground can catch the sun’s rays more directly, and higher ground sits above the coldest air that collects in the valleys overnight.</li>
+</ul>
+<p>If so, the ground would warm fast in the morning, the air above it would warm too, and the fog would “burn off” sooner than on the damp northern plains, where fog can linger well into the afternoon.</p>
+<p><strong>How well does this hold up?</strong> I checked what I could. It is only partly supported:</p>
+<ul>
+<li><strong>The geology fits, but “sandy” is too simple.</strong> Sylhet’s tilas are made of the Dupi Tila Formation, mixed sandy clays and sandstones. Their soils are described as well-drained, loamy and acidic, not pure sand. Pockets of white sand do exist near the hills.</li>
+<li><strong>The physics is sound.</strong> Dry, well-drained soil warms faster at the surface than wet clay, because water has a high heat capacity.</li>
+<li><strong>A caveat.</strong> Sandy ground that heats quickly also tends to cool quickly at night. So it may explain the quick warm-up of the days better than the mild nights, which the hills and fog explain better.</li>
+<li><strong>I found no study of fog clearing in Sylhet.</strong> That part is only my observation, so I tried a quick data check (below).</li>
+</ul>
+</section>
+<section id="a-quick-data-check" class="level2">
+<h2 class="anchored" data-anchor-id="a-quick-data-check">A quick data check</h2>
+<p>I compared December to February data from 2015 to 2024 for Sylhet and the north (Rangpur, Dinajpur, Saidpur), using two free sources: NOAA station reports (Srimangal stands in for Sylhet) and the Open-Meteo ERA5 model.</p>
+<ul>
+<li><strong>Nights:</strong> the evidence is mixed. The model gives Sylhet winter lows about 0.7 to 1 °C warmer than the north, but the station data show no clear difference (Srimangal 12.8 °C against 13.0 to 14.4 °C in the north).</li>
+<li><strong>Days:</strong> both sources show slightly warmer afternoons in Sylhet, and Srimangal has the widest day-night range (13.0 °C against 9.9 to 11.4 °C).</li>
+<li><strong>Fog:</strong> I found no sign that Sylhet’s fog clears earlier. The model clears it around 8 a.m. everywhere, and the station data show Srimangal as foggy as or foggier than the north in the early morning.</li>
+</ul>
+<p><strong>Limits.</strong> Srimangal is about 50 km from Sylhet city and is itself surrounded by hills. The station reports come only every three hours, so they cannot show exactly when fog lifts. ERA5 is a model on a grid of roughly 10 km, and it cannot see tilas or soil. Its fog measure is a rough proxy from humidity. Treat this as a first look, not a test of the sandy-soil idea.</p>
+</section>
+<section id="related-reading" class="level2">
+<h2 class="anchored" data-anchor-id="related-reading">Related reading</h2>
+<ul>
+<li><a href="../posts/sylhet-meghalaya-rainfall-pattern.html">Why Sylhet gets rain like Meghalaya</a></li>
+</ul>
+</section>
+<section id="sources" class="level2">
+<h2 class="anchored" data-anchor-id="sources">Sources</h2>
+<ul>
+<li><a href="https://en.prothomalo.com/environment/climate-change/xwi14steee">Prothom Alo, climate and environment reporting on winter in Bangladesh</a></li>
+<li><a href="https://www.thedailystar.net/opinion/views/news/why-bangladesh-seeing-such-cold-winter-3526321">Why Bangladesh is seeing such a cold winter, The Daily Star</a></li>
+<li><a href="https://www.researchgate.net/publication/386506914_RECENT_TREND_ANALYSIS_OF_RAINFALL_AND_TEMPERATURE_OVER_SYLHET_REGION_USING_STATISTICAL_METHODS">Recent trend analysis of rainfall and temperature over Sylhet region using statistical methods, ResearchGate</a></li>
+<li><a href="https://en.banglapedia.org/index.php?title=Tila">Tila, Banglapedia</a></li>
+<li><a href="https://ouci.dntb.gov.ua/works/4VPmoade">Soil characteristics analysis in the Dupi Tila Formation of Sylhet for engineering applications</a></li>
+<li><a href="https://www.ncei.noaa.gov/products/land-based-station/integrated-surface-database">NOAA Global Hourly (ISD) data</a></li>
+<li><a href="https://open-meteo.com/en/docs/historical-weather-api">Open-Meteo historical weather API</a></li>
+<li><a href="https://en.climate-data.org/asia/bangladesh/sylhet-division/sylhet-3248/">Sylhet climate data, Climate-Data.org</a></li>
+</ul>
+
+
+</section>
+
+ ]]></description>
+  <category>Earth</category>
+  <category>Climate</category>
+  <category>Regions</category>
+  <guid>https://www.bishwo.com/en/read/why-sylhet-warmer-in-winter-than-other-regions-in-bangladesh.html</guid>
+  <pubDate>Mon, 09 Nov 2026 18:00:00 GMT</pubDate>
+  <media:content url="https://www.bishwo.com/en/read/img/sylhet-winter.png" medium="image" type="image/png" height="76" width="144"/>
+</item>
 <item>
   <title>What Is the East African Rift?</title>
   <dc:creator>Abdullah Adil Mahmud</dc:creator>
@@ -513,6 +697,7 @@
 <section id="related-reading" class="level2">
 <h2 class="anchored" data-anchor-id="related-reading">Related reading</h2>
 <ul>
+<li><a href="../posts/why-sylhet-warmer-in-winter-than-other-regions-in-bangladesh.html">Why is Sylhet warmer in winter?</a></li>
 <li><a href="../posts/oceans-and-mountains-formation.html">How oceans and mountains form</a></li>
 </ul>
 </section>

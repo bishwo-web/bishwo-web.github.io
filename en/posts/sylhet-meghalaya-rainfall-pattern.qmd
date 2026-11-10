@@ -35,6 +35,7 @@ Because the rain comes from the same weather event, the two regions share its ef
 
 ## Related reading
 
+- [Why is Sylhet warmer in winter?](why-sylhet-warmer-in-winter-than-other-regions-in-bangladesh.qmd)
 - [How oceans and mountains form](oceans-and-mountains-formation.qmd)
 
 ## Sources

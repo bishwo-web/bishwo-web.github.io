@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" role="img" aria-labelledby="t d">
+  <title id="t">Same water vapor, different relative humidity</title>
+  <desc id="d">Two containers hold the same amount of water. The small one for cold morning air is 90 percent full; the large one for warm afternoon air is 40 percent full.</desc>
+  <rect width="1200" height="630" fill="#1b1230"/>
+  <g font-family="Helvetica, Arial, sans-serif" fill="#f1e9ff" text-anchor="middle">
+    <text x="600" y="70" font-size="40" font-weight="bold">Same water vapor, different relative humidity</text>
+    <!-- cold morning: capacity 200 tall -->
+    <rect x="170" y="300" width="260" height="200" rx="10" fill="none" stroke="#7fd1ff" stroke-width="5"/>
+    <rect x="175" y="320" width="250" height="175" fill="#3aa8e8" opacity="0.85"/>
+    <text x="300" y="250" font-size="64" font-weight="bold" fill="#7fd1ff">90%</text>
+    <text x="300" y="550" font-size="30">Cold morning</text>
+    <text x="300" y="590" font-size="24" fill="#c7b8e6">small "sponge": nearly full</text>
+    <!-- warm afternoon: capacity 450 tall -->
+    <rect x="620" y="110" width="410" height="390" rx="10" fill="none" stroke="#ffb86b" stroke-width="5" stroke-dasharray="0"/>
+    <rect x="625" y="320" width="400" height="175" fill="#3aa8e8" opacity="0.85"/>
+    <text x="825" y="260" font-size="64" font-weight="bold" fill="#ffb86b">40%</text>
+    <text x="825" y="550" font-size="30">Hot afternoon</text>
+    <text x="825" y="590" font-size="24" fill="#c7b8e6">big "sponge": same water, lots of room</text>
+    <text x="495" y="420" font-size="40" fill="#f1e9ff">=</text>
+  </g>
+</svg>
